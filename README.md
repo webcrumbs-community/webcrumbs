@@ -17,7 +17,7 @@ If you find this project interesting or useful, please consider [giving it a sta
 - **No-Code Admin Panel:** Add features, create content, and manage your site all from a user-friendly admin interface.
 - **Customizable:** For those who like to get their hands dirty, Webcrumbs is fully customizable.
 
-### Is That All?
+### Is that all?
 Certainly not. The digital landscape has undergone significant transformations since the days when WordPress was first introduced. In those early stages, websites were predominantly the purview of developers, with a modest role for designers. Today, however, a website is a collaborative effort involving a multitude of departments — marketing, design, copywriting, business strategy, and, of course, development.
 
 #### A Platform for Interdepartmental Collaboration
@@ -36,7 +36,7 @@ Webcrumbs aims to serve as a comprehensive platform that:
 - Enables developers to economically contribute through free or premium plugins
 - Incorporates cutting-edge technologies, including AI capabilities
 
-### Ready to be Part of This Journey?
+### Ready to be part of this journey?
 We invite you to join us in shaping the future of React-based web development. Your collaboration and input can make a significant impact. Come be a part of this exciting venture!
 
 ## Show Your Support
