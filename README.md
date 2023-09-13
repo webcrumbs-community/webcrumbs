@@ -9,8 +9,7 @@
 
 **Webcrumbs** aims to be the Wordpress for React applications. Create, modify, and manage features on your React websites without any coding skills necessary. Designed for both developers and non-developers, Webcrumbs allows you to add features using an intuitive admin panel.
 
-If you find this project interesting or useful, please consider giving it a star ⭐️. Your support helps us make Webcrumbs better for everyone.
-👉 [Star Webcrumbs on GitHub](https://github.com/webcrumb/Webcrumbs/stargazers) 👈
+If you find this project interesting or useful, please consider [giving it a star](https://github.com/webcrumb/Webcrumbs/stargazers) ⭐️. Your support helps us make Webcrumbs better for everyone.
 
 ## Features
 
