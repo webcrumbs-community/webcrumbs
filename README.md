@@ -53,7 +53,7 @@ It’s a small gesture, but it can lead to big outcomes:
 
 Your star serves as an endorsement that can boost the credibility of the project, help more people discover Webcrumbs, and inspire the maintainers to keep improving. 🚀
 
-If you find this project interesting or useful, please consider giving it a star ⭐️. 
+If you find this project interesting or useful, please consider [giving it a star](https://github.com/webcrumb/Webcrumbs/stargazers) ⭐️. 
 
 Your support helps us make Webcrumbs better for everyone.
 
