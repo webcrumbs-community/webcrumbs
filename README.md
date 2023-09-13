@@ -17,7 +17,7 @@ If you find this project interesting or useful, please consider [giving it a sta
 - **No-Code Admin Panel:** Add features, create content, and manage your site all from a user-friendly admin interface.
 - **Customizable:** For those who like to get their hands dirty, Webcrumbs is fully customizable.
 
-### Is that all?
+## Is that all?
 Certainly not. The digital landscape has undergone significant transformations since the days when WordPress was first introduced. In those early stages, websites were predominantly the purview of developers, with a modest role for designers. Today, however, a website is a collaborative effort involving a multitude of departments — marketing, design, copywriting, business strategy, and, of course, development.
 
 #### 🔵 A Platform for Interdepartmental Collaboration
@@ -29,7 +29,7 @@ Beyond facilitating interdepartmental collaboration, Webcrumbs also creates an a
 #### 🔵 Future-Ready: Incorporating Emerging Technologies
 As we step further into an era defined by advances in artificial intelligence, the possibilities for website functionalities are practically limitless. Webcrumbs is architected with the flexibility to adapt and integrate AI-powered features, allowing us to re-envision what WordPress could be in a contemporary, post-AI context.
 
-#### In Summary
+### In Summary
 Webcrumbs aims to serve as a comprehensive platform that:
 
 - Streamlines collaboration across various departments
