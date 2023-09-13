@@ -3,7 +3,7 @@
 ![Open Pull Requests](https://img.shields.io/github/issues-pr/webcrumb/Webcrumbs)
 ![Version](https://img.shields.io/github/v/release/webcrumb/Webcrumbs?sort=semver)
 
-(https://repository-images.githubusercontent.com/691063238/02edc4ea-5fda-4408-bf55-9e989a0abc81)
+![Webcrumbs Open Source](https://repository-images.githubusercontent.com/691063238/02edc4ea-5fda-4408-bf55-9e989a0abc81)
 
 # What is Webcrubs?
 
