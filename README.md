@@ -5,7 +5,7 @@
 
 ![Webcrumbs Open Source](https://repository-images.githubusercontent.com/691063238/02edc4ea-5fda-4408-bf55-9e989a0abc81)
 
-# What is Webcrubs?
+# What is Webcrumbs?
 
 **Webcrumbs** aims to be the Wordpress for React applications. Create, modify, and manage features on your React websites without any coding skills necessary. Designed for both developers and non-developers, Webcrumbs allows you to add features using an intuitive admin panel.
 
