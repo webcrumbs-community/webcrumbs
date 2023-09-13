@@ -1,15 +1,16 @@
 # Webcrumbs: Wordpress for React
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Open Issues](https://img.shields.io/github/issues/[Your-GitHub-Username]/Webcrumbs)
-![Open Pull Requests](https://img.shields.io/github/issues-pr/[Your-GitHub-Username]/Webcrumbs)
-![Version](https://img.shields.io/github/v/release/[Your-GitHub-Username]/Webcrumbs?sort=semver)
-
-👉 [Star Webcrumbs on GitHub](https://github.com/webcrumb/Webcrumbs/stargazers) 👈
+![Open Issues](https://img.shields.io/github/issues/webcrumb/Webcrumbs)
+![Open Pull Requests](https://img.shields.io/github/issues-pr/webcrumb/Webcrumbs)
+![Version](https://img.shields.io/github/v/release/webcrumb/Webcrumbs?sort=semver)
 
 ## Introduction
 
 **Webcrumbs** aims to be the Wordpress for React applications. Create, modify, and manage features on your React websites without any coding skills necessary. Designed for both developers and non-developers, Webcrumbs allows you to add features using an intuitive admin panel.
+
+If you find this project interesting or useful, please consider giving it a star ⭐️. Your support helps us make Webcrumbs better for everyone.
+👉 [Star Webcrumbs on GitHub](https://github.com/webcrumb/Webcrumbs/stargazers) 👈
 
 ## Features
 
