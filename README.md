@@ -62,4 +62,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for more 
 
 ## Credits
 
-Developed with ❤️ by webcrumb (https://github.com/webcrumb).
+Developed by the community, maintained with ❤️ by webcrumb (https://github.com/webcrumb).
