@@ -53,9 +53,11 @@ It’s a small gesture, but it can lead to big outcomes:
 
 Your star serves as an endorsement that can boost the credibility of the project, help more people discover Webcrumbs, and inspire the maintainers to keep improving. 🚀
 
-**Don't wait—[Star the repo](https://github.com/[Your-GitHub-Username]/Webcrumbs/stargazers) now!**
+If you find this project interesting or useful, please consider giving it a star ⭐️. 
 
-[Star Webcrumbs on GitHub](https://github.com/[Your-GitHub-Username]/Webcrumbs/stargazers) 👈
+Your support helps us make Webcrumbs better for everyone.
+
+**[Star Webcrumbs on GitHub](https://github.com/[Your-GitHub-Username]/Webcrumbs/stargazers)**
 
 ## Contributing
 
