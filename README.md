@@ -5,6 +5,8 @@
 ![Open Pull Requests](https://img.shields.io/github/issues-pr/[Your-GitHub-Username]/Webcrumbs)
 ![Version](https://img.shields.io/github/v/release/[Your-GitHub-Username]/Webcrumbs?sort=semver)
 
+👉 [Star Webcrumbs on GitHub](https://github.com/webcrumb/Webcrumbs/stargazers) 👈
+
 ## Introduction
 
 **Webcrumbs** aims to be the Wordpress for React applications. Create, modify, and manage features on your React websites without any coding skills necessary. Designed for both developers and non-developers, Webcrumbs allows you to add features using an intuitive admin panel.
@@ -22,6 +24,16 @@ No, it's not. When WordPress was created, the digital landscape was vastly diffe
 **Webcrumbs** is designed with this evolved landscape in mind. It's not just a tool for one department; it's a platform that allows each department to have the level of participation they own in the website. Whether it's marketing launching a new campaign, design tweaking the UI/UX, or copywriters updating content, Webcrumbs aims to provide a unified platform for all.
 
 But that's not all. Webcrumbs also opens up opportunities for developers. By creating a platform for React plugins, we allow developers to offer functionalities to businesses. These plugins can be free or paid, enabling developers to provide value and receive value in return. In essence, Webcrumbs aims to be more than just a no-code solution for building React websites; it aims to be a comprehensive platform that bridges the gap between different departments and provides opportunities for developers to contribute to the ecosystem.
+
+## Show Your Support
+
+If **Webcrumbs** has piqued your interest or helped you in any way, please give us a ⭐️ on GitHub! This will help us gain visibility and encourage more people to contribute.
+
+Starring the repository makes a huge difference! It’s a small gesture, but it can lead to big outcomes: more visibility means more users, more feedback, and more contributions. Your star serves as an endorsement that can boost the credibility of the project, help more people discover Webcrumbs, and inspire the maintainers to keep improving.
+
+**Don't wait—[Star the repo](https://github.com/webcrumb/Webcrumbs/stargazers) now!**
+
+👉 [Star Webcrumbs on GitHub](https://github.com/webcrumb/Webcrumbs/stargazers) 👈
 
 ## Contributing
 
