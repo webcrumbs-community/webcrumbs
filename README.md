@@ -71,5 +71,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for more 
 
 ## Credits
 
-Created by the community.
-Maintained with ❤️ by Webcrumbs Open Source (https://github.com/webcrumbs-opensource).
+Created and maintained with ❤️ by Webcrumbs Community (https://github.com/webcrumbs-community).
