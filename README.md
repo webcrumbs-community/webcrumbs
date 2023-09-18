@@ -35,7 +35,7 @@ As we step further into an era defined by advances in artificial intelligence, t
 Webcrumbs aims to serve as a comprehensive platform that:
 
 - Streamlines collaboration across various departments
-- Enables developers to economically contribute through free or premium plugins
+- Enables developers to contribute through offering free or premium plugins
 - Incorporates cutting-edge technologies, including AI capabilities
 
 ### Ready to be part of this journey?
