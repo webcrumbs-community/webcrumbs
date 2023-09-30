@@ -1,4 +1,5 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![GitHub Discussions](https://img.shields.io/github/discussions/webcrumb/Webcrumbs)
 ![Open Issues](https://img.shields.io/github/issues/webcrumb/Webcrumbs)
 ![Open Pull Requests](https://img.shields.io/github/issues-pr/webcrumb/Webcrumbs)
 ![Version](https://img.shields.io/github/v/release/webcrumb/Webcrumbs?sort=semver)
