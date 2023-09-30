@@ -59,7 +59,7 @@ We're excited to see how you'll contribute to shaping the future of Webcrumbs!
 
 Excited about React and Webcrumbs? We're building an exclusive group of Developer Advocates. Your role will be pivotal in connecting Webcrumbs with the community and amplifying our vision.
 
-Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions/37).
+Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions).
 
 ## Support Our Growth
 If Webcrumbs aligns with your vision for the future of web development, kindly give us a ⭐️ on GitHub. Your support enables:
