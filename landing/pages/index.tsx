@@ -1,9 +1,13 @@
 import Layout from "@/shared/layout/Layout";
 import styles from "@/styles/Home.module.css";
 import { Inter } from "next/font/google";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
+import ReactMarkdown from "react-markdown";
 
 const inter = Inter({ subsets: ["latin"] });
+
+/*
+this index page is temporary, until we come up to a better idea for index page and this page will be about page
+*/
 
 export default function Home() {
 	return (
