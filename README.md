@@ -70,8 +70,12 @@ If Webcrumbs aligns with your vision for the future of web development, kindly g
 - Enhanced feedback loop
 - Community contributions
 
-**We have stargazers from all these countries!**
+## Contributors
 
+**People making WebCrumbs**
+![Contributors](https://raw.githubusercontent.com/webcrumbs-community/webcrumbs/354fc6df507161b4d7e427c20aaeb90401893936/CONTRIBUTORS.svg)
+
+**We have stargazers from all these countries!**
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
 ![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
 ![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
@@ -96,10 +100,6 @@ If Webcrumbs aligns with your vision for the future of web development, kindly g
 ![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
 ![Viet Nam](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/vn.png)
-
-
-## Contributors
-![Contributors](https://raw.githubusercontent.com/webcrumbs-community/webcrumbs/354fc6df507161b4d7e427c20aaeb90401893936/CONTRIBUTORS.svg)
 
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
