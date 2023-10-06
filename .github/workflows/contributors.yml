@@ -1,0 +1,15 @@
+name: Contributors
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  push:
+    branches:
+      - master
+jobs:
+  contributors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/contributors-list@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          round: true
