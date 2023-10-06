@@ -73,9 +73,11 @@ If Webcrumbs aligns with your vision for the future of web development, kindly g
 ## Contributors
 
 **People making WebCrumbs**
+
 ![Contributors](https://raw.githubusercontent.com/webcrumbs-community/webcrumbs/354fc6df507161b4d7e427c20aaeb90401893936/CONTRIBUTORS.svg)
 
 **We have stargazers from all these countries!**
+
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
 ![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
 ![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
