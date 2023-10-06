@@ -1,10 +1,10 @@
 import { SiteLayout } from "@/shared/layout/SiteLayout";
-import Home from "@/shared/home/Home";
+import Login from "@/shared/login/Login";
 
-export default function Index() {
+export default function Home() {
   return (
     <SiteLayout>
-      <Home />
+      <Login />
     </SiteLayout>
   );
 }
