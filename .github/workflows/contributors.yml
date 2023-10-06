@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+permissions: write-all
 jobs:
   contributors:
     runs-on: ubuntu-latest
