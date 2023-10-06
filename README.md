@@ -75,3 +75,15 @@ This project operates under the MIT License and is a community-driven endeavor.
 
 **Credits**  
 Spearheaded and maintained by [Webcrumbs Community](https://github.com/webcrumbs-community).
+## Contributors
+<div align="center">
+  <a href="https://github.com/webcrumbs-community">
+    <img src="https://github.com/webcrumbs-community.png" alt="@webcrumbs-community" width="100" height="100">
+  </a>
+  <a href="https://github.com/dshaw0004">
+    <img src="https://github.com/dshaw0004.png" alt="@dshaw0004" width="100" height="100">
+  </a>
+  <a href="https://github.com/maida12">
+    <img src="https://github.com/maida12.png" alt="@maida12" width="100" height="100">
+  </a>
+</div>
