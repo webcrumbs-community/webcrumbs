@@ -70,11 +70,39 @@ If Webcrumbs aligns with your vision for the future of web development, kindly g
 - Enhanced feedback loop
 - Community contributions
 
+**We have stargazers from all these countries!**
+
+![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
+![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
+![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
+![China](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cn.png)
+![Croatia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hr.png)
+![Democratic Republic of the Congo](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cd.png)
+![Egypt](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/eg.png)
+![France](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/fr.png)
+![Germany](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/de.png)
+![Hong Kong](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hk.png)
+![India](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/in.png)
+![Indonesia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/id.png)
+![Korea Republic](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/kr.png)
+![Mongolia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/mn.png)
+![Netherlands](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/nl.png)
+![Nigeria](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ng.png)
+![Poland](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/pl.png)
+![Philippines](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ph.png)
+![Serbia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
+![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/sl.png)
+![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/se.png)
+![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
+![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
+![Viet Nam](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/vn.png)
+
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
 
 **Credits**  
 Spearheaded and maintained by [Webcrumbs Community](https://github.com/webcrumbs-community).
+
 ## Contributors
 <div align="center">
   <a href="https://github.com/webcrumbs-community">
