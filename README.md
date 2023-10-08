@@ -50,9 +50,9 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
    See what issues are open and where you can contribute.  
    [View Open Issues](https://github.com/webcrumbs-community/webcrumbs/issues)
 
-4. **Read the Contributing Guide**  
-   Get all the information you need about how to contribute.  
-   [Read Contributing Guide](https://github.com/webcrumbs-community/webcrumbs/blob/main/CONTRIBUTING.md)
+4. **Read our Roadmap**  
+   Get all the information you need about our next steps.  
+   [Read our Roadmap](https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap)
 
 We're excited to see how you'll contribute to shaping the future of Webcrumbs!
 
