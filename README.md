@@ -74,7 +74,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 **People making WebCrumbs**
 
-![Contributors](https://raw.githubusercontent.com/webcrumbs-community/webcrumbs/354fc6df507161b4d7e427c20aaeb90401893936/CONTRIBUTORS.svg)
+![Contributors](/CONTRIBUTORS.svg)
 
 **We have stargazers from all these countries!**
 
