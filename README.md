@@ -163,11 +163,13 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 Use this code to add the WebCrumbs Contributor badge to your profile:
 
 ```
-<img
-  src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
-  alt="WebCrumbs Contributor"
-  width="200px"
-/>
+<a href="https://github.com/webcrumbs-community/webcrumbs">
+  <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
+    alt="WebCrumbs Contributor"
+    width="200px"
+  />
+</a>
 ```
 
 # Further Details
