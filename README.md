@@ -1,6 +1,7 @@
 ![Webcrumbs Open Source](https://repository-images.githubusercontent.com/691063238/02edc4ea-5fda-4408-bf55-9e989a0abc81)
 
 **The Next Evolution in React-based Web Development**
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![GitHub Discussions](https://img.shields.io/github/discussions/webcrumb/Webcrumbs)
 ![Open Issues](https://img.shields.io/github/issues/webcrumb/Webcrumbs)
