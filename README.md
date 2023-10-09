@@ -124,8 +124,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 **People making WebCrumbs**
 
-![Contributors](/CONTRIBUTORS.svg)
-<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
+![Contributors](/CONTRIBUTORS.svg) <img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
 
 **We have stargazers from all these countries!**
 
@@ -158,7 +157,13 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ## Contributors Badge
 
-<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
+<a href="https://github.com/webcrumbs-community/webcrumbs">
+  <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
+    alt="WebCrumbs Contributor"
+    width="200px"
+  />
+</a>
 
 Use this code to add the WebCrumbs Contributor badge to your profile:
 
