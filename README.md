@@ -125,6 +125,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 **People making WebCrumbs**
 
 ![Contributors](/CONTRIBUTORS.svg)
+<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px">
 
 **We have stargazers from all these countries!**
 
@@ -157,6 +158,8 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
+
+While it is inspired on the history of Wordpress, this project does not use Wordpress code.
 
 **Credits**  
 Spearheaded and maintained by [Webcrumbs Community](https://github.com/webcrumbs-community).
