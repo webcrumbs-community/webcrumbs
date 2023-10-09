@@ -112,6 +112,12 @@ Excited about React and WebCrumbs? We're building an exclusive group of Develope
 
 Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions).
 
+Use this code to add the WebCrumbs Contributor badge to your profile:
+
+```
+<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
+```
+
 ## Support Our Growth
 If WebCrumbs aligns with your vision for the future of web development, kindly give us a ⭐️ on GitHub. Your support enables:
 
@@ -125,7 +131,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 **People making WebCrumbs**
 
 ![Contributors](/CONTRIBUTORS.svg)
-<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px">
+<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
 
 **We have stargazers from all these countries!**
 
