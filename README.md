@@ -112,12 +112,6 @@ Excited about React and WebCrumbs? We're building an exclusive group of Develope
 
 Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions).
 
-Use this code to add the WebCrumbs Contributor badge to your profile:
-
-```
-<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
-```
-
 ## Support Our Growth
 If WebCrumbs aligns with your vision for the future of web development, kindly give us a ⭐️ on GitHub. Your support enables:
 
@@ -161,6 +155,20 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 ![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
 ![Viet Nam](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/vn.png)
+
+## Contributors Badge
+
+<img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
+
+Use this code to add the WebCrumbs Contributor badge to your profile:
+
+```
+<img
+  src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
+  alt="WebCrumbs Contributor"
+  width="200px"
+/>
+```
 
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
