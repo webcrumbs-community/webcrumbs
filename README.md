@@ -28,6 +28,7 @@
 
 <p align="center">
 
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png" alt="Argentina">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png" alt="Brazil">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ca.png" alt="Canada">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cl.png" alt="Chile">
@@ -106,13 +107,13 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
 
 We're excited to see how you'll contribute to shaping the future of Webcrumbs!
 
-## Become a Developer Advocate for WebCrumbs 🚀
+## Become a Developer Advocate for WebCrumbs 📣
 
 Excited about React and WebCrumbs? We're building an exclusive group of Developer Advocates. Your role will be pivotal in connecting Webcrumbs with the community and amplifying our vision.
 
 Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions).
 
-## Support Our Growth
+## Support our Growth 📣
 If WebCrumbs aligns with your vision for the future of web development, kindly give us a ⭐️ on GitHub. Your support enables:
 
 - Increased project visibility
@@ -124,10 +125,11 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 **People making WebCrumbs**
 
-![Contributors](/CONTRIBUTORS.svg) <img src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png" alt="WebCrumbs Contributor" width="200px"/>
+![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these countries!**
+**We have stargazers from all these 27 countries!**
 
+![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
 ![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
 ![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
@@ -176,6 +178,16 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
   />
 </a>
 ```
+
+## Our Community Meme
+
+<a href="https://github.com/webcrumbs-community/webcrumbs">
+  <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
+    alt="WebCrumbs Contributor"
+    width="400px"
+  />
+</a>
 
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
