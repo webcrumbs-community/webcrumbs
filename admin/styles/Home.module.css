@@ -13,3 +13,40 @@
 	display: block;
 	margin-inline: auto;
 }
+
+/*  styles for index page   */
+
+.primaryNav {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.5em 1em;
+}
+.primaryNav ul {
+	display: flex;
+	list-style-type: none;
+	gap: 1em;
+}
+.primaryNav a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.mainPage {
+	min-height: 90vh;
+	display: grid;
+	align-items: center;
+}
+
+.pageTitle {
+	display: flex;
+	flex-direction: column;
+	font-size: clamp(1rem, 5vw + 0.75rem, 3.5rem);
+	padding-left: 1em;
+}
+.pageTitle > * {
+	margin: 0;
+	padding: 0;
+}
+.pageTitle p {
+	font-size: 0.75em;
+}
