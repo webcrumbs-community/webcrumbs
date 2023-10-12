@@ -51,7 +51,6 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ru.png" alt="Russian Federation">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rs.png" alt="Serbia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sl.png" alt="Sierra Leone">
-<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/za.png" alt="South Africa">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/se.png" alt="Sweden">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tr.png" alt="Turkey">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt="United States">
@@ -128,7 +127,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 28 countries!**
+**We have stargazers from all these 27 countries!**
 
 ![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
@@ -153,7 +152,6 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 ![Russian Federation](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ru.png)
 ![Serbia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
 ![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/sl.png)
-![South Africa](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/za.png)
 ![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/se.png)
 ![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
@@ -180,6 +178,69 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
   />
 </a>
 ```
+
+
+## Installation
+
+Follow these steps to get WebCrumbs up and running on your local development environment.
+
+1. **Clone the Repository**: 
+
+   ```sh
+   git clone https://github.com/webcrumbs-community/webcrumbs.git
+   ```
+
+2. **Navigate to the Project Directory**:
+
+   ```sh
+   cd webcrumbs
+   ```
+
+3. **Install Dependencies**:
+
+```
+npm install
+ ```
+
+4. **Start the Development Server**:
+
+   ```
+   npm start
+   ```
+
+5. **Access WebCrumbs in Your Browser**:
+
+   Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+WebCrumbs is designed to be user-friendly, whether you are a developer or non-developer. Here's a quick overview of how to get started:
+
+1. **Access the Admin Panel**:
+
+   After starting the development server, open your browser and go to [http://localhost:3000/admin](http://localhost:3000/admin). This is your control center for managing your website.
+
+2. **Explore the Admin Interface**:
+
+   The no-code admin panel allows you to control various aspects of your website without any coding. You can add content, manage plugins, and customize your site's appearance effortlessly.
+
+3. **Extend Functionality with Plugins**:
+
+   Use the plugin platform to integrate and manage React plugins. Explore the available plugins and add them to your website to extend its functionality.
+
+4. **Customize Your Website**:
+
+   Developers can dive into the codebase and tailor WebCrumbs to specific needs. Customize the design, add new features, and make the platform your own.
+
+5. **Contribute to the Project**:
+
+   If you're interested in contributing to the WebCrumbs project, please refer to the [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
+
+6. **Join the Community**:
+
+   Connect with other developers and enthusiasts in the [Discussions](https://github.com/webcrumbs-community/webcrumbs/discussions) and share your ideas, feedback, and questions.
+
+Enjoy using WebCrumbs for your web development projects!
 
 ## Our Community Meme
 
