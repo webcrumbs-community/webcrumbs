@@ -213,6 +213,8 @@ Follow these steps to get WebCrumbs up and running on your local development env
 
    Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
 
+Remember WebCrumbs is a work in progress. We're continuously improving the platform and adding new features. If you have any ideas or suggestions, please start a [discussions](https://github.com/webcrumbs-community/webcrumbs/discussions).
+
 ## Our Own Community Meme
 
 <a href="https://github.com/webcrumbs-community/webcrumbs">
