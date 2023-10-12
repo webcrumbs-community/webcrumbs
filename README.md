@@ -1,10 +1,68 @@
-# Welcome to WebCrumbs
-
 ![Webcrumbs Open Source](https://repository-images.githubusercontent.com/691063238/02edc4ea-5fda-4408-bf55-9e989a0abc81)
 
-## Introduction
-WebCrumbs aims to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
+<h2 align="center">
+  Welcome to WebCrumbs
+</h2>
+<h3 align="center">
+  The next evolution in React-based web development
+</h3>
 
+<p align="center">
+
+<a href="https://github.com/webcrumbs-community/webcrumbs/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
+</a>
+<a href="https://github.com/webcrumbs-community/webcrumbs/discussions">
+  <img src="https://img.shields.io/github/discussions/webcrumbs-community/webcrumbs" alt="GitHub Discussions">
+</a>
+<a href="https://github.com/webcrumbs-community/webcrumbs/issues">
+  <img src="https://img.shields.io/github/issues/webcrumbs-community/webcrumbs" alt="Open Issues">
+</a>
+<a href="https://github.com/webcrumbs-community/webcrumbs/contributors">
+   <img src="https://img.shields.io/github/contributors/webcrumbs-community/webcrumbs" alt="GitHub contributors">
+</a>
+<a href="https://github.com/webcrumbs-community/webcrumbs/issues">
+   <img src="https://img.shields.io/badge/open%20for%20contribution-8A2BE2" alt="Open for contribution"/>
+</a>
+</p>
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png" alt="Argentina">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png" alt="Brazil">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ca.png" alt="Canada">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cl.png" alt="Chile">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt="China">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hr.png" alt="Croatia">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cd.png" alt="Democratic Republic of the Congo">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/eg.png" alt="Egypt">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" alt="France">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/de.png" alt="Germany">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hk.png" alt="Hong Kong">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/in.png" alt="India">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/id.png" alt="Indonesia">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/kr.png" alt="Korea Republic">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/mn.png" alt="Mongolia">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nl.png" alt="Netherlands">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/nz.png" alt="New Zealand">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ng.png" alt="Nigeria">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pl.png" alt="Poland">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ph.png" alt="Philippines">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ru.png" alt="Russian Federation">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rs.png" alt="Serbia">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sl.png" alt="Sierra Leone">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/se.png" alt="Sweden">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tr.png" alt="Turkey">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt="United States">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vn.png" alt="Viet Nam">
+
+</p>
+
+
+## Introduction
+WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
+
+**Your Support Matters**  
 If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star Webcrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs/stargazers).
 
 ## Key Features
@@ -26,7 +84,10 @@ Our plugin platform allows developers to offer specialized solutions, either ope
 Webcrumbs is built with scalability in mind, capable of incorporating future technologies like AI to keep your web projects at the forefront.
 
 ## Get Involved: Calling out all developers 📣
+
 The future of React-based web development is a story yet to be fully written, and we invite you to be a co-author of this narrative. Your skills and insights can contribute significantly to the product and the community at large.
+
+We're thrilled to have you interested in Webcrumbs! There are multiple ways you can contribute and make a significant impact:
 
 1. **Star the Repository**  
    Show your support and help us gain more visibility by starring ⭐️ the repository.  
@@ -47,6 +108,7 @@ The future of React-based web development is a story yet to be fully written, an
 We're excited to see how you'll contribute to shaping the future of Webcrumbs!
 
 ## Become a Developer Advocate for WebCrumbs 📣
+
 Excited about React and WebCrumbs? We're building an exclusive group of Developer Advocates. Your role will be pivotal in connecting Webcrumbs with the community and amplifying our vision.
 
 Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions).
@@ -67,13 +129,36 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 **We have stargazers from all these 27 countries!**
 
-Include flag icons for the countries you mentioned here.
+![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
+![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
+![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
+![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
+![China](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cn.png)
+![Croatia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hr.png)
+![Democratic Republic of the Congo](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cd.png)
+![Egypt](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/eg.png)
+![France](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/fr.png)
+![Germany](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/de.png)
+![Hong Kong](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hk.png)
+![India](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/in.png)
+![Indonesia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/id.png)
+![Korea Republic](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/kr.png)
+![Mongolia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/mn.png)
+![Netherlands](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/nl.png)
+![New Zealand](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/nz.png)
+![Nigeria](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ng.png)
+![Poland](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/pl.png)
+![Philippines](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ph.png)
+![Russian Federation](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ru.png)
+![Serbia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
+![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/sl.png)
+![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/se.png)
+![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
+![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
+![Viet Nam](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/vn.png)
 
 ## Contributors Badge
 
-Use this code to add the WebCrumbs Contributor badge to your profile:
-
-```markdown
 <a href="https://github.com/webcrumbs-community/webcrumbs">
   <img
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
@@ -82,7 +167,83 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
   />
 </a>
 
+Use this code to add the WebCrumbs Contributor badge to your profile:
+
+```
+<a href="https://github.com/webcrumbs-community/webcrumbs">
+  <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
+    alt="WebCrumbs Contributor"
+    width="200px"
+  />
+</a>
+```
+
+
+## Installation
+
+Follow these steps to get WebCrumbs up and running on your local development environment.
+
+1. **Clone the Repository**: 
+
+   ```sh
+   git clone https://github.com/webcrumbs-community/webcrumbs.git
+   ```
+
+2. **Navigate to the Project Directory**:
+
+   ```sh
+   cd webcrumbs
+   ```
+
+3. **Install Dependencies**:
+
+```
+npm install
+ ```
+
+4. **Start the Development Server**:
+
+   ```
+   npm start
+   ```
+
+5. **Access WebCrumbs in Your Browser**:
+
+   Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+## Usage
+
+WebCrumbs is designed to be user-friendly, whether you are a developer or non-developer. Here's a quick overview of how to get started:
+
+1. **Access the Admin Panel**:
+
+   After starting the development server, open your browser and go to [http://localhost:3000/admin](http://localhost:3000/admin). This is your control center for managing your website.
+
+2. **Explore the Admin Interface**:
+
+   The no-code admin panel allows you to control various aspects of your website without any coding. You can add content, manage plugins, and customize your site's appearance effortlessly.
+
+3. **Extend Functionality with Plugins**:
+
+   Use the plugin platform to integrate and manage React plugins. Explore the available plugins and add them to your website to extend its functionality.
+
+4. **Customize Your Website**:
+
+   Developers can dive into the codebase and tailor WebCrumbs to specific needs. Customize the design, add new features, and make the platform your own.
+
+5. **Contribute to the Project**:
+
+   If you're interested in contributing to the WebCrumbs project, please refer to the [Contributing Guidelines](CONTRIBUTING.md) for details on how to get involved.
+
+6. **Join the Community**:
+
+   Connect with other developers and enthusiasts in the [Discussions](https://github.com/webcrumbs-community/webcrumbs/discussions) and share your ideas, feedback, and questions.
+
+Enjoy using WebCrumbs for your web development projects!
+
 ## Our Community Meme
+
 <a href="https://github.com/webcrumbs-community/webcrumbs">
   <img
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
@@ -91,10 +252,10 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
   />
 </a>
 
-Further Details
+# Further Details
 This project operates under the MIT License and is a community-driven endeavor.
 
-While it is inspired by the history of Wordpress, this project does not use Wordpress code.
+While it is inspired on the history of Wordpress, this project does not use Wordpress code.
 
-Credits
-Spearheaded and maintained by Webcrumbs Community.
+**Credits**  
+Spearheaded and maintained by [Webcrumbs Community](https://github.com/webcrumbs-community).
