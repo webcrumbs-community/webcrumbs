@@ -152,8 +152,8 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 ![Philippines](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ph.png)
 ![Russian Federation](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ru.png)
 ![Serbia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
-![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/za.png)
-![South Africa](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
+![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/sl.png)
+![South Africa](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/za.png)
 ![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/se.png)
 ![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
@@ -195,14 +195,14 @@ Follow these steps to get WebCrumbs up and running on your local development env
 2. **Navigate to the Project Directory**:
 
    ```sh
-   cd webcrumbs
+   cd webcrumbs/admin
    ```
 
 3. **Install Dependencies**:
 
-```
-npm install
- ```
+   ```
+   npm install
+   ```
 
 4. **Start the Development Server**:
 
