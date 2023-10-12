@@ -1,4 +1,7 @@
-![Webcrumbs Open Source](https://repository-images.githubusercontent.com/691063238/02edc4ea-5fda-4408-bf55-9e989a0abc81)
+ <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
+    alt="WebCrumbs concept"
+  />
 
 <h2 align="center">
   Welcome to WebCrumbs
@@ -182,40 +185,6 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
   />
 </a>
 ```
-
-## Installation
-
-Follow these steps to get WebCrumbs up and running on your local development environment.
-
-1. **Clone the Repository**: 
-
-   ```sh
-   git clone https://github.com/webcrumbs-community/webcrumbs.git
-   ```
-
-2. **Navigate to the Project Directory**:
-
-   ```sh
-   cd webcrumbs/admin
-   ```
-
-3. **Install Dependencies**:
-
-   ```
-   npm install
-   ```
-
-4. **Start the Development Server**:
-
-   ```
-   npm start
-   ```
-
-5. **Access WebCrumbs in Your Browser**:
-
-   Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
-
-Remember WebCrumbs is a work in progress. We're continuously improving the platform and adding new features. If you have any ideas or suggestions, please start a [discussions](https://github.com/webcrumbs-community/webcrumbs/discussions).
 
 ## Our Own Community Meme
 
