@@ -1,4 +1,7 @@
-![Webcrumbs Open Source](https://repository-images.githubusercontent.com/691063238/02edc4ea-5fda-4408-bf55-9e989a0abc81)
+ <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
+    alt="WebCrumbs concept"
+  />
 
 <h2 align="center">
   Welcome to WebCrumbs
@@ -52,6 +55,7 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rs.png" alt="Serbia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sl.png" alt="Sierra Leone">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/za.png" alt="South Africa">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/es.png" alt="Spain">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/se.png" alt="Sweden">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tr.png" alt="Turkey">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt="United States">
@@ -128,7 +132,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 28 countries!**
+**We have stargazers from all these 29 countries!**
 
 ![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
@@ -154,6 +158,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 ![Serbia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
 ![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/sl.png)
 ![South Africa](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/za.png)
+![Spain](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/es.png)
 ![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/se.png)
 ![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
 ![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
@@ -181,7 +186,7 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
 </a>
 ```
 
-## Our Community Meme
+## Our Own Community Meme
 
 <a href="https://github.com/webcrumbs-community/webcrumbs">
   <img
