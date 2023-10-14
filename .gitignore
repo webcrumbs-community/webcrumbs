@@ -1,4 +1,18 @@
-.next
+# Logs
+logs
+*.log
+
+# Dependency directories
 node_modules
+
+# Optional REPL history
+.next
+
+# ignore dist folders
 dist
-.DS_STORE
+
+# Macbook OS
+.DS_Store
+
+# Ignore Visual Studio Code
+.vscode
