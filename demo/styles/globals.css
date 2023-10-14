@@ -1,12 +1,15 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  
 }
-h3{
+
+.text-h3{
   text-align: center;
-  margin-top: 3rem;
+  text-transform: uppercase;
+  font-size: 1.4rem;
   text-decoration: underline;
+  text-shadow: 4px 4px 6px palevioletred ;
 }
 
 .wrapper {
@@ -17,9 +20,9 @@ h3{
   --bg-color-alt: #666;
   --main-color: #323232;
     display: flex; 
-    flex-direction: column;
-     align-items: center;
-     margin-top: 14rem;
+    margin: 13rem;
+    align-items: center;
+ justify-content: space-evenly;
 }
 /* switch card */
 .switch {
