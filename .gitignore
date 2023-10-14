@@ -8,7 +8,7 @@ node_modules
 # Optional REPL history
 .next
 
-# ignore dist folders
+# Ignore dist folders
 dist
 
 # Macbook OS
