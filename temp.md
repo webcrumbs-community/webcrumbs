@@ -1,9 +1,9 @@
-Webcrums a work under construction. Later we can add usage to Readme.md:
+WebCrumbs is a work under construction. Later we can add usage to Readme.md:
 
 
 ## Usage
 
-WebCrumbs is designed to be user-friendly, whether you are a developer or non-developer. Here's a quick overview of how to get started:
+WebCrumbs is designed to be user-friendly, whether you are a developer or a non-developer. Here's a quick overview of how to get started:
 
 1. **Access the Admin Panel**:
 
