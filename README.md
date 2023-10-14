@@ -1,4 +1,11 @@
+<p align="right">
  <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/slogan.png"
+    alt="WebCrumbs slogan"
+    width="300px"
+  /> 
+</p>
+<img
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
     alt="WebCrumbs concept"
   />
