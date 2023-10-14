@@ -50,7 +50,7 @@ function AuthForm() {
 
       if (!result.error) {
         // set some auth state
-        router.replace("/dashboard");
+        router.replace("/admin");
       }
     } else {
       try {

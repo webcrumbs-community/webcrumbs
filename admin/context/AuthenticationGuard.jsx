@@ -6,7 +6,7 @@ export default function AuthenticatedRouteGuard(){
     const router = useRouter();
     useEffect(() => {
         if(!status && !session){
-            router.push("/")
+            router.push("/auth")
         }
     }, [status , router , session]);
 // Render children (protected content) only if the user is logged in
