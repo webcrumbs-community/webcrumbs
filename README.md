@@ -2,17 +2,17 @@
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/repository-open-graph.png"
     alt="WebCrumbs open graph"
   /> 
+  
+<br/>
+<br/>
+<br/>
+
   <h2 align="center">
   Welcome to WebCrumbs
 </h2>
 <h3 align="center">
   The next evolution in React-based web development
 </h3>
-
-<br/>
-<br/>
-<br/>
-
 <p align="center">
 <a href="https://github.com/webcrumbs-community/webcrumbs/blob/main/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
@@ -62,6 +62,10 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt="United States">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vn.png" alt="Viet Nam">
 </p>
+
+<br/>
+<br/>
+
 <img
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
     alt="WebCrumbs concept"
