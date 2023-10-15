@@ -1,24 +1,19 @@
-<p align="right">
  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/slogan.png"
-    alt="WebCrumbs slogan"
-    width="300px"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/repository-open-graph.png"
+    alt="WebCrumbs open graph"
   /> 
-</p>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
-    alt="WebCrumbs concept"
-  />
-
-<h2 align="center">
+  <h2 align="center">
   Welcome to WebCrumbs
 </h2>
 <h3 align="center">
   The next evolution in React-based web development
 </h3>
 
-<p align="center">
+<br/>
+<br/>
+<br/>
 
+<p align="center">
 <a href="https://github.com/webcrumbs-community/webcrumbs/blob/main/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
 </a>
@@ -37,7 +32,6 @@
 </p>
 
 <p align="center">
-
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png" alt="Argentina">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png" alt="Brazil">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ca.png" alt="Canada">
@@ -67,9 +61,11 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tr.png" alt="Turkey">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt="United States">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vn.png" alt="Viet Nam">
-
 </p>
-
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
+    alt="WebCrumbs concept"
+  />
 
 ## Introduction
 WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
@@ -194,14 +190,27 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
 ```
 
 ## Our Own Community Meme
-
-<a href="https://github.com/webcrumbs-community/webcrumbs">
-  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
-    alt="WebCrumbs Contributor"
-    width="400px"
-  />
-</a>
+<table>
+ <tr>
+  <td>
+   <a href="https://github.com/webcrumbs-community/webcrumbs">
+     <img
+       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
+       alt="WebCrumbs Meme"
+       width="400px"
+     />
+   </a>
+  </td>
+  <td>
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs">Share on Facebook</a><br/>
+   <a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">Share on Twitter</a><br/>
+   <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs">Share on LinkedIn</a><br/>
+   <a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">Send via Telegram</a><br/>
+   <a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs">Send via WhatsApp</a><br/>
+   <a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png">Pin on Pinterest</a><br/>
+  </td>
+ </tr>
+</table>
 
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
