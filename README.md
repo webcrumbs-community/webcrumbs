@@ -30,6 +30,53 @@
    <img src="https://img.shields.io/badge/open%20for%20contribution-8A2BE2" alt="Open for contribution"/>
 </a>
 </p>
+<p align="center">
+<!-- Home -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Home">
+  <img src="https://img.shields.io/badge/Wiki-F44336" alt="Wiki"/>
+</a>
+
+<!-- Architecture -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Architecture">
+  <img src="https://img.shields.io/badge/Architecture-4CAF50" alt="Architecture"/>
+</a>
+
+<!-- Manifesto -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Manifesto">
+  <img src="https://img.shields.io/badge/Manifesto-FFC107" alt="Manifesto"/>
+</a>
+
+<!-- Motivation -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Motivation">
+  <img src="https://img.shields.io/badge/Motivation-2196F3" alt="Motivation"/>
+</a>
+
+<!-- Roadmap -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap">
+  <img src="https://img.shields.io/badge/Roadmap-9C27B0" alt="Roadmap"/>
+</a>
+
+<!-- Thoughts -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Thoughts">
+  <img src="https://img.shields.io/badge/Thoughts-FF9800" alt="Thoughts"/>
+</a>
+
+<!-- Uniqueness -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Uniqueness">
+  <img src="https://img.shields.io/badge/Uniqueness-03A9F4" alt="Uniqueness"/>
+</a>
+
+<!-- FAQ -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/FAQ:-Have-any-questions%3F">
+  <img src="https://img.shields.io/badge/FAQ-8BC34A" alt="FAQ"/>
+</a>
+
+<!-- X: WebCrumbs vs. -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/X:-WebCrumbs-vs.-Contentful">
+  <img src="https://img.shields.io/badge/Comparison-E91E63" alt="Comparison"/>
+</a>
+
+</p>
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png" alt="Argentina">
