@@ -164,6 +164,10 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
    Get all the information you need about our next steps.  
    [Read our Roadmap](https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap)
 
+5. **Become a Maker**  
+   Join Product Hunt as a WebCrumbs maker.  
+   [Join Product Hunt](https://www.producthunt.com/posts/webcrumbs/maker-invite?code=wM1EzN)
+
 We're excited to see how you'll contribute to shaping the future of Webcrumbs!
 
 ## Become a Developer Advocate for WebCrumbs 📣
