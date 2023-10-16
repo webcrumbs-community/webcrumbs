@@ -86,6 +86,7 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt="China">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hr.png" alt="Croatia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cd.png" alt="Democratic Republic of the Congo">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/dk.png" alt="Denmark">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/eg.png" alt="Egypt">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" alt="France">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/de.png" alt="Germany">
@@ -191,7 +192,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 30 countries!**
+**We have stargazers from all these 31 countries!**
 
 ![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
@@ -200,6 +201,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 ![China](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cn.png)
 ![Croatia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hr.png)
 ![Democratic Republic of the Congo](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cd.png)
+![Denmark](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/dk.png)
 ![Egypt](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/eg.png)
 ![France](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/fr.png)
 ![Germany](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/de.png)
