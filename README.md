@@ -84,6 +84,7 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ca.png" alt="Canada">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cl.png" alt="Chile">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt="China">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/co.png" alt="Colombia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hr.png" alt="Croatia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cd.png" alt="Democratic Republic of the Congo">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/dk.png" alt="Denmark">
@@ -193,13 +194,14 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 32 countries!**
+**We have stargazers from all these 33 countries!**
 
 ![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
 ![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
 ![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
 ![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
 ![China](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cn.png)
+![Colombia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/co.png)
 ![Croatia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hr.png)
 ![Democratic Republic of the Congo](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cd.png)
 ![Denmark](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/dk.png)
