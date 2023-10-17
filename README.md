@@ -2,11 +2,8 @@
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/repository-open-graph.png"
     alt="WebCrumbs open graph"
   /> 
-  
 <br/>
 <br/>
-<br/>
-
   <h1 align="center">
   Welcome to WebCrumbs
 </h1>
@@ -235,6 +232,10 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 <img src="https://hatscripts.github.io/circle-flags/flags/us.svg" alt="United States" width="48">
 <img src="https://hatscripts.github.io/circle-flags/flags/vn.svg" alt="Viet Nam" width="48">
 </p>
+
+**We are growing FAST**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=webcrumbs-community/webcrumbs&type=Timeline)](https://star-history.com/#webcrumbs-community/webcrumbs&Timeline)
 
 ## Contributors Badge
 
