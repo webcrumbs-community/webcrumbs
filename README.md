@@ -2,11 +2,8 @@
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/repository-open-graph.png"
     alt="WebCrumbs open graph"
   /> 
-  
 <br/>
 <br/>
-<br/>
-
   <h1 align="center">
   Welcome to WebCrumbs
 </h1>
@@ -84,8 +81,10 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ca.png" alt="Canada">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cl.png" alt="Chile">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt="China">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/co.png" alt="Colombia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hr.png" alt="Croatia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cd.png" alt="Democratic Republic of the Congo">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/dk.png" alt="Denmark">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/eg.png" alt="Egypt">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" alt="France">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/de.png" alt="Germany">
@@ -99,13 +98,17 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ng.png" alt="Nigeria">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pl.png" alt="Poland">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ph.png" alt="Philippines">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ro.png" alt="Romania">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ru.png" alt="Russian Federation">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rs.png" alt="Serbia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sl.png" alt="Sierra Leone">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/za.png" alt="South Africa">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/es.png" alt="Spain">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/se.png" alt="Sweden">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ch.png" alt="Switzerland">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tg.png" alt="Togo">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tr.png" alt="Turkey">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ae.png" alt="United Arab Emirates">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt="United States">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vn.png" alt="Viet Nam">
 </p>
@@ -166,7 +169,7 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
 
 5. **Become a Maker**  
    Join Product Hunt as a WebCrumbs maker.  
-   [Join Product Hunt](https://www.producthunt.com/posts/webcrumbs/maker-invite?code=wM1EzN)
+   [Become a Maker]([https://www.producthunt.com/posts/webcrumbs/maker-invite?code=wM1EzN](https://github.com/webcrumbs-community/webcrumbs/issues/70))
 
 We're excited to see how you'll contribute to shaping the future of Webcrumbs!
 
@@ -190,37 +193,49 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 29 countries!**
+**We have stargazers from all these 35 countries!**
 
-![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
-![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
-![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
-![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
-![China](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cn.png)
-![Croatia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hr.png)
-![Democratic Republic of the Congo](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cd.png)
-![Egypt](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/eg.png)
-![France](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/fr.png)
-![Germany](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/de.png)
-![Hong Kong](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hk.png)
-![India](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/in.png)
-![Indonesia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/id.png)
-![Korea Republic](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/kr.png)
-![Mongolia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/mn.png)
-![Netherlands](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/nl.png)
-![New Zealand](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/nz.png)
-![Nigeria](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ng.png)
-![Poland](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/pl.png)
-![Philippines](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ph.png)
-![Russian Federation](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ru.png)
-![Serbia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
-![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/sl.png)
-![South Africa](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/za.png)
-![Spain](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/es.png)
-![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/se.png)
-![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
-![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
-![Viet Nam](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/vn.png)
+<p>
+<img src="https://hatscripts.github.io/circle-flags/flags/ar.svg" alt="Argentina" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/br.svg" alt="Brazil" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ca.svg" alt="Canada" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/cl.svg" alt="Chile" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" alt="China" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/co.svg" alt="Colombia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/hr.svg" alt="Croatia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/cd.svg" alt="Democratic Republic of the Congo" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/dk.svg" alt="Denmark" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/eg.svg" alt="Egypt" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" alt="France" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/de.svg" alt="Germany" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/hk.svg" alt="Hong Kong" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/in.svg" alt="India" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/id.svg" alt="Indonesia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/kr.svg" alt="Korea Republic" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/mn.svg" alt="Mongolia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" alt="Netherlands" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/nz.svg" alt="New Zealand" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ng.svg" alt="Nigeria" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/pl.svg" alt="Poland" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ph.svg" alt="Philippines" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ro.svg" alt="Romania" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" alt="Russian Federation" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/rs.svg" alt="Serbia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/sl.svg" alt="Sierra Leone" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/za.svg" alt="South Africa" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/es.svg" alt="Spain" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/se.svg" alt="Sweden" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ch.svg" alt="Switzerland" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/tg.svg" alt="Togo" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/tr.svg" alt="Turkey" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ae.svg" alt="United Arab Emirates" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/us.svg" alt="United States" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/vn.svg" alt="Viet Nam" width="48">
+</p>
+
+**We are growing FAST**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=webcrumbs-community/webcrumbs&type=Timeline)](https://star-history.com/#webcrumbs-community/webcrumbs&Timeline)
 
 ## Contributors Badge
 
