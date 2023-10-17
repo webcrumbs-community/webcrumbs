@@ -1,35 +1,11 @@
 import React from "react";
-import styled from "styled-components";
+import { ColoredLine, Container, DateString, FlexContainerRow, Footer, Li, P, Span, Ul } from "@/styles/Index.styles";
 import Link from 'next/link';
 
-const Container = styled.div`
-  margin: 3.4rem;
-  `;
-
-const P = styled.p`
-  text-decoration: underline;
-  font-size: 2.4rem;
-  font-weight: 400;
-  `;
-
-const Span = styled.span`
-  font-size: 1.1rem;
-
-  margin: 3.4rem;
-  text-align: center;
-  text-decoration: ${(props) => (props.underline ? "underline" : "none")};
-  color: ${(props) => (props.color ? "grey" : "")};
-  cursor: ${(props) => (props.cursor ? "pointer" : "")};
-`;
-
-const Footer = styled.footer`
-  background-color: lightgray;
-  padding: 1rem;
-  text-align: center;
-  margin-top: 17rem;
-`;
-
 const AppLayout = () => {
+  
+  const today = new Date();
+
   return (
     <Container>
       <P>Hello World!</P>
@@ -42,14 +18,38 @@ const AppLayout = () => {
       </Container>
       <Container>
         <Link href="/loginform">
-        <Span underline color cursor>
-          Add "read more" Check here
-        </Span>
+          <Span underline={true} textColor="grey" cursor="pointer">
+            Add "read more" Check here
+          </Span>
         </Link>
+        <DateString>{today.toLocaleDateString(undefined, {year: 'numeric', month: 'long', day: 'numeric'})}</DateString>
       </Container>
-      <Container flex > 
+      <ColoredLine lineColor="grey" />
+      <FlexContainerRow>
+        <Container>
+          <Link href="#">
+            ← Previous Page
+          </Link>
+        </Container>
+        <Container>
+          <Ul>
+            <Li><Link href="#">1</Link></Li>
+            <Li><Link href="#">2</Link></Li>
+            <Li><Link href="#">3</Link></Li>
+            <Li><Link href="#">4</Link></Li>
+            <Li><Link href="#">5</Link></Li>
+            <Li><Link href="#">6</Link></Li>
+          </Ul>
+        </Container>
+        <Container>
+          <Link href="#">
+            Next Page →
+          </Link>
+        </Container>
+      </FlexContainerRow>
+      <FlexContainerRow> 
         <Footer>&copy; 2023 Webcrumbs. All rights reserved.</Footer>
-      </Container>
+      </FlexContainerRow>
     </Container>
   );
 };
