@@ -169,7 +169,7 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
 
 5. **Become a Maker**  
    Join Product Hunt as a WebCrumbs maker.  
-   [Join Product Hunt](https://www.producthunt.com/posts/webcrumbs/maker-invite?code=wM1EzN)
+   [Become a Maker]([https://www.producthunt.com/posts/webcrumbs/maker-invite?code=wM1EzN](https://github.com/webcrumbs-community/webcrumbs/issues/70))
 
 We're excited to see how you'll contribute to shaping the future of Webcrumbs!
 
