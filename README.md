@@ -1,17 +1,16 @@
  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
-    alt="WebCrumbs concept"
-  />
-
-<h2 align="center">
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/repository-open-graph.png"
+    alt="WebCrumbs open graph"
+  /> 
+<br/>
+<br/>
+  <h1 align="center">
   Welcome to WebCrumbs
-</h2>
+</h1>
 <h3 align="center">
   The next evolution in React-based web development
 </h3>
-
 <p align="center">
-
 <a href="https://github.com/webcrumbs-community/webcrumbs/blob/main/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
 </a>
@@ -28,16 +27,64 @@
    <img src="https://img.shields.io/badge/open%20for%20contribution-8A2BE2" alt="Open for contribution"/>
 </a>
 </p>
+<p align="center">
+<!-- Home -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Home">
+  <img src="https://img.shields.io/badge/Wiki-F44336" alt="Wiki"/>
+</a>
+
+<!-- Architecture -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Architecture">
+  <img src="https://img.shields.io/badge/Architecture-4CAF50" alt="Architecture"/>
+</a>
+
+<!-- Manifesto -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Manifesto">
+  <img src="https://img.shields.io/badge/Manifesto-FFC107" alt="Manifesto"/>
+</a>
+
+<!-- Motivation -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Motivation">
+  <img src="https://img.shields.io/badge/Motivation-2196F3" alt="Motivation"/>
+</a>
+
+<!-- Roadmap -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap">
+  <img src="https://img.shields.io/badge/Roadmap-9C27B0" alt="Roadmap"/>
+</a>
+
+<!-- Thoughts -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Thoughts">
+  <img src="https://img.shields.io/badge/Thoughts-FF9800" alt="Thoughts"/>
+</a>
+
+<!-- Uniqueness -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Uniqueness">
+  <img src="https://img.shields.io/badge/Uniqueness-03A9F4" alt="Uniqueness"/>
+</a>
+
+<!-- FAQ -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/FAQ:-Have-any-questions%3F">
+  <img src="https://img.shields.io/badge/FAQ-8BC34A" alt="FAQ"/>
+</a>
+
+<!-- X: WebCrumbs vs. -->
+<a href="https://github.com/webcrumbs-community/webcrumbs/wiki/X:-WebCrumbs-vs.-Contentful">
+  <img src="https://img.shields.io/badge/Comparison-E91E63" alt="Comparison"/>
+</a>
+
+</p>
 
 <p align="center">
-
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ar.png" alt="Argentina">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/br.png" alt="Brazil">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ca.png" alt="Canada">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cl.png" alt="Chile">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cn.png" alt="China">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/co.png" alt="Colombia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/hr.png" alt="Croatia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/cd.png" alt="Democratic Republic of the Congo">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/dk.png" alt="Denmark">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/eg.png" alt="Egypt">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/fr.png" alt="France">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/de.png" alt="Germany">
@@ -51,18 +98,28 @@
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ng.png" alt="Nigeria">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/pl.png" alt="Poland">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ph.png" alt="Philippines">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ro.png" alt="Romania">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ru.png" alt="Russian Federation">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/rs.png" alt="Serbia">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/sl.png" alt="Sierra Leone">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/za.png" alt="South Africa">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/es.png" alt="Spain">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/se.png" alt="Sweden">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ch.png" alt="Switzerland">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tg.png" alt="Togo">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/tr.png" alt="Turkey">
+<img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/ae.png" alt="United Arab Emirates">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png" alt="United States">
 <img src="https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/vn.png" alt="Viet Nam">
-
 </p>
 
+<br/>
+<br/>
+
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
+    alt="WebCrumbs concept"
+  />
 
 ## Introduction
 WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
@@ -110,7 +167,15 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
    Get all the information you need about our next steps.  
    [Read our Roadmap](https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap)
 
-We're excited to see how you'll contribute to shaping the future of Webcrumbs!
+5. **Become a Maker**  
+   Join Product Hunt as a WebCrumbs maker.  
+   [Become a Maker](https://github.com/webcrumbs-community/webcrumbs/issues/70)
+
+We're excited to see how you'll contribute to shaping the future of Webcrumbs! Happy coding!
+
+### Contributing 101
+- Here is a thorough guide on open source contribution: [opensource.guide](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
+- If you are looking for a quick start, check this [tutorial from Chaser324](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 ## Become a Developer Advocate for WebCrumbs 📣
 
@@ -132,37 +197,49 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 29 countries!**
+**We have stargazers from all these 35 countries!**
 
-![Argentina](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ar.png)
-![Brazil](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/br.png)
-![Canada](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ca.png)
-![Chile](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cl.png)
-![China](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cn.png)
-![Croatia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hr.png)
-![Democratic Republic of the Congo](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/cd.png)
-![Egypt](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/eg.png)
-![France](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/fr.png)
-![Germany](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/de.png)
-![Hong Kong](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/hk.png)
-![India](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/in.png)
-![Indonesia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/id.png)
-![Korea Republic](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/kr.png)
-![Mongolia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/mn.png)
-![Netherlands](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/nl.png)
-![New Zealand](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/nz.png)
-![Nigeria](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ng.png)
-![Poland](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/pl.png)
-![Philippines](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ph.png)
-![Russian Federation](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/ru.png)
-![Serbia](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/rs.png)
-![Sierra Leone](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/sl.png)
-![South Africa](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/za.png)
-![Spain](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/es.png)
-![Sweden](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/se.png)
-![Turkey](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/tr.png)
-![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/us.png)
-![Viet Nam](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/75/country-4x3/vn.png)
+<p>
+<img src="https://hatscripts.github.io/circle-flags/flags/ar.svg" alt="Argentina" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/br.svg" alt="Brazil" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ca.svg" alt="Canada" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/cl.svg" alt="Chile" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" alt="China" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/co.svg" alt="Colombia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/hr.svg" alt="Croatia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/cd.svg" alt="Democratic Republic of the Congo" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/dk.svg" alt="Denmark" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/eg.svg" alt="Egypt" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" alt="France" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/de.svg" alt="Germany" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/hk.svg" alt="Hong Kong" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/in.svg" alt="India" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/id.svg" alt="Indonesia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/kr.svg" alt="Korea Republic" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/mn.svg" alt="Mongolia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" alt="Netherlands" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/nz.svg" alt="New Zealand" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ng.svg" alt="Nigeria" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/pl.svg" alt="Poland" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ph.svg" alt="Philippines" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ro.svg" alt="Romania" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ru.svg" alt="Russian Federation" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/rs.svg" alt="Serbia" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/sl.svg" alt="Sierra Leone" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/za.svg" alt="South Africa" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/es.svg" alt="Spain" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/se.svg" alt="Sweden" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ch.svg" alt="Switzerland" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/tg.svg" alt="Togo" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/tr.svg" alt="Turkey" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/ae.svg" alt="United Arab Emirates" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/us.svg" alt="United States" width="48">
+<img src="https://hatscripts.github.io/circle-flags/flags/vn.svg" alt="Viet Nam" width="48">
+</p>
+
+**We are growing FAST**
+
+[![Star History Chart](https://api.star-history.com/svg?repos=webcrumbs-community/webcrumbs&type=Timeline)](https://star-history.com/#webcrumbs-community/webcrumbs&Timeline)
 
 ## Contributors Badge
 
@@ -187,14 +264,30 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
 ```
 
 ## Our Own Community Meme
-
-<a href="https://github.com/webcrumbs-community/webcrumbs">
-  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
-    alt="WebCrumbs Contributor"
-    width="400px"
-  />
-</a>
+<table>
+ <tr>
+  <td>
+   <a href="https://github.com/webcrumbs-community/webcrumbs">
+     <img
+       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
+       alt="WebCrumbs Meme"
+       width="400px"
+     />
+   </a>
+  </td>
+  <td>
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on Facebook</a><br/>
+   <a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on Twitter</a><br/>
+   <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on LinkedIn</a><br/>
+   <a href="https://www.reddit.com/submit?url=https%3A//github.com/webcrumbs-community/webcrumbs&title=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.%20%F0%9F%8C%9F%20Star%20to%20support%20our%20work!" target="_blank">Share on Reddit</a><br/>
+   <a href="https://news.ycombinator.com/submitlink?u=https%3A//github.com/webcrumbs-community/webcrumbs&t=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community." target="_blank">Share on HackerNews</a><br/>
+   <a href="https://toot.kytta.dev/?text=https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on Mastodon</a><br/>
+   <a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Send via Telegram</a><br/>
+   <a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs" target="_blank">Send via WhatsApp</a><br/>
+   <a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png" target="_blank">Pin on Pinterest</a><br/>
+  </td>
+ </tr>
+</table>
 
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
