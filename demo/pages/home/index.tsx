@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ColoredLine, Container, DateString, FlexContainerRow, Footer, Li, P, Span, Ul } from "@/styles/Index.styles";
 import Link from 'next/link';
 
 const AppLayout = () => {
-  
-  const today = new Date();
+  const [today, setToday] = useState('');
 
+  useEffect(() => {
+    const date = new Date();
+    setToday(date.toLocaleDateString(undefined, {year: 'numeric', month: 'long', day: 'numeric'}));
+  }, []);
+  
   return (
     <Container>
       <P>Hello World!</P>
@@ -22,7 +26,7 @@ const AppLayout = () => {
             Add "read more" Check here
           </Span>
         </Link>
-        <DateString>{today.toLocaleDateString(undefined, {year: 'numeric', month: 'long', day: 'numeric'})}</DateString>
+        <DateString>{today}</DateString>
       </Container>
       <ColoredLine lineColor="grey" />
       <FlexContainerRow>
