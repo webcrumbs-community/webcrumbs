@@ -169,9 +169,13 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
 
 5. **Become a Maker**  
    Join Product Hunt as a WebCrumbs maker.  
-   [Become a Maker]([https://www.producthunt.com/posts/webcrumbs/maker-invite?code=wM1EzN](https://github.com/webcrumbs-community/webcrumbs/issues/70))
+   [Become a Maker](https://github.com/webcrumbs-community/webcrumbs/issues/70)
 
-We're excited to see how you'll contribute to shaping the future of Webcrumbs!
+We're excited to see how you'll contribute to shaping the future of Webcrumbs! Happy coding!
+
+### Contributing 101
+- Here is a thorough guide on open source contribution: [opensource.guide](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
+- If you are looking for a quick start, check this [tutorial from Chaser324](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
 
 ## Become a Developer Advocate for WebCrumbs 📣
 
