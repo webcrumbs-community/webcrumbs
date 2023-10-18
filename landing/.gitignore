@@ -1,35 +1,21 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# OS generated files
+.DS_Store # macOS folder settings
+Thumbs.db # Windows image file cache
+Desktop.ini # Windows desktop icon settings
 
-# testing
-/coverage
+# Editor directories and files
+.vscode/   # Visual Studio Code settings
+.idea/   # IntelliJ IDEA settings
+*.swp   # Vim swap files
+*.swo   # Vim swap files
+*.swn   # Vim swap files
 
-# next.js
-/.next/
-/out/
+# Temporary or cache files
+*.tmp   # Temporary files
+*.temp  # Temporary files
+*.cache   # Cache files
+*.bak   # Backup files
 
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# local env files
-.env*.local
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+# Others
+*.log   # Log files
