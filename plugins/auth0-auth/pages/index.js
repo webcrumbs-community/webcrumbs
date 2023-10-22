@@ -1,32 +1,27 @@
-import {Button, Heading} from '@chakra-ui/react'
-import {useRouter} from 'next/router'
-import {useUser} from '@auth0/nextjs-auth0/client'
+import { Heading } from '@chakra-ui/react';
+import { useUser } from '@auth0/nextjs-auth0/client';
+import Login from './Login';
+import Logout from './Logout';
 
 const Home = () => {
-  const{push} = useRouter()
-  const{ isLoading, user, error} = useUser()
+  const { isLoading, user } = useUser();
 
-  if(isLoading) return <Heading> Loading ... </Heading>
+  if (isLoading) return <Heading>Loading...</Heading>;
 
-  const handleLogin =()=>push('/api/auth/login')
-  const handleLogout =()=>push('/api/auth/logout')
-
-  return ( 
-  <>
-    {
-    user ? (
-      <>
-        <Heading>
-          Hi {user.name}, Welcome to Webcrumbs!
-        </Heading>
-        <Button onClick={handleLogout}>LogOut</Button> 
-      </>
-
-    ):( 
-        <Button onClick={handleLogin}>Login</Button> 
-    )}
+  return (
+    <>
+      {user ? (
+        <>
+          <Heading>
+            Hi {user.name}, Welcome to Webcrumbs!
+          </Heading>
+          <Logout />
+        </>
+      ) : (
+        <Login /> 
+      )}
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
