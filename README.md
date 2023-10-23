@@ -193,7 +193,7 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
 </a>
 ```
 
-## Our Community Meme
+## Spread the Word
 
 <p align="center">
 <!-- Share on Facebook -->
@@ -241,15 +241,14 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
   <img src="https://img.shields.io/badge/Pin%20on%20Pinterest-BD081C" alt="Pin on Pinterest"/>
 </a>
 
-</br>
+</p>
+
+### Our community meme
      <img
        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
        alt="WebCrumbs Meme"
        width="400px"
      />
-
-</p>
-
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
 
