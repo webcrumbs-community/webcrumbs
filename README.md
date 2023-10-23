@@ -163,7 +163,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 35 countries!**
+**We have stargazers from all these countries!**
 
 ![Countries](/COUNTRIES.svg)
 
