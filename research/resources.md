@@ -9,3 +9,7 @@
 ## Courses on Micro Frontends
 
 - Microfrontends with React: A Complete Developer's Guide ([Udemy](https://www.udemy.com/course/microfrontend-course/) - ask me for a discount code)
+
+## Documentation
+
+- Webpack 5.0 documentation ([here](https://webpack.js.org/blog/2020-10-10-webpack-5-release/))
