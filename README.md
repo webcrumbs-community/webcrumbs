@@ -244,11 +244,13 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
 </p>
 
 ### Our community meme
-     <img
-       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
-       alt="WebCrumbs Meme"
-       width="400px"
-     />
+
+<img
+  src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
+  alt="WebCrumbs Meme"
+  width="400px"
+/>
+
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
 
