@@ -163,7 +163,7 @@ If WebCrumbs aligns with your vision for the future of web development, kindly g
 
 ![Contributors](/CONTRIBUTORS.svg)
 
-**We have stargazers from all these 35 countries!**
+**We have stargazers from all these countries!**
 
 ![Countries](/COUNTRIES.svg)
 
@@ -193,31 +193,63 @@ Use this code to add the WebCrumbs Contributor badge to your profile:
 </a>
 ```
 
-## Our Own Community Meme
-<table>
- <tr>
-  <td>
-   <a href="https://github.com/webcrumbs-community/webcrumbs">
-     <img
-       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
-       alt="WebCrumbs Meme"
-       width="400px"
-     />
-   </a>
-  </td>
-  <td>
-   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on Facebook</a><br/>
-   <a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on Twitter</a><br/>
-   <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on LinkedIn</a><br/>
-   <a href="https://www.reddit.com/submit?url=https%3A//github.com/webcrumbs-community/webcrumbs&title=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.%20%F0%9F%8C%9F%20Star%20to%20support%20our%20work!" target="_blank">Share on Reddit</a><br/>
-   <a href="https://news.ycombinator.com/submitlink?u=https%3A//github.com/webcrumbs-community/webcrumbs&t=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community." target="_blank">Share on HackerNews</a><br/>
-   <a href="https://toot.kytta.dev/?text=https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Share on Mastodon</a><br/>
-   <a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs" target="_blank">Send via Telegram</a><br/>
-   <a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs" target="_blank">Send via WhatsApp</a><br/>
-   <a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png" target="_blank">Pin on Pinterest</a><br/>
-  </td>
- </tr>
-</table>
+## Spread the Word
+
+<p align="center">
+<!-- Share on Facebook -->
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img src="https://img.shields.io/badge/Share%20on%20Facebook-FF6347" alt="Share on Facebook"/>
+</a>
+
+<!-- Share on Twitter -->
+<a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img src="https://img.shields.io/badge/Share%20on%20Twitter-1DA1F2" alt="Share on Twitter"/>
+</a>
+
+<!-- Share on LinkedIn -->
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img src="https://img.shields.io/badge/Share%20on%20LinkedIn-0077B5" alt="Share on LinkedIn"/>
+</a>
+
+<!-- Share on Reddit -->
+<a href="https://www.reddit.com/submit?url=https%3A//github.com/webcrumbs-community/webcrumbs&title=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.%20%F0%9F%8C%9F%20Star%20to%20support%20our%20work!">
+  <img src="https://img.shields.io/badge/Share%20on%20Reddit-FF4500" alt="Share on Reddit"/>
+</a>
+
+<!-- Share on HackerNews -->
+<a href="https://news.ycombinator.com/submitlink?u=https%3A//github.com/webcrumbs-community/webcrumbs&t=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.">
+  <img src="https://img.shields.io/badge/Share%20on%20HackerNews-FF4000" alt="Share on HackerNews"/>
+</a>
+
+<!-- Share on Mastodon -->
+<a href="https://toot.kytta.dev/?text=https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img src="https://img.shields.io/badge/Share%20on%20Mastodon-3088D4" alt="Share on Mastodon"/>
+</a>
+
+<!-- Send via Telegram -->
+<a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img src="https://img.shields.io/badge/Send%20via%20Telegram-0088CC" alt="Send via Telegram"/>
+</a>
+
+<!-- Send via WhatsApp -->
+<a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs">
+  <img src="https://img.shields.io/badge/Send%20via%20WhatsApp-25D366" alt="Send via WhatsApp"/>
+</a>
+
+<!-- Pin on Pinterest -->
+<a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png">
+  <img src="https://img.shields.io/badge/Pin%20on%20Pinterest-BD081C" alt="Pin on Pinterest"/>
+</a>
+
+</p>
+
+### Our community meme
+
+<img
+  src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
+  alt="WebCrumbs Meme"
+  width="400px"
+/>
 
 # Further Details
 This project operates under the MIT License and is a community-driven endeavor.
