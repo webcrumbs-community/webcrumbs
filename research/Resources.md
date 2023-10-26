@@ -14,3 +14,4 @@
 
 - Webpack 5.0 documentation ([here](https://webpack.js.org/blog/2020-10-10-webpack-5-release/))
 - Module Federation ([examples](https://github.com/module-federation/module-federation-examples))
+- Practical Module Federation ([ebook](https://module-federation.myshopify.com/a/downloads/-/2def891e764b6690/1b6a9f65378feb85))
