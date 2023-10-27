@@ -1,7 +1,7 @@
 <p align="center">
-  <b><s>
+  <b><u>
     New! Launched on September 13, 2023
-      </s></b>
+      </u></b>
 </p>
 
 ![Analytics](https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-2CMHQ8M349&cid=555&dl=https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs&dt=Main%20Repo)
