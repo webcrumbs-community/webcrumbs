@@ -3,8 +3,7 @@
     New! Launched on September 13, 2023
       </u></b>
 </p>
-
-![Analytics](https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-2CMHQ8M349&cid=555&dl=https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs&dt=Main%20Repo)
+<img src="https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-2CMHQ8M349&cid=555&dl=https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs&dt=Main%20Repo"/>
  <img
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/repository-open-graph.png"
     alt="WebCrumbs open graph"
