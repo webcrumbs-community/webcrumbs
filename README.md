@@ -3,16 +3,18 @@
     New! Launched on September 13, 2023
       </u></b>
 </p>
-<img src="https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-2CMHQ8M349&cid=555&dl=https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs&dt=Main%20Repo"/>
- <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/repository-open-graph.png"
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/og-4.png"
     alt="WebCrumbs open graph"
-  /> 
-<br/>
-<br/>
-  <h1 align="center">
-  Welcome to WebCrumbs
-</h1>
+/> 
+<img src="https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-2CMHQ8M349&cid=555&dl=https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs&dt=Main%20Repo"/>
+<p align="center">
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/logo.svg"
+    alt="WebCrumbs logo"
+    width="300px"
+/> 
+</p>
 <h3 align="center">
   The next evolution in React-based web development
 </h3>
@@ -89,7 +91,7 @@
 <br/>
 
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover.png"
+    src="https://assets-global.website-files.com/653a4e9e1c66a1eaf5c02864/653bc7e8b582ab2c2426c573_Mac%20Monitor%402x.png"
     alt="WebCrumbs concept"
   />
 
