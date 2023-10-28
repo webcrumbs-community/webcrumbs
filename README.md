@@ -7,7 +7,7 @@
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/og-4.png"
     alt="WebCrumbs open graph"
 /> 
-<img src="https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-2CMHQ8M349&cid=555&dl=https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs&dt=Main%20Repo"/>
+<img width="0" height="0" src="https://www.google-analytics.com/collect?v=1&t=pageview&tid=G-2CMHQ8M349&cid=555&dl=https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs&dt=Main%20Repo"/>
 <p align="center">
 <img
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/logo.svg"
