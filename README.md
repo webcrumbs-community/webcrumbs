@@ -91,7 +91,7 @@
 
 <p align="center">
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/Mac%20Monitor%20Faded.png"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/Mac Monitor Faded.png"
     alt="WebCrumbs concept"
   />
 </p>
