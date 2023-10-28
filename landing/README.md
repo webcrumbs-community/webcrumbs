@@ -1,10 +1,12 @@
+# Our website has gone live!
 
-  # web
+We are proud to announce that our website has gone live! You can find it at [https://webcrumbs.org](https://webcrumbs.org).
 
-  Note: Please ensure you have installed <code><a href="https://nodejs.org/en/download/">nodejs</a></code>
+We've been discussing on GitHub with our community of people from all over the world how to do it, and we've finally launched our landing page. It's not much. It's not all. But it's a big step for us!
 
-  To preview and run the project on your device:
-  1) Open project folder in <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-  2) In the terminal, run `npm install`
-  3) Run `npm start` to view project in browser
-  
+[![WebCrumbs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d4wgcd1a7bwsemxn05ug.png)
+](https://webcrumbs.org)
+
+[>> Check this out at webcrumbs.org](https://webcrumbs.org)
+
+[>> Star our GitHub if you haven't yet](https://github.com/webcrumbs-community/webcrumbs)
