@@ -88,12 +88,13 @@
 </p>
 
 <br/>
-<br/>
 
+<p align="center">
 <img
-    src="https://assets-global.website-files.com/653a4e9e1c66a1eaf5c02864/653bc7e8b582ab2c2426c573_Mac%20Monitor%402x.png"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/Mac%20Monitor%20Faded.png"
     alt="WebCrumbs concept"
   />
+</p>
 
 ## Introduction
 WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
