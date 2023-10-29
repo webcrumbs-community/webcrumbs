@@ -30,6 +30,8 @@ https://dev.to/avneeshd/top-best-practices-for-using-react-in-2023-135j
 
 https://www.freecodecamp.org/news/taming-performance-in-todays-web-app-with-lighthouse-webpack-and-react-loadable-components-b2d3fa04e0ab
 
+https://hackernoon.com/test-driven-development-in-react-building-reliable-applications-from-scratch?source=rss&ref=dailydev
+
 
 
 ### 2 Read them
