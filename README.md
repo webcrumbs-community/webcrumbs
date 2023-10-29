@@ -1,6 +1,7 @@
 <p align="center">
   <b><u>
-    New! Launched on September 13, 2023
+    New! Launched on September 13, 2023<br/>
+    WebCrumbs is in the making (unreleased)
       </u></b>
 </p>
 <img
@@ -19,6 +20,7 @@
   The next evolution in React-based web development
 </h3>
 <p align="center">
+
 <a href="https://github.com/webcrumbs-community/webcrumbs/blob/main/LICENSE">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
 </a>
@@ -36,51 +38,37 @@
 </a>
 </p>
 <p align="center">
-<!-- Home -->
+  
+<a href="https://discord.gg/ymVgdPe6rK">
+  <img src="https://img.shields.io/badge/Discord-000000" alt="Discord"/>
+</a>
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Home">
   <img src="https://img.shields.io/badge/Wiki-F44336" alt="Wiki"/>
 </a>
-
-<!-- Architecture -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Architecture">
   <img src="https://img.shields.io/badge/Architecture-4CAF50" alt="Architecture"/>
 </a>
-
-<!-- Manifesto -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Manifesto">
   <img src="https://img.shields.io/badge/Manifesto-FFC107" alt="Manifesto"/>
 </a>
-
-<!-- Motivation -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Motivation">
   <img src="https://img.shields.io/badge/Motivation-2196F3" alt="Motivation"/>
 </a>
-
-<!-- Roadmap -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap">
   <img src="https://img.shields.io/badge/Roadmap-9C27B0" alt="Roadmap"/>
 </a>
-
-<!-- Thoughts -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Thoughts">
   <img src="https://img.shields.io/badge/Thoughts-FF9800" alt="Thoughts"/>
 </a>
-
-<!-- Uniqueness -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Uniqueness">
   <img src="https://img.shields.io/badge/Uniqueness-03A9F4" alt="Uniqueness"/>
 </a>
-
-<!-- FAQ -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/FAQ:-Have-any-questions%3F">
   <img src="https://img.shields.io/badge/FAQ-8BC34A" alt="FAQ"/>
 </a>
-
-<!-- X: WebCrumbs vs. -->
 <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/X:-WebCrumbs-vs.-Contentful">
   <img src="https://img.shields.io/badge/Comparison-E91E63" alt="Comparison"/>
 </a>
-
 </p>
 
 <p align="center">
@@ -100,35 +88,35 @@
 WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
 
 **Your Support Matters**  
-If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star Webcrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs/stargazers).
+If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs/stargazers).
 
 ## Key Features
 - **Plugin Platform**: Integrate and manage React plugins to extend functionality effortlessly.
 - **No-Code Admin Panel**: Control every aspect of your website from a robust admin interface, no coding needed.
-- **Fully Customizable**: Developers can tailor Webcrumbs according to specific needs.
-- **Open Source & Free**: Webcrumbs is committed to being an open-source, community-driven project.
+- **Fully Customizable**: Developers can tailor WebCrumbs according to specific needs.
+- **Open Source & Free**: WebCrumbs is committed to being an open-source, community-driven project.
 
 ## The Future is Collaborative
 Web development has moved beyond silos. Today’s reality is collaborative, involving not just developers but also designers, marketers, and other professionals.
 
 🌟 **A Hub for Multi-Disciplinary Collaboration**  
-Webcrumbs is designed to adapt to this complex environment. It serves as an integrated platform that accommodates the varied needs and roles within an organization.
+WebCrumbs is designed to adapt to this complex environment. It serves as an integrated platform that accommodates the varied needs and roles within an organization.
 
 🌟 **Empowering Developers and Enabling Monetization**  
 Our plugin platform allows developers to offer specialized solutions, either open-source or premium, thus creating a space for economic growth within the developer community.
 
 🌟 **Ahead of the Curve: AI and Future Technologies**  
-Webcrumbs is built with scalability in mind, capable of incorporating future technologies like AI to keep your web projects at the forefront.
+WebCrumbs is built with scalability in mind, capable of incorporating future technologies like AI to keep your web projects at the forefront.
 
 ## Get Involved: Calling out all developers 📣
 
 The future of React-based web development is a story yet to be fully written, and we invite you to be a co-author of this narrative. Your skills and insights can contribute significantly to the product and the community at large.
 
-We're thrilled to have you interested in Webcrumbs! There are multiple ways you can contribute and make a significant impact:
+We're thrilled to have you interested in WebCrumbs! There are multiple ways you can contribute and make a significant impact:
 
 1. **Star the Repository**  
    Show your support and help us gain more visibility by starring ⭐️ the repository.  
-   [Star Webcrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs/stargazers)
+   [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs/stargazers)
 
 2. **Join the Discussions**  
    Your opinions and ideas matter. Participate in ongoing discussions or start a new one.  
@@ -146,7 +134,7 @@ We're thrilled to have you interested in Webcrumbs! There are multiple ways you 
    Join Product Hunt as a WebCrumbs maker.  
    [Become a Maker](https://github.com/webcrumbs-community/webcrumbs/issues/70)
 
-We're excited to see how you'll contribute to shaping the future of Webcrumbs! Happy coding!
+We're excited to see how you'll contribute to shaping the future of WebCrumbs! Happy coding!
 
 ### Contributing 101
 - Here is a thorough guide on open source contribution: [opensource.guide](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
@@ -154,7 +142,7 @@ We're excited to see how you'll contribute to shaping the future of Webcrumbs! H
 
 ## Become a Developer Advocate for WebCrumbs 📣
 
-Excited about React and WebCrumbs? We're building an exclusive group of Developer Advocates. Your role will be pivotal in connecting Webcrumbs with the community and amplifying our vision.
+Excited about React and WebCrumbs? We're building an exclusive group of Developer Advocates. Your role will be pivotal in connecting WebCrumbs with the community and amplifying our vision.
 
 Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions).
 
@@ -266,4 +254,4 @@ This project operates under the MIT License and is a community-driven endeavor.
 While it is inspired on the history of Wordpress, this project does not use Wordpress code.
 
 **Credits**  
-Spearheaded and maintained by [Webcrumbs Community](https://github.com/webcrumbs-community).
+Spearheaded and maintained by [WebCrumbs Community](https://github.com/webcrumbs-community).
