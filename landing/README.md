@@ -14,7 +14,7 @@ We've been discussing on GitHub with our community of people from all over the w
 <img height="42px" src="https://dabuttonfactory.com/button.png?t=Star+our+GitHub&f=Open+Sans-Bold&ts=26&tc=0000EE&hp=45&vp=20&c=11&bgt=unicolored&bgc=fff"/>
 </a>
 
-<a href="[https://github.com/webcrumbs-community/webcrumbs](https://webcrumbs.org)" class="button">
+<a href="https://webcrumbs.org" class="button">
 <img height="42px" src="https://dabuttonfactory.com/button.png?t=Check+it+out+at+webcrumbs.org&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=0000EE"/>
 </a>
 
