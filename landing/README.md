@@ -1,44 +1,21 @@
-## Context in WebCrumbs
+# Our website has gone live!
 
-This is the landing page of WebCrumbs.org.
+We are proud to announce that our website has gone live! You can find it at [https://webcrumbs.org](https://webcrumbs.org).
 
-It is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+We've been discussing on GitHub with our community of people from all over the world how to do it, and we've finally launched our landing page. It's not much. It's not all. But it's a big step for us!
 
-## Getting Started
+[![WebCrumbs](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d4wgcd1a7bwsemxn05ug.png)
+](https://webcrumbs.org)
 
-First, run the development server:
+<p align="right">
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a href="https://github.com/webcrumbs-community/webcrumbs" class="button">
+<img height="42px" src="https://dabuttonfactory.com/button.png?t=Star+our+GitHub&f=Open+Sans-Bold&ts=26&tc=0000EE&hp=45&vp=20&c=11&bgt=unicolored&bgc=fff"/>
+</a>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<a href="https://webcrumbs.org" class="button">
+<img height="42px" src="https://dabuttonfactory.com/button.png?t=Check+it+out+at+webcrumbs.org&f=Open+Sans-Bold&ts=26&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=0000EE"/>
+</a>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</p>
