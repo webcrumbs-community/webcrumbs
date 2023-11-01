@@ -64,6 +64,12 @@ Some obvious performance enhancements have already been made:
 -All internal pages are lazy-loaded by default
 -The bundle is split into chunks.
 
+
+article 2
+solution
+4. Functional Components & Component Interaction
+
+
 article 7
 measure React performance with these tools
 why did you update
