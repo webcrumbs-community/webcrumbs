@@ -24,6 +24,7 @@ https://hackernoon.com/front-end-optimization-my-journey-to-accelerate-load-time
 
 https://www.bacancytechnology.com/blog/react-performance-optimization
 
+
 https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
 
 https://dev.to/avneeshd/top-best-practices-for-using-react-in-2023-135j
@@ -32,11 +33,61 @@ https://www.freecodecamp.org/news/taming-performance-in-todays-web-app-with-ligh
 
 https://hackernoon.com/test-driven-development-in-react-building-reliable-applications-from-scratch?source=rss&ref=dailydev
 
-
+https://javascript.plainenglish.io/react-app-performance-optimization-the-definitive-guide-9b658be3b6e4
 
 ### 2 Read them
 
-### 3. First ideas jot-down (summary)
+### 3 Highlight Important info
+article 1
+
+Problems
+- Having a lot of components in author's case leads to 6500 DOM elements and large blocking time for mobile
+- Fully rendered main page has height of 11000px
+- React profiler crashes in devTools
+
+
+Solutions / Techniques
+
+-just reduce the amount of content on the main page.
+-create a special main page in pure HTML and vanilla JS for such regions.
+
+-import on visibility
+-render on visibility
+-image proxy
+-fetch priority
+Some obvious performance enhancements have already been made:
+-Caching on the CDN side
+-Gzip compression
+-http/2 server
+-Correctly set loading priorities for resources: -defer and async
+-Images are set to lazy
+-All internal pages are lazy-loaded by default
+-The bundle is split into chunks.
+
+article 7
+measure React performance with these tools
+why did you update
+react dev tools
+he Chrome DevTools performance timeline
+1. Implementing shouldComponentUpdate for preventing unnecessary renders
+2. Improving performance due to unnecessary renders using PureComponent
+3. Optimizing the app loading time further with Code splitting
+4. React performance with SSR
+5. Improving the app’s loading time by lazy loading Images
+6. Optimizing list rendering with React Virtualized List
+7. Optimizing React list performance by using correct keys for components
+8. Identifying problematic bundles for a React-based PWA
+9. Better tree shaking
+10. Preload and Prefetch resources
+11. Use Memoization
+
+
+### 4. First ideas jot-down (summary)
+measure React performance with these tools
+why did you update
+react dev tools
+he Chrome DevTools performance timeline
+1. Implementing shouldComponentUpdate for preventing unnecessary renders
 
 
 1. Research common performance issues in React apps.
@@ -45,9 +96,9 @@ https://hackernoon.com/test-driven-development-in-react-building-reliable-applic
 2. Investigate methods for optimizing performance.
 
 
-### 4. Edit
+### 5. Edit
 
-### 5. Send PR
+### 6. Send PR
 
 
 
