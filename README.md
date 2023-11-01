@@ -1,7 +1,7 @@
 <p align="center">
   <b><u>
     New! Launched on September 13, 2023<br/>
-    WebCrumbs is in the making and being built in public by the community! Join us.
+    WebCrumbs is in the making and being built in public by the community! [Join us](#get-involved-calling-out-all-developers-).
       </u></b>
 </p>
 <img
