@@ -35,6 +35,8 @@ https://hackernoon.com/test-driven-development-in-react-building-reliable-applic
 
 https://javascript.plainenglish.io/react-app-performance-optimization-the-definitive-guide-9b658be3b6e4
 
+https://www.freecodecamp.org/news/measure-and-improve-performance-of-react-apps/
+
 ### 2 Read them
 
 ### 3 Highlight Important info
