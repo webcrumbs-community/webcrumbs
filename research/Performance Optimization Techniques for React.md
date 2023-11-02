@@ -24,7 +24,6 @@ https://hackernoon.com/front-end-optimization-my-journey-to-accelerate-load-time
 
 https://www.bacancytechnology.com/blog/react-performance-optimization
 
-
 https://www.codementor.io/blog/react-optimization-5wiwjnf9hj
 
 https://dev.to/avneeshd/top-best-practices-for-using-react-in-2023-135j
@@ -37,6 +36,8 @@ https://javascript.plainenglish.io/react-app-performance-optimization-the-defini
 
 https://www.freecodecamp.org/news/measure-and-improve-performance-of-react-apps/
 
+https://dev.to/rasaf_ibrahim/react-performance-booster-introduction-to-the-usememo-hook-212i?ref=dailydev
+
 ### 2 Read them
 
 ### 3 Highlight Important info
@@ -46,7 +47,6 @@ Problems
 - Having a lot of components in author's case leads to 6500 DOM elements and large blocking time for mobile
 - Fully rendered main page has height of 11000px
 - React profiler crashes in devTools
-
 
 Solutions / Techniques
 
@@ -66,11 +66,9 @@ Some obvious performance enhancements have already been made:
 -All internal pages are lazy-loaded by default
 -The bundle is split into chunks.
 
-
 article 2
 solution
 4. Functional Components & Component Interaction
-
 
 article 7
 measure React performance with these tools
