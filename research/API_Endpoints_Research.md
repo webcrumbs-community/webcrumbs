@@ -24,7 +24,6 @@ Ready to take on the task? Here's your portal to the WebCrumbs GitHub repo. Go m
 https://developer.wordpress.org/rest-api/
 
 ### Step 2 -> Write Summary about What I've read
-
 Helpful Terms
 
 Wordpress - Popular and Open Source content management System that help creates websites and website related services i.e. commerce, blog, etc.
