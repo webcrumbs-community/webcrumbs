@@ -85,14 +85,14 @@ Heavy computations uses more computer resources to execute which obviously can s
 
 Delegate the intensive workload to web workers which can work parallel.
 
-Optimize the algorithm with better a more efficient time or space complexity.
+Optimize the algorithm with more efficient time or space complexity.
 
 
 ## State Management / Components
-The more components you have the longer it takes React to render them.
 
 ### Large Component Trees
 Problem
+The more components you have the longer it takes React to render them.
 Nested component trees especially with more levels uses too much memory.
 
 Solutions
