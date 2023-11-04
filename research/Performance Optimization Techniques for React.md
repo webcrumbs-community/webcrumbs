@@ -51,14 +51,14 @@ React is a User Interface library built in JavaScript. As the name suggests, Rea
 
 ### Uncertain Perfomance Metrics
 Problem
-There are many categories of performance such as accessibility, SEO, rendering, load time, memory complexity, time complexity, number of components. As you can see it can get overwhelming and unclear as to what is causing issues on the React app.
+**There are many categories of performance such as accessibility, SEO, rendering, load time, memory complexity, time complexity, number of components**. As you can see it can get overwhelming and unclear as to what is causing issues on the React app.
 
-We need to measure performance and identify the problems so we can accurately address the issues.
+Solutions
+**We need to measure performance and identify the problems so we can accurately address the issues.**
 
 Use performance measuring tools such as:
 Lighthouse - overall web app performance, SEO, accessbility
 React Dev tools - see components and state performance, useful for debugging
-
 
 ## Rendering
 A host of issues relates with rendering. Although necessary for updating UI elements, re-renders can slow down an app quite a bit. Here are some ways to make your app render more smoothly.
@@ -70,7 +70,7 @@ As rerendering increase, the page load time also increases.
 There are unnecessary re-rendering of components even if prop or state has not changed. This is often caused by using 'shouldComponentUpdate' incorrectly.
 
 Solutions
-Use 'shouldComponentUpdate' to control when a component should re-render.This method compares current vs previous state, returning 'true' only if the update is needed, avoiding unnecessary re-renders.
+**Use 'shouldComponentUpdate' (or useMemo and useCallback hooks) to control when a component should re-render.** This method compares current vs previous state, returning 'true' only if the update is needed, avoiding unnecessary re-renders.
 
 Cutting out excessive re-renderings by using React.memo (memoization) or PureComponent. 
 
@@ -78,13 +78,15 @@ Cutting out excessive re-renderings by using React.memo (memoization) or PureCom
 Problem
 Large lists are culprits of slow React apps. 
 
-Using a techique called windowing or virtualization which only renders the list items based on viewport (part where the user sees).
+Solutions
+**Using a techique called windowing or virtualization (such as react-window) which only renders the list items based on viewport (part where the user sees).**
 
 ### Offload heavy computation renderings
 Problem
 Heavy computations uses more computer resources to execute which obviously can slow down any application.
 
-Delegate the intensive workload to web workers which can work parallel.
+Solutions
+**Delegate the intensive workload to web workers which can work in parallel.**
 
 Optimize the algorithm with more efficient time or space complexity. Time and space complexity is a process of making code more efficient in terms of execution speed (time) and memory storage (space).
 
@@ -96,7 +98,7 @@ The more components you have, the longer it takes React to render them.
 Nested component trees especially with more levels uses too much memory.
 
 Solutions
-Avoid nesting components to levels more than 2 levels deep. 
+**Avoid nesting components to levels more than 2 levels deep.**
 
 Optimize the component structure. There are many ways to achieve this depending on how the components are used and how often it is used. Techniques such as conditional rendering, component composition and component decomposition are helpful depending on the circumstances.
 A good rule of thumb is to always make sure there is no duplicate components, make them reusable and modular.
@@ -106,14 +108,14 @@ Problem
 Prop drilling is a concept in React where data is being pass down from parent component down to its children which is necessary. However the deeper the data pass down in the component hierachy the less performant and harder it is to maintain the code. 
 
 Solution
-Using context / Provider or a state management tool like Redux to avoid excessive prop drilling.
+**Using context / Provider or a state management tool like Redux to avoid excessive prop drilling.**
 
 ### Ineffiecent State Management
 Problem
 Storing state in the wrong place or excessive use of state management libraries can also lead to performance problems.
 
 Solution
-Know and understand how much state management / context you should use base on your circumstance. Because having no state management and having too much state management are both sides of the extreme that can cause app inefficienies
+**Know and understand how much state management / context you should use based on your circumstance.** Because having no state management and having too much state management are both sides of the extreme that can cause app inefficienies.
 
 ## Loading Performance
 ### Large Initial Loads
@@ -121,9 +123,8 @@ Problem
 Loading large initial bundles of JavaScript slows an apps initial load time.
 
 Solution
-Use a technique called code splitting which only loads module / packages / code that are needed at a given moment and delegate the others downloads asynchronously.
-
-You can also lazy load which can reduces the load time of Javascript as well by loading code only when it's needed near the viewport.
+Use a technique called **code splitting** which only loads module / packages / code that are needed at a given moment and delegate the others downloads asynchronously.
+You can also **lazy load** which can reduces the load time of Javascript as well by loading code only when it's needed near the viewport.
 
 ### Rendering unoptimized images and media
 Problem
@@ -134,7 +135,7 @@ Use responsive images that dynamically select image sizes based on viewport.
 
 Use lazy loading to render and load only images that are in the viewport as oppose to all the images on the page at once.
 
-Use photo optimization tools like Sharp that compresses images for faster loading. 
+Use photo optimization tools like Sharp that compresses images for faster loading. **Next.js' Image component automatically optimizes images for fast loading.**
 
 ## Memory 
 
@@ -144,8 +145,8 @@ It can be common to forget to clean up resources once it is finished its use. Wh
 
 Solutions
 Here are a couple ways to access cleanup functionality in React.
-Use the lifecycle method 'componentWillUnmount'
-Use the useEffect hook with cleanup logic to handle resource cleanup automatically.
+Use the **lifecycle method 'componentWillUnmount'**
+Use the **useEffect hook** with cleanup logic to handle resource cleanup automatically.
 
 ## Network Performance
 
