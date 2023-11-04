@@ -41,65 +41,118 @@ https://dev.to/rasaf_ibrahim/react-performance-booster-introduction-to-the-useme
 ### 2 Read them
 
 ### 3 Highlight Important info
-article 1
-
-Problems
-- Having a lot of components in author's case leads to 6500 DOM elements and large blocking time for mobile
-- Fully rendered main page has height of 11000px
-- React profiler crashes in devTools
-
-Solutions / Techniques
-
--just reduce the amount of content on the main page.
--create a special main page in pure HTML and vanilla JS for such regions.
-
--import on visibility
--render on visibility
--image proxy
--fetch priority
-Some obvious performance enhancements have already been made:
--Caching on the CDN side
--Gzip compression
--http/2 server
--Correctly set loading priorities for resources: -defer and async
--Images are set to lazy
--All internal pages are lazy-loaded by default
--The bundle is split into chunks.
-
-article 2
-solution
-4. Functional Components & Component Interaction
-
-article 7
-measure React performance with these tools
-why did you update
-react dev tools
-he Chrome DevTools performance timeline
-1. Implementing shouldComponentUpdate for preventing unnecessary renders
-2. Improving performance due to unnecessary renders using PureComponent
-3. Optimizing the app loading time further with Code splitting
-4. React performance with SSR
-5. Improving the app’s loading time by lazy loading Images
-6. Optimizing list rendering with React Virtualized List
-7. Optimizing React list performance by using correct keys for components
-8. Identifying problematic bundles for a React-based PWA
-9. Better tree shaking
-10. Preload and Prefetch resources
-11. Use Memoization
-
 
 ### 4. First ideas jot-down (summary)
-measure React performance with these tools
-why did you update
-react dev tools
-he Chrome DevTools performance timeline
-1. Implementing shouldComponentUpdate for preventing unnecessary renders
+Common performance issues in React apps.
+
+React is a User Interface library built in JavaScript. As the name suggests, React reacts to changes in the DOM and rerenders it's components accordingly, giving it a real-time interaction. Over the years this UI library has upgrades it's internal algorithms to reduce the number of rendering operations making the application faster and easier for development. However like all powerful technologies can be used sub-optimally causing inefficent performance. Here are some common performance issues in React and ways to eliminate/mitigate these problems.
+
+## Measuring Performance / Monitoring Errors
+
+### Uncertain Metrics
+Problem
+There are many categories of performance such as accessibility, SEO, rendering, load time, memory complexity, time complexity, number of components. As you can see it can get overwhelming and unclear as to what is causing issues on the React app.
+
+We need to measure performance and identify the problems so we can accurately address the issues.
+
+Use monitoring tools such as:
+Lighthouse - overall web app performance, SEO, accessbility
+React Dev tools - see components and state performance
 
 
-1. Research common performance issues in React apps.
+## Rendering
+A host of issues relates with rendering. Although necessary for updating UI elements, re-renders can slow down an app quite a bit. Here are some ways to make your app render more smoothly.
+
+### Excessive Re-renders
+Problem
+As rerendering increases so does the load time increases. 
+
+There are unnecessary re-rendering of components even if prop or state has not changed. This is often caused by using 'shouldComponentUpdate' incorrectly.
+
+Solutions
+Use 'shouldComponentUpdate' correctly by...
+Cutting out excessive re-renderings by using React.memo (memoization) or PureComponent. 
+
+### Unoptimized List Rendering
+Problem
+Large lists are culprits of slow React apps. 
+
+Using a techique called windowing or virtualization which only renders the list items based on viewport (part where the user sees).
+
+### Offload heavy computation renderings
+Problem
+Heavy computations uses more computer resources to execute which obviously can slow down any application.
+
+Delegate the intensive workload to web workers which can work parallel.
+
+Optimize the algorithm with better a more efficient time or space complexity.
 
 
-2. Investigate methods for optimizing performance.
+## State Management / Components
+The more components you have the longer it takes React to render them.
+
+### Large Component Trees
+Problem
+Nested component trees especially with more levels uses too much memory.
+
+Solutions
+Avoid nesting components to levels more than 2 levels deep. 
+
+Optimize the component structure.
+
+Break larger components into smaller ones. Again use caution and wisdom, as having more components are lead to slower app as well.
+
+### Excessive Prop Drilling
+Problem
+Prop drilling is a concept in React where data is being pass down from parent component down to its children which is necessary. However the deeper the data pass down in the component hierachy the less performant and harder it is to maintain the code. 
+
+Using context / Provider or a state management tool like Redux to avoid excessive prop drilling.
+
+### Ineffiecent State Management
+Problem
+Storing state in the wrong place or excessive use of state management libraries can also lead to performance problems.
+
+Solution
+Know and understand how much state management / context you should use base on your circumstance. Because having no state management and having too much state management are both sides of the extreme that can cause app inefficienies
+
+## Loading Performance
+Large Initial Loads
+Problem
+Loading large initial bundles of JavaScript slows an apps initial load time.
+
+Solution
+Use a technique called code splitting which only loads module / packages / code that are needed at a given moment and delegate the others downloads asynchronously.
+
+You can also lazy load which can reduces the load time of Javascript as well by loading code only when it's needed near the viewport.
+
+### Rendering unoptimized images and media
+Problem
+Larger images and media files are common ways to slow down page load times.
+
+Solutions
+Use responsive images that dynamically select image sizes basied on viewport.
+
+Use lazy loading to render and load only images that are in the viewport as oppose to all the images on the page at once.
+
+Optimize your images using tools like photo sharpening that uses less resolution but retains photo clarity.
+
+## Memory 
+
+### Memory leaks
+Problem
+It can be common to forget to clean up resources once it is finished its use. When a component unmounts it can be easy to forget to clean up which over time can cause memory leaks.
+
+Solutions
+Here are a couple ways to access cleanup functionality in React.
+Use the lifecycle method 'componentWillUnmount'
+Use the useEffect hook to handle cleanup automatically.
+
+## Network Performance
+
+Reducing network requests
+Efficient data transfer (minimizing payload size)
+Caching strategies
+Use of CDNs (Content Delivery Networks)
 
 
 ### 5. Edit
