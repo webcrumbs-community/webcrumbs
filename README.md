@@ -93,7 +93,7 @@
 WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
 
 **Your Support Matters**  
-If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs/stargazers).
+If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs).
 
 ## Key Features
 - **Plugin Platform**: Integrate and manage React plugins to extend functionality effortlessly.
@@ -121,21 +121,25 @@ We're thrilled to have you interested in WebCrumbs! There are multiple ways you 
 
 1. **Star the Repository**  
    Show your support and help us gain more visibility by starring ⭐️ the repository.  
-   [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs/stargazers)
+   [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs)
 
-2. **Join the Discussions**  
+2. **Subscribe to our Newsletter**  
+   Don't miss out—subscribe for monthly insights and progress updates.  
+   [Subscribe to our Newsletter](https://webcrumbs.org/)
+
+3. **Join the Discussions**  
    Your opinions and ideas matter. Participate in ongoing discussions or start a new one.  
    [Go to Discussions](https://github.com/webcrumbs-community/webcrumbs/discussions)
 
-3. **Check Open Issues**  
+4. **Check Open Issues**  
    See what issues are open and where you can contribute.  
    [View Open Issues](https://github.com/webcrumbs-community/webcrumbs/issues)
 
-4. **Read our Roadmap**  
+5. **Read our Roadmap**  
    Get all the information you need about our next steps.  
    [Read our Roadmap](https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap)
 
-5. **Become a Maker**  
+6. **Become a Maker**  
    Join Product Hunt as a WebCrumbs maker.  
    [Become a Maker](https://github.com/webcrumbs-community/webcrumbs/issues/70)
 
@@ -147,9 +151,9 @@ We're excited to see how you'll contribute to shaping the future of WebCrumbs! H
 
 ## Become a Developer Advocate for WebCrumbs 📣
 
-Excited about React and WebCrumbs? We're building an exclusive group of Developer Advocates. Your role will be pivotal in connecting WebCrumbs with the community and amplifying our vision.
+React and WebCrumbs enthusiast? Step into the role of a Developer Advocate! Join an elite team where you'll champion our mission and spread the WebCrumbs revolution across the developer galaxy. Connect, engage, and energize our community with your unique voice.
 
-Interested? Express your passion and join the conversation in our [discussion thread](https://github.com/webcrumbs-community/webcrumbs/discussions).
+Feeling the call to adventure? Ignite your journey by contributing to our vibrant discussion in [Discussion #109](https://github.com/webcrumbs-community/webcrumbs/discussions/109).
 
 ## Support our Growth 📣
 If WebCrumbs aligns with your vision for the future of web development, kindly give us a ⭐️ on GitHub. Your support enables:
