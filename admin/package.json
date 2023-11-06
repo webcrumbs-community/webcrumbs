@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "mongoose": "^7.6.1",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.14.12",
     "@mui/material": "^5.14.12",
+    "bcryptjs": "^2.4.3",
+    "mongoose": "^7.6.1",
     "next": "13.5.4",
     "react": "^18",
     "react-dom": "^18",
@@ -24,13 +24,13 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "typescript": "^5",
     "bcryptjs": "^2.4.3",
     "mongoose": "^7.6.1",
     "next": "13.5.1",
     "next-auth": "^4.23.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-markdown": "^8.0.7"
+    "react-markdown": "^8.0.7",
+    "typescript": "^5"
   }
 }
