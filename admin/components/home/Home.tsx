@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import Link from "@mui/material/Link";
-import Copyright from "@/shared/Copyright";
+import Copyright from "@/components/Copyright";
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();

@@ -1,5 +1,5 @@
 import * as React from "react";
-import { styled, createTheme, ThemeProvider } from "@mui/material/styles";
+import { styled, ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import MuiDrawer from "@mui/material/Drawer";
 import Box from "@mui/material/Box";
@@ -7,19 +7,20 @@ import MuiAppBar, { AppBarProps as MuiAppBarProps } from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import List from "@mui/material/List";
 import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
 import IconButton from "@mui/material/IconButton";
-import Badge from "@mui/material/Badge";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
-import MenuIcon from "@mui/icons-material/Menu";
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
-import { mainListItems, secondaryListItems } from "./listItems";
-import Welcome from "./Welcome";
-import Copyright from "@/shared/Copyright";
+import { mainListItems } from "./listItems";
+import Copyright from "@/components/Copyright";
+import { theme } from "../layout/theme";
+import { Button } from "@mui/material";
 
-const drawerWidth: number = 240;
+import Image from "next/image";
+import logo from "@/assets/images/logo.svg";
+import close from "@/assets/images/close.svg";
+
+const drawerWidth: number = 257;
 
 interface AppBarProps extends MuiAppBarProps {
   open?: boolean;
@@ -69,9 +70,6 @@ const Drawer = styled(MuiDrawer, {
   },
 }));
 
-// TODO remove, this demo shouldn't need to reset the theme.
-const defaultTheme = createTheme();
-
 export default function Dashboard() {
   const [open, setOpen] = React.useState(true);
   const toggleDrawer = () => {
@@ -79,65 +77,66 @@ export default function Dashboard() {
   };
 
   return (
-    <ThemeProvider theme={defaultTheme}>
+    <ThemeProvider theme={theme}>
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
-        <AppBar position="absolute" open={open}>
+        <AppBar
+          position="absolute"
+          sx={{
+            backgroundColor: 'white',
+            backdropFilter: 'blur(32px)',
+            height: "76px"
+          }}>
           <Toolbar
             sx={{
-              pr: "24px", // keep right padding when drawer closed
+              position: "relative",
+              width: drawerWidth,
+              height: "76px",
+              boxShadow: "0px 10px 30px 0px rgba(17, 38, 146, 0.05)"
             }}
           >
-            <IconButton
-              edge="start"
-              color="inherit"
-              aria-label="open drawer"
-              onClick={toggleDrawer}
-              sx={{
-                marginRight: "36px",
-                ...(open && { display: "none" }),
-              }}
+            <Box sx={{
+              display: "flex",
+              alignItems: "center",
+              height: "100%",
+            }}
             >
-              <MenuIcon />
-            </IconButton>
-            <Typography
-              component="h1"
-              variant="h6"
-              color="inherit"
-              noWrap
-              sx={{ flexGrow: 1 }}
-            >
-              Dashboard
-            </Typography>
+              <Image src={logo} width={179} height={31} alt="WebCrumbs logo" />
+            </Box>
+
+            <Box sx={{
+              display: "flex",
+              alignItems: "center",
+              height: "100%",
+              position: "absolute",
+              top: 0,
+              left: 246
+            }}>
+              <IconButton
+                edge="start"
+                color="inherit"
+                aria-label="toggle drawer"
+                onClick={toggleDrawer}
+              >
+                <Box className="blur-shadow" height={30} width={30} >
+                  {open ?
+                    <Image src={close} alt="Close menu" height={30} width={30} />
+                    : <Image src={close} alt="Open menu" style={{ transform: 'rotate(180deg)' }} height={30} width={30} />
+                  }
+                </Box>
+              </IconButton>
+            </Box>
           </Toolbar>
         </AppBar>
         <Drawer variant="permanent" open={open}>
-          <Toolbar
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "flex-end",
-              px: [1],
-            }}
-          >
-            <IconButton onClick={toggleDrawer}>
-              <ChevronLeftIcon />
-            </IconButton>
-          </Toolbar>
-          <Divider />
-          <List component="nav">
+          <List component="nav" sx={{ paddingTop: "100px" }}>
             {mainListItems}
-            <Divider sx={{ my: 1 }} />
-            {secondaryListItems}
           </List>
         </Drawer>
         <Box
           component="main"
           sx={{
-            backgroundColor: (theme) =>
-              theme.palette.mode === "light"
-                ? theme.palette.grey[100]
-                : theme.palette.grey[900],
+            backgroundColor: (theme) => theme.palette.background.default,
             flexGrow: 1,
             height: "100vh",
             overflow: "auto",
@@ -152,10 +151,17 @@ export default function Dashboard() {
                     p: 2,
                     display: "flex",
                     flexDirection: "column",
-                    height: 240,
+                    backgroundColor: (theme) => theme.palette.primary.main,
                   }}
                 >
-                  <Welcome />
+                  <Box sx={{ maxWidth: "400px", margin: "64px" }}>
+                    <Typography variant="h1" color="white">Unlock, extend and customize your website</Typography>
+                    <Typography variant="body1" color="white">Dive into an ecosystem built for you. Find or create plugins to boost your website.</Typography>
+                    <Box sx={{ marginTop: "52px" }}>
+                      <Button variant="contained" color="secondary" sx={{ mt: 2 }}>Explore now</Button>
+                      <Button variant="text" color="secondary" sx={{ mt: 2 }}>Watch tutorial</Button>
+                    </Box>
+                  </Box>
                 </Paper>
               </Grid>
             </Grid>

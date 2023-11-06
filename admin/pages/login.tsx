@@ -1,5 +1,5 @@
-import { SiteLayout } from "@/shared/layout/SiteLayout";
-import Login from "@/shared/login/Login";
+import { SiteLayout } from "@/components/layout/SiteLayout";
+import Login from "@/components/login/Login";
 
 export default function Home() {
   return (
