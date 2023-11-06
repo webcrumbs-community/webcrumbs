@@ -128,7 +128,7 @@ export default function Dashboard() {
             </Box>
           </Toolbar>
         </AppBar>
-        <Drawer variant="permanent" open={open} shadow={1}>
+        <Drawer variant="permanent" open={open}>
           <List component="nav" sx={{ paddingTop: "100px" }}>
             {mainListItems}
           </List>
