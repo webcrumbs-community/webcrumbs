@@ -1,5 +1,5 @@
-import { Layout } from "@/shared/layout/Layout";
-import Dashboard from "@/shared/dashboard/Dashboard";
+import { Layout } from "@/components/layout/Layout";
+import Dashboard from "@/components/dashboard/Dashboard";
 
 export default function Home() {
   return (

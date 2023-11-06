@@ -17,7 +17,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import { mainListItems, secondaryListItems } from "./listItems";
 import Welcome from "./Welcome";
-import Copyright from "@/shared/Copyright";
+import Copyright from "@/components/Copyright";
 
 const drawerWidth: number = 240;
 
