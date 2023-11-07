@@ -42,7 +42,10 @@ export const theme = createTheme({
       letterSpacing: -0.48
     },
     h3: {
-      fontWeight: 500,
+      fontSize: 18,
+      fontWeight: 700,
+      lineHeight: 1.67,
+      letterSpacing: -0.36
     },
     h6: {
       color: '#ADB5BD',

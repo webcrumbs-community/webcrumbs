@@ -12,7 +12,7 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Copyright from "@/components/Copyright";
 import { theme } from "../layout/theme";
-import { Button } from "@mui/material";
+import { Button, Card } from "@mui/material";
 
 
 import logo from "@/assets/images/logo.svg";
@@ -21,6 +21,8 @@ import iconDashboard from "@/assets/images/icon-dashboard.svg";
 import iconPlugins from "@/assets/images/icon-plugins.svg";
 
 import { AppBar, Drawer, MenuItem, Tag, TopBar } from "./StyledComponents"
+import { Plugin, PluginCard } from "./PluginCard";
+import NavBar from "./NavBar";
 
 export default function Dashboard() {
   const [open, setOpen] = React.useState(true);
@@ -49,32 +51,48 @@ export default function Dashboard() {
     { name: "E-Commerce", active: false },
   ]
 
-  const pluginList = [
+  const pluginList: Plugin[] = [
     {
-      name: "Plugin 1",
+      imageUrl: "https://img.freepik.com/free-vector/flat-design-abstract-shapes-background_23-2149120544.jpg?size=626&ext=jpg&ga=GA1.1.1770010771.1698845687&semt=sph",
+      title: "Plugin 1",
       tagline: "Tagline 1",
-      price: "Free",
-      cover: "https://picsum.photos/200/300",
+      isFavorited: true,
+      userLikes: [
+        { avatarUrl: "https://images.unsplash.com/photo-1632836924830-4b7b8b5b5b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&w=1000&q=80" },
+        { avatarUrl: "https://images.unsplash.com/photo-1632836924830-4b7b8b5b5b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&w=1000&q=80" },
+        { avatarUrl: "https://images.unsplash.com/photo-1632836924830-4b7b8b5b5b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&w=1000&q=80" },
+        { avatarUrl: "https://images.unsplash.com/photo-1632836924830-4b7b8b5b5b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&w=1000&q=80" },
+      ],
+      isFree: true
     },
     {
-      name: "Plugin 2",
+      imageUrl: "https://img.freepik.com/free-vector/groovy-psychedelic-hand-drawn-background_23-2149086296.jpg?size=626&ext=jpg&ga=GA1.1.1770010771.1698845687&semt=sph",
+      title: "Plugin 2",
       tagline: "Tagline 2",
-      price: "Free",
-      cover: "https://picsum.photos/200/300",
+      isFavorited: false,
+      userLikes: [
+        { avatarUrl: "https://images.unsplash.com/photo-1632836924830-4b7b8b5b5b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&w=1000&q=80" },
+        { avatarUrl: "https://images.unsplash.com/photo-1632836924830-4b7b8b5b5b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&w=1000&q=80" },
+      ],
+      isFree: true
     },
     {
-      name: "Plugin 3",
+      imageUrl: "https://img.freepik.com/free-vector/coloured-abstract-background-design_1095-336.jpg?size=626&ext=jpg&ga=GA1.1.1770010771.1698845687&semt=sph",
+      title: "Plugin 3",
       tagline: "Tagline 3",
-      price: "Freemium",
-      cover: "https://picsum.photos/200/300",
-    }
+      isFavorited: false,
+      userLikes: [
+        { avatarUrl: "https://images.unsplash.com/photo-1632836924830-4b7b8b5b5b0b?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&ixlib=rb-1.2.1&w=1000&q=80" },
+      ],
+      isFree: true
+    },
   ]
 
   return (
     <ThemeProvider theme={theme}>
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
-        <AppBar position="absolute">
+        <AppBar position="absolute" sx={{ display: "flex", flexDirection: "row" }}>
           <TopBar>
             <Box sx={{
               display: "flex",
@@ -107,6 +125,9 @@ export default function Dashboard() {
               </IconButton>
             </Box>
           </TopBar>
+          <TopBar>
+            {/* <NavBar /> */}
+          </TopBar>
         </AppBar>
         <Drawer variant="permanent" open={open}>
           <Box component="nav" sx={{ paddingTop: "92px", display: "flex", flexDirection: "column", gap: "8px" }}>
@@ -128,7 +149,7 @@ export default function Dashboard() {
         >
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-            <Grid container spacing={3}>
+            <Grid container spacing={2}>
               <Grid item xs={12} md={12} lg={12}>
                 <Paper
                   sx={{
@@ -149,7 +170,9 @@ export default function Dashboard() {
                     </Box>
                   </Box>
                 </Paper>
-                <Box sx={{ marginTop: "20px", marginBottom: "20px", display: "flex", flexWrap: "wrap", minHeight: "59px", padding: "0px 20px", justifyContent: "space-between", alignItems: "flex-end", flexShrink: 0 }}>
+              </Grid>
+              <Grid item xs={12} md={12} lg={12}>
+                <Box sx={{ marginBottom: "4px", display: "flex", flexWrap: "wrap", minHeight: "59px", padding: "0px 20px", justifyContent: "space-between", alignItems: "flex-end", flexShrink: 0 }}>
                   <Box sx={{ height: "100%", justifyContent: "flex-end" }}>
                     <Typography variant="h2" sx={{ marginLeft: "20px" }}>Top plugins</Typography>
                   </Box>
@@ -160,6 +183,11 @@ export default function Dashboard() {
                   </Box>
                 </Box>
               </Grid>
+              {pluginList.map((plugin, index) => (
+                <Grid key={index} item xs={12} md={6} lg={4}>
+                  <PluginCard plugin={plugin} />
+                </Grid>
+              ))}
             </Grid>
             <Copyright />
           </Container>

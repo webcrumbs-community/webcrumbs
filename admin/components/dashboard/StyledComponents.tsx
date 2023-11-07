@@ -147,6 +147,7 @@ export const Drawer = styled(MuiDrawer, {
         position: "relative",
         whiteSpace: "nowrap",
         width: drawerWidth,
+        boxShadow: "0px 2px 4px 0px rgba(138, 146, 166, 0.10)",
         transition: theme.transitions.create("all", {
             easing: theme.transitions.easing.sharp,
             duration: theme.transitions.duration.enteringScreen,
