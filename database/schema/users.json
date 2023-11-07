@@ -1,0 +1,16 @@
+{
+    "_id": "ObjectId(...)",
+    "name": "John",
+    "surname": "Doe",
+    "email": "john@example.com",
+    "role": "admin",
+    "username": "johndoe",
+    "password": "hash(pwd)",
+    "site_ids": [
+        1,
+        2,
+        3
+    ],
+    "updatedOn": null,
+    "createdOn": null
+}

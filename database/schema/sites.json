@@ -1,0 +1,23 @@
+{
+    "_id": "ObjectId(...)",
+    "name": "John's Blog",
+    "description": "John's take on the world ;)",
+    "url": "https://johnsblog.com",
+    "status": "active",
+    "plugins": [
+        {
+            "_id": "ObjectId(...)",
+            "name": "Awesome Plugin",
+            "status": "active",
+            "url": "https://registery.webcrumbs.com/plugins/awesome-pluging-1"
+        }
+    ],
+    "themes": [
+        {
+            "_id": "ObjectId(...)",
+            "name": " Awesome Theme 2023",
+            "url": "https://registery.webcrumbs.com/themes/awesome-theme-2023",
+            "status": "active"
+        }
+    ]
+}
