@@ -18,3 +18,8 @@
 ## Repositories 
 - Module Federation ([examples](https://github.com/module-federation/module-federation-examples))
 
+If you have old examples of module federation with lerna, you can use the following steps to update them to the latest version:
+1. Create a packages directory in the root of your project and move all your plugins into this directory.
+2. Exclude the workspace key from your package.json file and add a private key with a value of true.
+3. Exclude the useWorkspaces key from your lerna.js file.
+4. Add a workspaces key to your package.json file and set it to ["packages/*"].

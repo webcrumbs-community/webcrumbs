@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,600;9..40,700&display=swap');
+
+html,
+body {
+  margin: 0;
+}
+
+.blur-shadow {
+  box-shadow: 0px 2px 4px 0px rgba(138, 146, 166, 0.30);
+  border-radius: 100%;
+}
+
+.menuItem-icon:hover {
+  filter: brightness(2);
+}
+
+
+.menuItem-icon.active {
+  filter: brightness(2);
+}

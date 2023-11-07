@@ -1,5 +1,5 @@
-import { SiteLayout } from "@/shared/layout/SiteLayout";
-import Home from "@/shared/home/Home";
+import { SiteLayout } from "@/components/layout/SiteLayout";
+import Home from "@/components/home/Home";
 
 export default function Index() {
   return (
