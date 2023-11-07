@@ -35,11 +35,22 @@ export const theme = createTheme({
       letterSpacing: -0.68,
     },
     h2: {
-      fontWeight: 500,
+      color: '#2B3674',
+      fontSize: 24,
+      fontWeight: 700,
+      lineHeight: 1.33,
+      letterSpacing: -0.48
     },
     h3: {
       fontWeight: 500,
     },
+    h6: {
+      color: '#ADB5BD',
+      fontSize: 16,
+      fontWeight: 700,
+      lineHeight: 1.75,
+      paddingBottom: "8px !important",
+    }
   },
   shape: {
     borderRadius: 20,
