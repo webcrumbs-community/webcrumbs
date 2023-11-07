@@ -1,0 +1,33 @@
+{
+  "_id": "ObjectId(...)",
+  "site_id": "ObjectId(...)/siteId",
+  "title": "Post Title",
+  "name": "post-title",
+  "content": "Post Content...",
+  "type": "post/page",
+  "status": "draft/published",
+  "comments_status": "open/closed",
+  "url": "https://johnsblog.com/posts/post-title-[id]",
+  "author": {
+    "user_id": "",
+    "username": "author_username"
+  },
+  "comments": [
+    {
+      "text": "Comment Text",
+      "user": {
+        "user_id": "",
+        "username": "commenter_username"
+      },
+      "like": "0/1"
+    }
+  ],
+  "tags": [
+    "tag1",
+    "tag2"
+  ],
+  "meta": {
+    "key1": "value1",
+    "key2": "value2"
+  }
+}

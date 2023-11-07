@@ -1,0 +1,35 @@
+{
+  "_id": "ObjectId(...)",
+  "name": "Plugin Name",
+  "description": "A brief description of the plugin's purpose and features.",
+  "author": {
+    "user_id": "author_user_id",
+    "username": "Author's Username"
+  },
+  "version": "1.0",
+  "upload_date": "2023-11-01T12:00:00Z",
+  "download_count": 100,
+  "file_path": "https://example.com/plugins/plugin_file.zip",
+  "category": "Utilities",
+  "tags": [
+    "tag1",
+    "tag2",
+    "tag3"
+  ],
+  "compatibility": {
+    "os": "Windows",
+    "version": "10"
+  },
+  "ratings": [
+    4.5,
+    4.7,
+    3.9
+  ],
+  "comments": [
+    {
+      "user_id": "commenter_user_id",
+      "text": "Great plugin!",
+      "date": "2023-11-02T08:30:00Z"
+    }
+  ]
+}
