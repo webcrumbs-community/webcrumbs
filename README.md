@@ -8,7 +8,7 @@
 -->
 <p align="center">
   <b><u>
-    October's WebCrumbs recap is coming—catch the highlights. <a href="https://webcrumbs.org/">Sign up here to receive it.</a>
+    October's WebCrumbs recap is coming—catch the highlights. <a href="https://webcrumbs.org/">Sign up here!</a>
   </u></b>
 </p>
 <img
