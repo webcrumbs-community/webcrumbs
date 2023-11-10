@@ -115,8 +115,9 @@ export default function Dashboard() {
                 color="inherit"
                 aria-label="toggle drawer"
                 onClick={toggleDrawer}
+                sx={{zIndex: 1}}
               >
-                <Box className="blur-shadow" height={30} width={30} >
+                <Box className="blur-shadow" height={30} width={30} sx={{zIndex: 1}} >
                   {open ?
                     <Image src={close} alt="Close menu" height={30} width={30} /> :
                     <Image src={close} alt="Open menu" style={{ transform: 'rotate(180deg)' }} height={30} width={30} />
@@ -125,8 +126,8 @@ export default function Dashboard() {
               </IconButton>
             </Box>
           </TopBar>
-          <TopBar>
-            {/* <NavBar /> */}
+          <TopBar sx={{ flex: 1, backgroundColor: '#FFFFFF'}}>
+            <NavBar />
           </TopBar>
         </AppBar>
         <Drawer variant="permanent" open={open}>
