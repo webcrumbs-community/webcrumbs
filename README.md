@@ -12,12 +12,9 @@
   </u></b>
 </p>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover-2.png"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/og-4-rounded-open.png"
     alt="WebCrumbs open graph"
 />
-
----
-
 <p align="center">
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/logo.svg"
@@ -93,8 +90,10 @@
     alt="WebCrumbs concept"
   />
 </p>
-
----
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/og-4-rounded-end.png"
+    alt="WebCrumbs open graph"
+/>
 
 ## Introduction
 WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
