@@ -8,11 +8,11 @@
 -->
 <p align="center">
   <b><u>
-    October's WebCrumbs recap is coming—catch the highlights. <a href="https://webcrumbs.org/">Sign up here!</a>
+    Catch the Latest Innovations: <a href="https://webcrumbs.org/">Get Your Monthly Dose of WebCrumbs Insights</a>
   </u></b>
 </p>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/og-4.png"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/cover-2.png"
     alt="WebCrumbs open graph"
 />
 
