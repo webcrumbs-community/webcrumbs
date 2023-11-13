@@ -1,0 +1,27 @@
+{
+  "name": "wc_plugins",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "rm -rf .next; NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001",
+    "lint": "next lint",
+    "start": "rm -rf .next; NEXT_PRIVATE_LOCAL_WEBPACK=true next dev -p 3001"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@module-federation/nextjs-mf": "^8.1.0-canary.1",
+    "@mui/material": "^5.14.16",
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5",
+    "webpack": "5.89.0"
+  }
+}
