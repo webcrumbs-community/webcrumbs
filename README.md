@@ -5,7 +5,7 @@
     WebCrumbs is in the making and being built in public by the community! <a href="#get-involved-calling-out-all-developers-">Join us</a>.
   </u></b>
 </p>
--->
+--> 
 <p align="center">
   <b><u>
     Catch the Latest Innovations: <a href="https://webcrumbs.org/">Get Your Monthly Dose of WebCrumbs Insights</a>
