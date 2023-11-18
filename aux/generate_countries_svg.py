@@ -15,7 +15,7 @@ def find_country_svg(country):
         print('Found flag for country: ' + country + ' - ' + flags[0])
         return flags[0]
 
-def generate_svg(countries, filename="_test.svg", size=48, margin=10):
+def generate_svg(countries, filename="_test.svg", size=48, margin=10, align='left'):
     svg_width = 600
     items_per_row = svg_width // (size + margin)
     svg_height = size * ((len(countries) - 1) // items_per_row + 1) + margin * ((len(countries) // items_per_row + 1))
@@ -31,7 +31,7 @@ def generate_svg(countries, filename="_test.svg", size=48, margin=10):
     countries = sorted(set(countries))
 
     for i, country in enumerate(countries):
-        if (i // items_per_row) == ((len(countries) - 1) // items_per_row):
+        if (i // items_per_row) == ((len(countries) - 1) // items_per_row) and align == 'center':
             x = last_row_offset + (i % items_per_row) * (size + margin)
         else:
             x = margin + (i % items_per_row) * (size + margin)
@@ -66,7 +66,7 @@ def get_countries():
 
 def generate_svgs():
     countries = get_countries()
-    generate_svg(countries, filename='COUNTRIES.svg', size=48, margin=10)
-    generate_svg(countries, filename='COUNTRIES-S.svg', size=16, margin=4)
+    generate_svg(countries, filename='COUNTRIES.svg', size=48, margin=10, align='left')
+    generate_svg(countries, filename='COUNTRIES-S.svg', size=16, margin=4, align='center')
 
 generate_svgs()
