@@ -2,8 +2,9 @@
   "name": "webcrumbs-experiment-1",
   "version": "0.0.0",
   "scripts": {
-    "install:wc": "yarn install && cd packages/admin && yarn install && cd ../plugin1 && yarn install && cd ../plugin2 && yarn install",
-    "reinstall:wc": "rm -rf yarn.lock node_modules && yarn install && cd packages/admin && rm -rf yarn.lock node_modules .next && yarn install && cd ../plugin1 && rm -rf yarn.lock node_modules && yarn install && cd ../plugin2 && rm -rf yarn.lock node_modules && yarn install",
+    "install:wc": "yarn install && find packages/* -maxdepth 0 -type d -exec bash -c 'cd {} && yarn install' \\;",
+    "uninstall:wc": "rm -rf yarn.lock package-lock.json node_modules && find packages/* -maxdepth 0 -type d -exec bash -c 'cd {} && rm -rf yarn.lock package-lock.json node_modules .next' \\;",
+    "reinstall:wc": "npm run uninstall:wc && npm run install:wc",
     "start": "lerna run --scope=wc_* --parallel start",
     "build": "lerna run --scope=wc_* --parallel build",
     "serve": "lerna run --scope=wc_* --parallel serve",
