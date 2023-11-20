@@ -95,6 +95,12 @@
     alt="WebCrumbs open graph"
 />
 
+**Quick actions:**
+[✅: Star our repository](https://github.com/webcrumbs-community/webcrumbs)
+[✅: Subscribe to our monthly newsletter](https://webcrumbs.org/)
+[✅: Join our Discord](https://discord.gg/ymVgdPe6rK)
+[✅: Join the discussion as a frontend dev, backend dev, architect, jack of all trades...](https://github.com/webcrumbs-community/webcrumbs/discussions)
+
 ## Introduction
 WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
 
