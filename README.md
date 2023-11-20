@@ -97,8 +97,11 @@
 
 **Quick actions:**
 [✅: Star our repository](https://github.com/webcrumbs-community/webcrumbs)
+
 [✅: Subscribe to our monthly newsletter](https://webcrumbs.org/)
+
 [✅: Join our Discord](https://discord.gg/ymVgdPe6rK)
+
 [✅: Join the discussion as a frontend dev, backend dev, architect, jack of all trades...](https://github.com/webcrumbs-community/webcrumbs/discussions)
 
 ## Introduction
