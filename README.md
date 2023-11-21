@@ -55,9 +55,6 @@
   <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Motivation">
     <img src="https://img.shields.io/badge/Motivation-2196F3" alt="Motivation"/>
   </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap">
-    <img src="https://img.shields.io/badge/Roadmap-9C27B0" alt="Roadmap"/>
-  </a>
   <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Thoughts">
     <img src="https://img.shields.io/badge/Thoughts-FF9800" alt="Thoughts"/>
   </a>
@@ -149,11 +146,7 @@ We're thrilled to have you interested in WebCrumbs! There are multiple ways you 
    See what issues are open and where you can contribute.  
    [View Open Issues](https://github.com/webcrumbs-community/webcrumbs/issues)
 
-5. **Read our Roadmap**  
-   Get all the information you need about our next steps.  
-   [Read our Roadmap](https://github.com/webcrumbs-community/webcrumbs/wiki/Roadmap)
-
-6. **Become a Maker**  
+5. **Become a Maker**  
    Join Product Hunt as a WebCrumbs maker.  
    [Become a Maker](https://github.com/webcrumbs-community/webcrumbs/issues/70)
 
