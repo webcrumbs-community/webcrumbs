@@ -100,9 +100,6 @@ export default function Login() {
           <Typography component="h1" variant="h5">
             {isLogin ? "Login" : "Sign Up"}
           </Typography>
-          <Typography>
-            Demo:  Just click login to continue
-          </Typography>
           <Box
             component="form"
             onSubmit={handleSubmit}
