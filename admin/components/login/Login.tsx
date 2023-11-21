@@ -13,19 +13,74 @@ import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Link from "next/link";
 import Copyright from "@/components/Copyright";
+import { signIn } from "next-auth/react";
+import { useRouter } from "next/router";
 
 // TODO remove, this demo shouldn't need to reset the theme.
 const defaultTheme = createTheme();
 
+/* TODO
+ * Add Loading Screen while performing Async Operations like Create User, Sign In
+ * Create forgot password page
+ * Properly handle errors from async operations
+ * 
+*/
+
 export default function Login() {
-  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+  async function createUser(email: FormDataEntryValue, password: FormDataEntryValue) {
+    const response = await fetch("/api/auth/register", {
+      method: "POST",
+      body: JSON.stringify({ email, password }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  
+    const data = await response.json();
+  
+    if (!response.ok) {
+      throw new Error(data.message || "Something went wrong!");
+    }
+  
+    return data;
+  }
+
+  const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
-      email: data.get("email"),
-      password: data.get("password"),
-    });
+
+    const enteredEmail = data.get("email")
+    const enteredPassword = data.get("password")
+
+    if (isLogin) {
+      try {
+        const result = await signIn("credentials", {
+          redirect: false,
+          email: enteredEmail,
+          password: enteredPassword,
+        });
+        if (!result?.error) {
+          // set some auth state
+          router.replace("/admin");
+        }
+      } catch (error) {
+        console.log(error)
+      }
+    } else {
+      try {
+        const result = await createUser(enteredEmail as FormDataEntryValue, enteredPassword as FormDataEntryValue);
+      } catch (error) {
+        console.log(error);
+      }
+    }
   };
+
+  const [isLogin, setIsLogin] = React.useState(true);
+  const router = useRouter();
+
+  function switchAuthModeHandler() {
+    setIsLogin((prevState) => !prevState);
+  }
 
   return (
     <ThemeProvider theme={defaultTheme}>
@@ -43,10 +98,7 @@ export default function Login() {
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
-            Login
-          </Typography>
-          <Typography>
-            Demo:  Just click login to continue
+            {isLogin ? "Login" : "Sign Up"}
           </Typography>
           <Box
             component="form"
@@ -78,16 +130,14 @@ export default function Login() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-            <Link href="/admin" passHref={true}>
-              <Button
-                type="submit"
-                fullWidth
-                variant="contained"
-                sx={{ mt: 3, mb: 2 }}
-              >
-                Login
-              </Button>
-            </Link>
+            <Button
+              type="submit"
+              fullWidth
+              variant="contained"
+              sx={{ mt: 3, mb: 2 }}
+            >
+              {isLogin ? "Login" : "Create Account"}
+            </Button>
             <Grid container>
               <Grid item xs>
                 <Link href="#">
@@ -95,8 +145,8 @@ export default function Login() {
                 </Link>
               </Grid>
               <Grid item>
-                <Link href="#">
-                  {"Don't have an account? Sign Up"}
+                <Link href="#" onClick={switchAuthModeHandler}>
+                  {isLogin ? "Don't have an account? Sign Up" : "Already have an account? Login"}
                 </Link>
               </Grid>
             </Grid>

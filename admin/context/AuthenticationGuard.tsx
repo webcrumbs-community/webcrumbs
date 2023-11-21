@@ -1,12 +1,13 @@
 import { SessionProvider, useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import {useEffect } from "react";
-export default function AuthenticatedRouteGuard(){
-    const { status , data: session } = useSession();
+import React, {useEffect } from "react";
+export default function AuthenticatedRouteGuard({ children }: { children: React.ReactElement}){
+    const { status , data: session } = useSession(); // Session lasts for 30 days by default
+    console.log(status, session)
     const router = useRouter();
     useEffect(() => {
         if(!status && !session){
-            router.push("/auth")
+            router.push("/login")
         }
     }, [status , router , session]);
 // Render children (protected content) only if the user is logged in
