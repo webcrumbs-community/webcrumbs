@@ -1,10 +1,16 @@
 import { Layout } from "@/components/layout/Layout";
 import Dashboard from "@/components/dashboard/Dashboard";
+import AuthenticationRouteGuard from "@/context/AuthenticationGuard"
+import { SessionProvider } from "next-auth/react";
 
 export default function Home() {
   return (
     <Layout>
-      <Dashboard />
+      <SessionProvider> {/* To modify session options pass props to the session provider component */}
+        <AuthenticationRouteGuard>
+          <Dashboard />
+        </AuthenticationRouteGuard>
+      </SessionProvider>
     </Layout>
   );
 }
