@@ -1,0 +1,21 @@
+{
+  "name": "webcrumbs-experiment-n",
+  "version": "0.0.0",
+  "scripts": {
+    "install:wc": "yarn install && find packages/* -maxdepth 0 -type d -exec bash -c 'cd {} && yarn install' \\;",
+    "uninstall:wc": "rm -rf yarn.lock package-lock.json node_modules && find packages/* -maxdepth 0 -type d -exec bash -c 'cd {} && rm -rf yarn.lock package-lock.json node_modules .next' \\;",
+    "reinstall:wc": "npm run uninstall:wc && npm run install:wc",
+    "start": "lerna run --scope=wc_* --parallel start & wait-on http-get://localhost:3000/ && open http://localhost:3000",
+    "stop": "lerna run --scope=wc_* --parallel stop",
+    "dev": "lerna run --scope=wc_* --parallel dev",
+    "build": "lerna run --scope=wc_* --parallel build",
+    "serve": "lerna run --scope=wc_* --parallel serve",
+    "clean": "lerna run --scope=wc_* --parallel clean",
+    "e2e:ci": "yarn start & wait-on http-get://localhost:3001/ && npx cypress run --config-file ../../cypress/config/cypress.config.ts --config '{\"supportFile\": \"../../cypress/support/e2e.ts\"}' --spec \"./e2e/*.cy.ts\" --browser=chrome"
+  },
+  "devDependencies": {
+    "lerna": "^7.4.2",
+    "wait-on": "7.0.1"
+  },
+  "private": true
+}
