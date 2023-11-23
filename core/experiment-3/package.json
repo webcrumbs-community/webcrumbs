@@ -1,5 +1,5 @@
 {
-  "name": "webcrumbs-experiment-n",
+  "name": "webcrumbs-experiment-3",
   "version": "0.0.0",
   "scripts": {
     "install:wc": "yarn install && find packages/* -maxdepth 0 -type d -exec bash -c 'cd {} && yarn install' \\;",
