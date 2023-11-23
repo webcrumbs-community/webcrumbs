@@ -5,7 +5,6 @@ Dynamic remote component loaded at runtime with SSR using VM
 - Host and remotes in plain javascript, not React/NextJS
 
 # Installation
-
 To install and start this repository locally, you need to follow these steps:
 
 1. Clone the repository to your local machine.

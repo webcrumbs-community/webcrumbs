@@ -1,3 +1,11 @@
+# Experiment purpose
+Dynamic Remote component loaded at runtime
+
+# Limitations
+- The remote component is loaded client-side, so it's not SSR
+
+# Installation
+
 To install and start this repository locally, you need to follow these steps:
 
 1. Clone the repository to your local machine.
