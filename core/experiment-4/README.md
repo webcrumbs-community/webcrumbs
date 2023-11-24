@@ -2,8 +2,9 @@
 Dynamic remote component loaded at runtime with SSR using VM with plugins in React
 
 # Limitations
-- Modules are loaded in the host, not in the remote, so the host must know about the modules that the remote is going to use.
-- The remote component must be a React component.
+- Dependencies are in the admin, not in the plugin bundle, so the host must know about the modules that the remote is going to use.
+- There's no communication back and forth between the admin and the plugin.
+- The plugin must be a React component.
 - VM security.
 
 # Installation
