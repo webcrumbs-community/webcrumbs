@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build" : "npx babel src/App.js --out-file ../dist/plugin1.js --presets=@babel/preset-env,@babel/preset-react"
+    "build": "npx babel src/App.js --out-file ../../dist/plugin1.js --presets=@babel/preset-env,@babel/preset-react"
   },
   "keywords": [],
   "author": "",
