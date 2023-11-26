@@ -15,7 +15,7 @@
     "@mui/material": "^5.14.12",
     "bcryptjs": "^2.4.3",
     "mongoose": "^7.6.1",
-    "next": "13.5.4",
+    "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
     "recharts": "^2.8.0"
@@ -26,7 +26,7 @@
     "@types/react-dom": "^18",
     "bcryptjs": "^2.4.3",
     "mongoose": "^7.6.1",
-    "next": "13.5.1",
+    "next": "13.5.6",
     "next-auth": "^4.23.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
