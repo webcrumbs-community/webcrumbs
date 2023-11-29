@@ -2,8 +2,16 @@ const express = require('express');
 const vm = require('vm');
 const ReactDOMServer = require('react-dom/server');
 const React = require('react');
+const rateLimit = require('express-rate-limit');
 
 const app = express();
+
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100 // limit each IP to 100 requests per windowMs
+});
+app.use(limiter);
+
 
 // Function to fetch a module from the Module Server
 async function fetchModule(pluginName) {
