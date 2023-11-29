@@ -15,7 +15,7 @@ If you discover a vulnerability, we would like to know about it so we can take s
 
 ### How to Report
 
-To report a security vulnerability, please send an email to [security@webcrumbs.ai](mailto:security@webcrumbs.ai). The email should include:
+To report a security vulnerability, please send an email to [community@webcrumbs.org](mailto:community@webcrumbs.org). The email should include:
 
 - A description of the vulnerability
 - Steps for reproducing the vulnerability, if applicable
