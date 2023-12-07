@@ -89,7 +89,7 @@
   <li>✅ <a href="https://github.com/webcrumbs-community/webcrumbs" alt="Star our repository">Star our repository</a></li>
   <li>✅ <a href="https://webcrumbs.org/" alt="Subscribe to our monthly newsletter">Subscribe to our monthly newsletter</a></li>
   <li>✅ <a href="https://discord.gg/ymVgdPe6rK" alt="Join our Discord">Join our Discord</a></li>
-  <li>✅ <a href="https://github.com/webcrumbs-community/webcrumbs/discussions" alt="Join the discussion as a frontend dev, backend dev, architect, jack of all trades...">Say hi</a></li>
+  <li>✅ <a href="https://github.com/webcrumbs-community/webcrumbs/discussions" alt="Join the discussion as a frontend dev, backend dev, architect, jack of all trades...">Say hi!</a></li>
 </ul>
 
 ## Introduction
