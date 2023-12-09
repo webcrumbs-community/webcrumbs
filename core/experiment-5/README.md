@@ -3,7 +3,7 @@
 - Loaded at runtime 
 - With SSR (using VM and Babel)
 - Hydrated on the client (using Webpack)
-- Write documentation on how to build plugins
+- With documentation on how to build plugins
 
 # Next steps
 - Experiment with new plugins
