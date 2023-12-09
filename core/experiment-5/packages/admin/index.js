@@ -83,7 +83,7 @@ app.get('/:pluginName', async (req, res) => {
     vm.createContext(sandbox);
     vm.runInNewContext(pluginCode.server, sandbox);
     const Plugin = sandbox.exports.default;
-    const pluginServer = ReactDOMServer.renderToString(React.createElement(Plugin));
+    const pluginServer = ReactDOMServer.renderToString(React.createElement(Plugin, { env: 'server'}));
     const pluginClient = pluginCode.client;
     
     res.status(200).send(`

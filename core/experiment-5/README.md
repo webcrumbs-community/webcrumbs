@@ -1,18 +1,21 @@
 # Experiment purpose
-Dynamic remote component loaded at runtime with SSR using VM with plugins in React
+[x] Dynamic remote component
+[x] Loaded at runtime 
+[x] With SSR using VM and Babel
+[x] Hydrated on the client using Webpack
 
-# Limitations
-- Dependencies are in the admin, not in the plugin bundle, so the host must know about the modules that the remote is going to use.
-- There's no communication back and forth between the admin and the plugin.
-- The plugin must be a React component.
-- VM security.
+# Next steps
+- Experiment with dependencies so that the host do not need to know about the plugin.
+- Experiment with communication back and forth between the admin and the plugin.
+- Experiment with plugins in other JavaScript frameworks.
+- Improve VM security.
 
 # Installation
 
 To install and start this repository locally, you need to follow these steps:
 
 1. Clone the repository to your local machine.
-2. Navigate to this directory of the project in your terminal: `cd webcrumbs/core/experiment-4`
+2. Navigate to this directory of the project in your terminal: `cd webcrumbs/core/experiment-5`
 3. Run `yarn reinstall:wc` to install the dependencies for the project and for all the packages.
 4. Run `yarn build:wc` to build all the plugins.
 5. Run `yarn start` to build and serve all packages in their respective ports.
