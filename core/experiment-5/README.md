@@ -3,10 +3,10 @@
 - Loaded at runtime 
 - With SSR (using VM and Babel)
 - Hydrated on the client (using Webpack)
+- Write documentation on how to build plugins.
 
 # Next steps
-- Write documentation on how to build plugins. @Julia
-- Experiment with new plugins. @Aditya
+- Experiment with new plugins.
 - Experiment with dependencies so that the host do not need to know about the plugin.
 - Experiment with communication back and forth between the admin and the plugin.
 - Experiment with plugins in other JavaScript frameworks.
