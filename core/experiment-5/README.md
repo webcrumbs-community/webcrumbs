@@ -1,7 +1,10 @@
 # Experiment purpose
 [x] Dynamic remote component
+
 [x] Loaded at runtime 
+
 [x] With SSR using VM and Babel
+
 [x] Hydrated on the client using Webpack
 
 # Next steps
