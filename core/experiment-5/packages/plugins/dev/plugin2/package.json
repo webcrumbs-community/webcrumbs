@@ -1,12 +1,11 @@
 {
-  "name": "wc_plugin_2",
+  "name": "plugin2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./dist/server.js",
-    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/plugin2 && mv ./dist/client.js ../../dist/plugin2/",
-    "build:server": "npx babel src/App.jsx --out-file ../../dist/plugin2/server.js",
+    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/$npm_package_name && mv ./dist/client.js ../../dist/$npm_package_name/",
+    "build:server": "npx babel src/App.jsx --out-file ../../dist/$npm_package_name/server.js",
     "build": "yarn build:client && yarn build:server"
   },
   "keywords": [],

@@ -7,12 +7,14 @@ const rateLimit = require('express-rate-limit');
 const app = express();
 
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000, // 15 minutes
-  max: 100 // limit each IP to 100 requests per windowMs
+  windowMs: 15 * 60 * 1000,
+  max: 100
 });
 app.use(limiter);
 
 const cached_plugins = new Map();
+
+// Remember to update this list when adding new plugins
 installed_plugins = ['plugin1', 'plugin2'];
 
 app.get('/favicon.ico', (req, res) => {
@@ -83,7 +85,7 @@ app.get('/:pluginName', async (req, res) => {
     vm.createContext(sandbox);
     vm.runInNewContext(pluginCode.server, sandbox);
     const Plugin = sandbox.exports.default;
-    const pluginServer = ReactDOMServer.renderToString(React.createElement(Plugin, { env: 'server'}));
+    const pluginServer = ReactDOMServer.renderToString(React.createElement(Plugin, { anyProps: 'anyContent'}));
     const pluginClient = pluginCode.client;
     
     res.status(200).send(`

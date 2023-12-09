@@ -1,9 +1,7 @@
-const nodeExternals = require('webpack-node-externals');
-
 const sharedModuleRules = {
   rules: [
     {
-      test: /\.?jsx$/,
+      test: /\.(js|jsx|tsx)$/,
       exclude: /node_modules/,
       use: {
         loader: "babel-loader",
@@ -16,24 +14,12 @@ const sharedModuleRules = {
   ]
 }
 
-module.exports = (env) => {
-  if (env.client) {
-    return {
-      entry: './src/index.jsx',
-      output: {
-        filename: './client.js',
-      },
-      module: sharedModuleRules
-    }
-  }
-
+module.exports = () => {
   return {
-    target: 'node',
-    entry: './server.js',
+    entry: './src/index.jsx',
     output: {
-      filename: './server.js',
+      filename: './client.js',
     },
-    externals: nodeExternals(),
     module: sharedModuleRules
   }
 }
