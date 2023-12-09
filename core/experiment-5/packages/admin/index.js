@@ -15,7 +15,7 @@ app.use(limiter);
 const cached_plugins = new Map();
 
 // Remember to update this list when adding new plugins
-installed_plugins = ['plugin1', 'plugin2'];
+installed_plugins = ['plugin1', 'plugin2', 'template'];
 
 app.get('/favicon.ico', (req, res) => {
   res.send('');
