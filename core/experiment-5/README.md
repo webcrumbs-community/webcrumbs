@@ -9,6 +9,7 @@
 - Experiment with new plugins
 - Experiment with dependencies so that the host do not need to know about the plugin
 - Experiment with communication back and forth between the admin and the plugin
+- Experiment with styling the plugins with the admin style and with its own style
 - Experiment with plugins in other JavaScript frameworks
 - Improve VM security
 
