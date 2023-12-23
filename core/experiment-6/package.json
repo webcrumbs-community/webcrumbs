@@ -1,0 +1,23 @@
+{
+  "name": "webcrumbs-experiment-5",
+  "version": "0.0.0",
+  "scripts": {
+    "install:wc": "yarn install && find packages/* -maxdepth 0 -type d -exec bash -c 'cd {} && yarn install' \\; && find packages/plugins/dev/* -maxdepth 0 -type d -exec bash -c 'cd {} && yarn install'  \\;",
+    "uninstall:wc": "rm -rf yarn.lock package-lock.json node_modules && find packages/* -maxdepth 0 -type d -exec bash -c 'cd {} && rm -rf yarn.lock package-lock.json node_modules .next' \\; && find packages/plugins/dev/* -maxdepth 0 -type d -exec bash -c 'cd {} && rm -rf yarn.lock package-lock.json node_modules .next' \\;",
+    "reinstall:wc": "yarn uninstall:wc && yarn install:wc",
+    "build:wc": "find packages/plugins/dev/* -maxdepth 0 -type d -exec bash -c 'echo Building {} && cd {} && yarn build || echo Failed to build {}' \\;",
+    "stop": "for i in {0..9}; do lsof -ti tcp:300${i} | xargs kill; done",
+    "start": "yarn stop && lerna run --scope=wc_* --parallel start & wait-on http-get://localhost:3000/ && open http://localhost:3000",
+    "dev": "yarn reinstall:wc && yarn build:wc && yarn start",
+    "build": "lerna run --scope=wc_* --parallel build",
+    "serve": "lerna run --scope=wc_* --parallel serve",
+    "clean": "lerna run --scope=wc_* --parallel clean",
+    "e2e:ci": "yarn start & wait-on http-get://localhost:3001/ && npx cypress run --config-file ../../cypress/config/cypress.config.ts --config '{\"supportFile\": \"../../cypress/support/e2e.ts\"}' --spec \"./e2e/*.cy.ts\" --browser=chrome"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "lerna": "^7.4.2",
+    "wait-on": "7.0.1"
+  },
+  "private": true
+}
