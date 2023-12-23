@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
 
 export default function App(props) {
-  const [counter, setCounter] = useState(0);
+  const [text, setText] = useState('');
 
   useEffect(() => {
     console.log(props);
   }, []);
 
   return (
-    <button onClick={() => { setCounter(counter + 1) }}>Counter: {counter}</button>
+    <div>
+      <input type="text" onChange={(e) => setText(e.target.value)} value={text} />
+      Your input: {text}
+    </div>
   )
 }
