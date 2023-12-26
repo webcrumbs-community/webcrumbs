@@ -31,19 +31,9 @@ export default function App(props) {
         reader.readAsDataURL(fileUploaded) // Read file using browser API
         reader.onload = async () => {
           console.log(reader.result)
-          await setFileContents(reader.result, () => console.log(fileContents, 'done'))
-          console.log(fileContents)
+          setFileContents(reader.result)
         }
-        // await new Promise((resolve, reject) => {
-        //   reader.onload = () => {resolve(reader.result), console.log(reader.result, 'done')};
-        //   reader.onerror = reject;
-        //   reader.readAsDataURL(fileUploaded);
-        // });
-        // setFileContents(reader.result);
-        // console.log(fileContents)
       }
-      
-      console.log(require.resolve('./convertToPdf'))
       
       // const handleFileConversionClient = (imageData) => {
         
@@ -68,8 +58,6 @@ export default function App(props) {
       //   console.log(newPdfFile)
       // }
 
-      
-
       // Attach event handlers to DOM elements
       const inputElement = document.getElementById('file-input')
       inputElement.addEventListener('change', (e) => handleFileUpload(e))
@@ -87,8 +75,8 @@ export default function App(props) {
   const importHandleConversionFunction = async () => {
     // console.log(import('./convertToPdf'), await import('./convertToPdf'))
     const { handleFileConversion: temporaryFunction } = await import('./convertToPdf');
-    await setHandleFileConversion({temporaryFunction})
-    console.log(handleFileConversion, temporaryFunction, 'loaded successfully')
+    setHandleFileConversion({temporaryFunction})
+    console.log(temporaryFunction, 'loaded successfully')
     setIsConversionFunctionLoaded(true)
   }
 
@@ -102,13 +90,11 @@ export default function App(props) {
           console.log(conversionFunction, handleFileConversion)
           const newPdfFile = conversionFunction(imageData);
           console.log(newPdfFile)
-          await setPdfFile(newPdfFile)
-          console.log(pdfFile)
+          setPdfFile(newPdfFile)
         };
       } catch (error) {
         console.error('Error importing convertToPdf:', error);
         // Handle the error, e.g., display an error message
-      // }
       } finally {
         setIsConverting(false); // End loading
       }
@@ -150,8 +136,7 @@ export default function App(props) {
         {/* <button id="file-convert" onClick={() => handleFileConversionClient(fileContents)}>Click to convert to pdf</button> */}
         {!isFileImage && <h5>Uploaded file is not an Image</h5>}
         {isConverting && <p>Converting to PDF...</p>}
-        {pdfFile}
-        {(isFileImage && pdfFile) && <button id="file-download" onClick={pdfFile.save(`${fileName.split('.')[0]}.pdf`)}>Click to download pdf</button>}
+        {(isFileImage && pdfFile) && <button id="file-download" onClick={() => pdfFile.save(`${fileName.split('.')[0]}.pdf`)}>Click to download pdf</button>}
       </>
       )}
       {typeof window === 'undefined' && <div>Loading...</div>}
