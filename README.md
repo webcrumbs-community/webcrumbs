@@ -1,6 +1,6 @@
 <p align="center">
   <b><u>
-    Catch the Latest Innovations: <a href="https://webcrumbs.org/">Get Your Monthly Dose of WebCrumbs Insights</a>
+    Catch the Latest Innovations: <a href="https://webcrumbs.org/">Get Your Monthly Dose of WebCrumbs Insights</a>. Happy celebrations!
   </u></b>
 </p>
 <img
