@@ -1,50 +1,160 @@
 import React, { useEffect, useState } from "react";
-// import { jsPDF } from 'jspdf'
-
-const jsPDF = require('jspdf')
 
 export default function App(props) {
-  const [fileName, setFileName] = useState('');
-  const [fileContents, setFileContents] = useState('')
+  const [fileName, setFileName] = useState(null);
+  const [fileContents, setFileContents] = useState(null)
   const [isFileImage, setIsFileImage] = useState(false)
+  const [pdfFile, setPdfFile] = useState(null)
+  const [handleFileConversion, setHandleFileConversion] = useState(null)
+  const [isConverting, setIsConverting] = useState(false)
+  const [isConversionFunctionLoaded, setIsConversionFunctionLoaded] = useState(false);
 
-  const reader = new FileReader()
-  const pdfFile = new jsPDF()
+  // console.log(pdfFile)
 
-  const handleFileUpload = (e) => {
-    const fileUploaded = e.target.files[0]
-    console.log(fileUploaded)
-    setFileName(fileUploaded.name)
+  useEffect(async() => {
+    if (typeof window !== 'undefined' && window.FileReader) {
+      const reader = new FileReader()
+      // const pdfFile = new jsPDF()
 
-    setIsFileImage(fileUploaded.type.startsWith('image/'))
+      setIsConversionFunctionLoaded(false)
+      // Import client-side PDF functionality conditionally
+      await importHandleConversionFunction()
+    
+      const handleFileUpload = async (e) => {
+        const fileUploaded = e.target.files[0]
+        console.log(fileUploaded)
+        setFileName(fileUploaded.name)
+    
+        setIsFileImage(fileUploaded.type.startsWith('image/'))
+    
+        console.log(reader)
+        reader.readAsDataURL(fileUploaded) // Read file using browser API
+        reader.onload = async () => {
+          console.log(reader.result)
+          await setFileContents(reader.result, () => console.log(fileContents, 'done'))
+          console.log(fileContents)
+        }
+        // await new Promise((resolve, reject) => {
+        //   reader.onload = () => {resolve(reader.result), console.log(reader.result, 'done')};
+        //   reader.onerror = reject;
+        //   reader.readAsDataURL(fileUploaded);
+        // });
+        // setFileContents(reader.result);
+        // console.log(fileContents)
+      }
+      
+      console.log(require.resolve('./convertToPdf'))
+      
+      // const handleFileConversionClient = (imageData) => {
+        
+      //   console.log(import('./convertToPdf'), import('./convertToPdf').then(() => console.log('done')))
+      //   // Import client-side PDF functionality conditionally
+      //   import('./convertToPdf').then(({ handleFileConversion: temporaryFunction }) => {
+      //     setHandleFileConversion({temporaryFunction}); // Assign to a state variable
+      //   }).catch((error) => {
+      //     console.error('Error importing convertToPdf:', error);
+      //     // Handle the error, e.g., display an error message
+      //   });
+      //   console.log(handleFileConversion)
 
-    console.log(reader)
-    reader.readAsDataURL(fileUploaded)
-    reader.onload = () => {
-      console.log(reader.result)
-      setFileContents(reader.result)
+      //   // const newPdfFile = new jsPDF(); // Create PDF object here
+      //   // newPdfFile.addImage(imageData, 'JPEG', 10, 10);
+      //   // setPdfFile(newPdfFile); // Update state with the new PDF object
+      //   // // pdfFile.addImage(imageData, 'JPEG', 10, 10) // Modify existing PDF object
+
+      //   console.log(handleFileConversion)
+      //   const newPdfFile = handleFileConversion(imageData)
+      //   setPdfFile(newPdfFile)
+      //   console.log(newPdfFile)
+      // }
+
+      
+
+      // Attach event handlers to DOM elements
+      const inputElement = document.getElementById('file-input')
+      inputElement.addEventListener('change', (e) => handleFileUpload(e))
+
+      // const convertButtonElement = document.getElementById('file-convert')
+      // convertButtonElement.addEventListener('click', () => handleFileConversionClient(fileContents))
+
+      // const saveButtonElement = document.getElementById('file-download')
+      // saveButtonElement.addEventListener('click', pdfFile.save(`${fileName.split('.')[0]}.pdf`))
+
+      console.log(inputElement)
+    }
+  }, [])
+
+  const importHandleConversionFunction = async () => {
+    // console.log(import('./convertToPdf'), await import('./convertToPdf'))
+    const { handleFileConversion: temporaryFunction } = await import('./convertToPdf');
+    await setHandleFileConversion({temporaryFunction})
+    console.log(handleFileConversion, temporaryFunction, 'loaded successfully')
+    setIsConversionFunctionLoaded(true)
+  }
+
+  async function handleFileConversionClient(imageData, conversionFunction) {
+    console.log(imageData, fileContents, conversionFunction)
+    if (imageData) {
+      try {
+        setIsConverting(true); // Start loading
+        
+        if (conversionFunction !== null) {
+          console.log(conversionFunction, handleFileConversion)
+          const newPdfFile = conversionFunction(imageData);
+          console.log(newPdfFile)
+          await setPdfFile(newPdfFile)
+          console.log(pdfFile)
+        };
+      } catch (error) {
+        console.error('Error importing convertToPdf:', error);
+        // Handle the error, e.g., display an error message
+      // }
+      } finally {
+        setIsConverting(false); // End loading
+      }
     }
   }
 
-  const handleFileConversion = (imageData) => {
-    pdfFile.addImage(imageData, 'JPEG', 10, 10)
-  }
+  // useEffect(() => {
+  //   if (handleFileConversion && !isConverting && isFileImage) {
+  //     handleFileConversionClient(fileContents, handleFileConversion);
+  //   }
+  // }, [handleFileConversion, isConverting, fileContents, isFileImage]);
 
   useEffect(() => {
     console.log(props);
   }, []);
 
   return (
+    // <div>
+    //   <h3>This plugin is aimed at testing how to convert an image uploaded to pdf and then downloading the saved pdf.</h3>
+    //   <label htmlFor="file-input">Click the button to upload image</label>
+    //   <input type="file" name="fileInput" id="file-input" onChange={(e) => handleFileUpload(e)} />
+    //   <p>File Name: {fileName}</p>
+
+    //   <button onClick={() => handleFileConversion(fileContents)}>Click to convert to pdf</button>
+    //   {!isFileImage && <h5>Uploaded file is not an Image</h5>}
+
+    //   {isFileImage && <button onClick={() => pdfFile.save(`${fileName.split('.')[0]}.pdf`)}>Click to download pdf</button>}
+    // </div>
+
     <div>
-      <h3>This plugin is aimed at testing how to convert an image uploaded to pdf and then downloading the saved pdf.</h3>
-      <label htmlFor="file-input">Click the button to upload image</label>
-      <input type="file" name="fileInput" id="file-input" onChange={(e) => handleFileUpload(e)} />
-      <p>File Name: {fileName}</p>
-
-      <button onClick={() => handleFileConversion(fileContents)}>Click to convert to pdf</button>
-      {!isFileImage && <h5>Uploaded file is not an Image</h5>}
-
-      {isFileImage && <button onClick={() => pdfFile.save(`${fileName.split('.')[0]}.pdf`)}>Click to download pdf</button>}
+      {typeof window !== 'undefined' && ( // Conditional rendering for client-side elements
+      <>
+        <h3>This plugin is aimed at testing how to convert an image uploaded to pdf and then downloading the saved pdf.</h3>
+        <label htmlFor="file-input">Click the button to upload image</label>
+        <input type="file" name="fileInput" id="file-input" accept="image/"/>
+        <p>File Name: {fileName}</p>
+        <img src={fileContents} width={200} height={200} alt="Image Preview" /><br />
+        {(!isConverting && isConversionFunctionLoaded) && <button id="file-convert" onClick={() => handleFileConversionClient(fileContents, handleFileConversion.temporaryFunction)}>Click to convert to pdf</button>}
+        {/* <button id="file-convert" onClick={() => handleFileConversionClient(fileContents)}>Click to convert to pdf</button> */}
+        {!isFileImage && <h5>Uploaded file is not an Image</h5>}
+        {isConverting && <p>Converting to PDF...</p>}
+        {pdfFile}
+        {(isFileImage && pdfFile) && <button id="file-download" onClick={pdfFile.save(`${fileName.split('.')[0]}.pdf`)}>Click to download pdf</button>}
+      </>
+      )}
+      {typeof window === 'undefined' && <div>Loading...</div>}
     </div>
   )
 }
