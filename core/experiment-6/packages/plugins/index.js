@@ -10,6 +10,10 @@ app.get('/plugins/:pluginName/server', (req, res) => {
     const { pluginName } = req.params;
     res.sendFile(path.join(__dirname, '/dist/' + pluginName, 'server.js'));
 });
+app.get('/plugins/:pluginName/manifest', (req, res) => {
+  const { pluginName } = req.params;
+  res.sendFile(path.join(__dirname, '/dist/' + pluginName, 'plugin.json'));
+});
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
