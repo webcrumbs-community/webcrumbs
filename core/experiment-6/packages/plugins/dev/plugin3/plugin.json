@@ -1,0 +1,5 @@
+{
+    "name": "plugin1",
+    "dependencies": ["jspdf"]
+}
+  
