@@ -73,11 +73,17 @@ export default function App(props) {
   }, [])
 
   const importHandleConversionFunction = async () => {
-    // console.log(import('./convertToPdf'), await import('./convertToPdf'))
-    const { handleFileConversion: temporaryFunction } = await import('./convertToPdf');
-    setHandleFileConversion({temporaryFunction})
-    console.log(temporaryFunction, 'loaded successfully')
-    setIsConversionFunctionLoaded(true)
+    try {
+      // console.log(import('./convertToPdf'), await import('./convertToPdf'))
+      console.log('Before Import')
+      const { handleFileConversion: temporaryFunction } = await import('./convertToPdf');
+      console.log('After Import')
+      setHandleFileConversion({temporaryFunction})
+      console.log('Dynamic Import loaded successfully: ', temporaryFunction)
+      setIsConversionFunctionLoaded(true)
+    } catch (error) {
+      console.error('Error importing convertToPdf: ', error)
+    }
   }
 
   async function handleFileConversionClient(imageData, conversionFunction) {
