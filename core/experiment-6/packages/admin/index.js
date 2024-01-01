@@ -3,6 +3,7 @@ const vm = require('vm');
 const ReactDOMServer = require('react-dom/server');
 const React = require('react');
 const rateLimit = require('express-rate-limit');
+const shouldInstallDynamically = true
 
 const app = express();
 
@@ -43,11 +44,41 @@ app.get('/', (req, res) => {
 });
 
 
-async function fetchPlugin(pluginName) {
+async function fetchPlugin(pluginName, sandbox) {
   if (cached_plugins.has(pluginName)) {
     return cached_plugins.get(pluginName);
   }
   const fetch = (await import('node-fetch')).default;
+
+  if (!sandbox) {
+    console.error('sandbox is not ready')
+    throw new Error("sandbox is not defined or ready");
+ }
+
+  const packagePath = await fetch(`http://localhost:3001/plugins/${pluginName}/manifest`); // Adjust path as needed
+  // console.log(packagePath)
+  if (packagePath.statusText === 'OK') {
+    const packageData = await packagePath.json()
+    console.log(packageData)
+    
+    if (packageData.dependencies) {
+      for (const dependency of packageData.dependencies) {
+        // console.log(dependency)
+        try {
+          require.resolve(dependency); // Check if already installed
+          // console.log(require.resolve(dependency))
+        } catch (error) {
+          if (shouldInstallDynamically) { // Flag to control dynamic installation
+            await installDependency(dependency); // Install if missing
+          } else {
+            throw new Error(`Dependency ${dependency} is missing and dynamic installation is disabled.`);
+          }
+        }
+        // console.log(sandbox)
+        sandbox[dependency] = require(dependency); // Expose in sandbox
+      }
+    }
+  }
 
   const server_response = await fetch(`http://localhost:3001/plugins/${pluginName}/server`);
   if (!server_response.ok) {
@@ -66,12 +97,20 @@ async function fetchPlugin(pluginName) {
   return pluginCode;
 }
 
+async function installDependency(dependency) {
+  try {
+    const { execSync } = require('child_process');
+    execSync(`yarn add ${dependency}`, { stdio: 'inherit' }); // Use Yarn for installation
+  } catch (error) {
+    console.error(`Failed to install dependency ${dependency}`);
+    throw error;
+  }
+}
+
 app.get('/:pluginName', async (req, res) => {
   const { pluginName } = req.params;
 
   try {
-    const pluginCode = await fetchPlugin(pluginName);
-
     const sandbox = {
       require: require,
       console: console,
@@ -81,7 +120,10 @@ app.get('/:pluginName', async (req, res) => {
       module: {},
       exports: { default: {} }
     };
-
+    
+    const pluginCode = await fetchPlugin(pluginName, sandbox);
+    // console.log(pluginCode)
+    
     vm.createContext(sandbox);
     vm.runInNewContext(pluginCode.server, sandbox);
     const Plugin = sandbox.exports.default;
@@ -115,6 +157,8 @@ app.get('/plugins/:pluginName/:env', async (req, res) => {
   res.setHeader('Content-Type', 'application/javascript');
   res.send(response[env]);
 });
+
+app.use('/plugins/:pluginName', express.static('/plugins/:pluginName'))
 
 const PORT = 3000;
 app.listen(PORT, () => {
