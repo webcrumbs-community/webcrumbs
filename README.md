@@ -22,17 +22,21 @@
 </p>
 </br>
 <p align="center">
+  <a href="https://www.webcrumbs.org/">
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-news.svg"
       alt="Sign our newsletter"
       height="50px"
   />
+  </a>
   &nbsp;
+  <a href="https://discord.gg/ZCj5hFv8xV">
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-discord.svg"
       alt="Join our discord"
       height="50px"
   />
+  </a>
 </p>
 <br/><br/>
 <p align="center">
