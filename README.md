@@ -1,256 +1,302 @@
 <p align="center">
-  <b><u>
-    Catch the Latest Innovations: <a href="https://webcrumbs.org/">Get Your Monthly Dose of WebCrumbs Insights</a>. Happy celebrations!
-  </u></b>
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cover-2x.png"
+      alt="like wordpress for node.js: we’re building the modern web, one plugin at a time"
+      width="448px"
+  />
 </p>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/og-4-rounded-open.png"
-    alt="WebCrumbs open graph"
-/>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/logo.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/logo.svg"
       alt="WebCrumbs logo"
-      width="280px"
-  /> 
-</p>
-<h3 align="center">
-  The next evolution in collaborative web development
-</h3>
-<p align="center">
-  <a href="https://github.com/webcrumbs-community/webcrumbs/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/discussions">
-    <img src="https://img.shields.io/github/discussions/webcrumbs-community/webcrumbs" alt="GitHub Discussions">
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/issues">
-    <img src="https://img.shields.io/github/issues/webcrumbs-community/webcrumbs" alt="Open Issues">
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/contributors">
-     <img src="https://img.shields.io/github/contributors/webcrumbs-community/webcrumbs" alt="GitHub contributors">
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/issues">
-     <img src="https://img.shields.io/badge/open%20for%20contribution-8A2BE2" alt="Open for contribution"/>
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Home">
-    <img src="https://img.shields.io/badge/Wiki-F44336" alt="Wiki"/>
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Architecture">
-    <img src="https://img.shields.io/badge/Architecture-4CAF50" alt="Architecture"/>
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Manifesto">
-    <img src="https://img.shields.io/badge/Manifesto-FFC107" alt="Manifesto"/>
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Motivation">
-    <img src="https://img.shields.io/badge/Motivation-2196F3" alt="Motivation"/>
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Thoughts">
-    <img src="https://img.shields.io/badge/Thoughts-FF9800" alt="Thoughts"/>
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/Uniqueness">
-    <img src="https://img.shields.io/badge/Uniqueness-03A9F4" alt="Uniqueness"/>
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/FAQ:-Have-any-questions%3F">
-    <img src="https://img.shields.io/badge/FAQ-8BC34A" alt="FAQ"/>
-  </a>
-  <a href="https://github.com/webcrumbs-community/webcrumbs/wiki/X:-WebCrumbs-vs.-Contentful">
-    <img src="https://img.shields.io/badge/Comparison-E91E63" alt="Comparison"/>
-  </a>
-</p>
-<p align="center">
-  <img src="/COUNTRIES-S.svg" alt="Countries">
-</p>
-<p align="center">
-  <a href="https://twitter.com/BuildWebCrumbs">
-    <img height="24" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/social-media-x.svg" alt="WebCrumbs at X"/>
-  </a>
-  &nbsp;
-  <a href="https://discord.gg/ymVgdPe6rK">
-    <img height="24" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/social-media-discord.svg" alt="WebCrumbs at Discord"/>
-  </a>
+      width="255px"
+  />
 </p>
 <br/>
 <p align="center">
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/Mac Monitor Faded.png"
-    alt="WebCrumbs concept"
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/main-intro.svg"
+      alt="The next revolution in collaborative web development"
+      width="588px"
   />
 </p>
+</br>
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-news.svg"
+      alt="Sign our newsletter"
+      height="50px"
+  />
+  &nbsp;
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-discord.svg"
+      alt="Join our discord"
+      height="50px"
+  />
+</p>
+<br/><br/>
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/screen-2x.png"
+      alt="Screen concept"
+      width="864px"
+  />
+</p> 
+<br/><br/>
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-intro.svg"
+      alt="An introduction"
+      height="24px"
+  />
+</p>
+<br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/og-4-rounded-end.png"
-    alt="WebCrumbs open graph"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-vision.svg"
+    alt="Vision"
+    height="12px"
 />
 
-<b>Quick actions:</b>
-<ul>
-  <li>✅ <a href="https://github.com/webcrumbs-community/webcrumbs" alt="Star our repository">Star our repository</a></li>
-  <li>✅ <a href="https://webcrumbs.org/" alt="Subscribe to our monthly newsletter">Subscribe to our monthly newsletter</a></li>
-  <li>✅ <a href="https://discord.gg/ymVgdPe6rK" alt="Join our Discord">Join our Discord</a></li>
-  <li>✅ <a href="https://github.com/webcrumbs-community/webcrumbs/discussions" alt="Join the discussion as a frontend dev, backend dev, architect, jack of all trades...">Say hi!</a></li>
-</ul>
+WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for Node.js frontends", including those written in React. Whether you're a developer or not, you'll find it effortless to create, manage, and scale your node.js-based websites using our intuitive admin panel.
 
-## Introduction
-WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for React." Whether you're a developer or not, you'll find it effortless to create, manage, and scale your React-based websites using our intuitive admin panel.
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/graph-position.svg"
+      alt="We're open source, easy and modern"
+      width="360px"
+  />
+</p>
 
 **Your Support Matters**  
 If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs).
 
-## Key Features
+<br/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-features.svg"
+    alt="Key features"
+    height="12px"
+/>
+
 - **Plugin Platform**: Integrate and manage React plugins to extend functionality effortlessly.
 - **No-Code Admin Panel**: Control every aspect of your website from a robust admin interface, no coding needed.
 - **Fully Customizable**: Developers can tailor WebCrumbs according to specific needs.
 - **Open Source & Free**: WebCrumbs is committed to being an open-source, community-driven project.
 
-## The Future is Collaborative
-Web development has moved beyond silos. Today’s reality is collaborative, involving not just developers but also designers, marketers, and other professionals.
-
-🌟 **A Hub for Multi-Disciplinary Collaboration**  
-WebCrumbs is designed to adapt to this complex environment. It serves as an integrated platform that accommodates the varied needs and roles within an organization.
-
-🌟 **Empowering Developers and Enabling Monetization**  
-Our plugin platform allows developers to offer specialized solutions, either open-source or premium, thus creating a space for economic growth within the developer community.
-
-🌟 **Ahead of the Curve: AI and Future Technologies**  
-WebCrumbs is built with scalability in mind, capable of incorporating future technologies like AI to keep your web projects at the forefront.
-
-## Get Involved: Calling out all developers 📣
-
-The future of React-based web development is a story yet to be fully written, and we invite you to be a co-author of this narrative. Your skills and insights can contribute significantly to the product and the community at large.
-
-We're thrilled to have you interested in WebCrumbs! There are multiple ways you can contribute and make a significant impact:
-
-1. **Star the Repository**  
-   Show your support and help us gain more visibility by starring ⭐️ the repository.  
-   [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs)
-
-2. **Subscribe to our Newsletter**  
-   Don't miss out—subscribe for monthly insights and progress updates.  
-   [Subscribe to our Newsletter](https://webcrumbs.org/)
-
-3. **Join the Discussions**  
-   Your opinions and ideas matter. Participate in ongoing discussions or start a new one.  
-   [Go to Discussions](https://github.com/webcrumbs-community/webcrumbs/discussions)
-
-4. **Check Open Issues**  
-   See what issues are open and where you can contribute.  
-   [View Open Issues](https://github.com/webcrumbs-community/webcrumbs/issues)
-
-5. **Become a Maker**  
-   Join Product Hunt as a WebCrumbs maker.  
-   [Become a Maker](https://github.com/webcrumbs-community/webcrumbs/issues/70)
-
-We're excited to see how you'll contribute to shaping the future of WebCrumbs! Happy coding!
-
-### Contributing 101
-- Here is a thorough guide on open source contribution: [opensource.guide](https://opensource.guide/how-to-contribute/#opening-a-pull-request).
-- If you are looking for a quick start, check this [tutorial from Chaser324](https://gist.github.com/Chaser324/ce0505fbed06b947d962).
-
-## Become a Developer Advocate for WebCrumbs 📣
-
-React and WebCrumbs enthusiast? Step into the role of a Developer Advocate! Join an elite team where you'll champion our mission and spread the WebCrumbs revolution across the developer galaxy. Connect, engage, and energize our community with your unique voice.
-
-Feeling the call to adventure? Ignite your journey by contributing to our vibrant discussion in [Discussion #109](https://github.com/webcrumbs-community/webcrumbs/discussions/109).
-
-## Support our Growth 📣
-If WebCrumbs aligns with your vision for the future of web development, kindly give us a ⭐️ on GitHub. Your support enables:
-
-- Increased project visibility
-- A growing user base
-- Enhanced feedback loop
-- Community contributions
-
-## Contributors
-
-**People making WebCrumbs**
-
-![Contributors](/CONTRIBUTORS.svg)
-
-**We have stargazers from all these countries!**
-
-![Countries](/COUNTRIES.svg)
-
-**We are growing FAST**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=webcrumbs-community/webcrumbs&type=Timeline)](https://star-history.com/#webcrumbs-community/webcrumbs&Timeline)
-
-## Contributors Badge
-
-<a href="https://github.com/webcrumbs-community/webcrumbs">
-  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
-    alt="WebCrumbs Contributor"
-    width="200px"
-  />
-</a>
-
-Use this code to add the WebCrumbs Contributor badge to your profile:
-
-```
-<a href="https://github.com/webcrumbs-community/webcrumbs">
-  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
-    alt="WebCrumbs Contributor"
-    width="200px"
-  />
-</a>
-```
-
-## Spread the Word
-
-<!-- Share on Facebook -->
-<a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-facebook-button.svg" alt="Share on Facebook"/>
-</a>
-
-<!-- Share on Twitter -->
-<a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-x-button.svg" alt="Share on Twitter"/>
-</a>
-
-<!-- Share on LinkedIn -->
-<a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-linkedin-button.svg" alt="Share on Linkedin"/>
-</a>
-
-<!-- Share on Reddit -->
-<a href="https://www.reddit.com/submit?url=https%3A//github.com/webcrumbs-community/webcrumbs&title=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.%20%F0%9F%8C%9F%20Star%20to%20support%20our%20work!">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-reddit-button.svg" alt="Share on Reddit"/>
-</a>
-
-<!-- Share on HackerNews -->
-<a href="https://news.ycombinator.com/submitlink?u=https%3A//github.com/webcrumbs-community/webcrumbs&t=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-hackernews-button.svg" alt="Share on Hacker News"/>
-</a>
-
-<!-- Send via Telegram -->
-<a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-telegram-button.svg" alt="Share on Telegram"/>
-</a>
-
-<!-- Send via WhatsApp -->
-<a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-whatsapp-button.svg" alt="Share on WhatsApp"/>
-</a>
-
-<!-- Pin on Pinterest -->
-<a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png">
-  <img height="30" src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/share-pinterest-button.svg" alt="Share on Pinterest"/>
-</a>
-
-### Our community meme
-
+<br/>
 <img
-  src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png"
-  alt="WebCrumbs Meme"
-  width="400px"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-next.svg"
+    alt="Next"
+    height="12px"
 />
 
-# Further Details
-This project operates under the MIT License and is a community-driven endeavor.
+Our progress is organized around five main goals, or as we like to call them, 'rocks' (borrowing from the analogy of first placing the big rocks in the jar, then filling it with smaller items). These rocks are our roadmap to launch:
 
+- **Rock 1:** Common grounds for plugins
+- **Rock 2:** Admin panel is functional
+- **Rock 3:** Admin panel is installable
+- **Rock 4:** Plugin registry is functional
+- **Rock 5:** We launch
+
+<br/><br/>
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/icons.svg"
+      alt="Code, love, star"
+      height="24px"
+  />
+</p>
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-participate.svg"
+      alt="Get involved"
+      height="24px"
+  />
+</p>
+<br/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-engage.svg"
+    alt="Engage"
+    height="12px"
+/>
+
+You can find open issues to contribute under various labels like [@everyone](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40everyone), [@frontend](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40frontend+), [@microfrontends](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40microfrontends), [@architecture](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40architecture+), as well as tags like [good first issue](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [advanced](https://github.com/webcrumbs-community/webcrumbs/labels/advanced), [help needed](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+needed%22), [design needed](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22design+needed%22), and [many more](https://github.com/webcrumbs-community/webcrumbs/issues).
+
+Already a contributor? Add the WebCrumbs Contributor badge to your profile and [learn how](https://github.com/webcrumbs-community/webcrumbs/issues/70) to show up on Product Hunt.
+
+
+
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.svg"
+    alt="I'm a WebCrumbs Contributor"
+    height="60px"
+/>
+
+```
+<a href="https://github.com/webcrumbs-community/webcrumbs">
+  <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
+    alt="WebCrumbs Contributor"
+    width="200px"
+  />
+</a>
+```
+
+<br/>
+
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-spread.svg"
+    alt="Help us grow"
+    height="12px"
+/>
+
+- **Star the repository:** If you haven’t yet (yes, you!), please give us a star. It’s “free,99” and means a lot to us. Your support helps increase our visibility and keeps us motivated.
+
+- **Share with friends:** We are not looking for numbers, we want passionate, creative minds to join our mission. So only share with the kind of brilliant developers we know you are.
+
+- **Write about us:** If you believe in what WebCrumbs is building, share it with your network and help us grow the community. Write about us on your favorite blog, such as DEV.to, medium, substack, and others.
+
+- **Join our discord community:** It’s where the sync chats happen. Join our discord community through [this link](https://discord.gg/ZCj5hFv8xV).
+
+- **Share your opinion:** we want to make sure we’re building what people want, and guess what, you’re the people! Every opinion counts and I’m excited to hear from you. [Share your opinion](mailto:community@webcrumbs.org).
+
+<br/>
+<p align="center">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-facebook.svg"
+      alt="Share on Facebook"
+      height="40px"
+  />
+  </a>
+
+  <a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-x.svg"
+      alt="Share on X"
+      height="40px"
+  />
+  </a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-linkedin.svg"
+      alt="Share on Linkedin"
+      height="40px"
+  />
+  </a>
+
+  <a href="https://www.reddit.com/submit?url=https%3A//github.com/webcrumbs-community/webcrumbs&title=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.%20%F0%9F%8C%9F%20Star%20to%20support%20our%20work!">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-reddit.svg"
+      alt="Share on Reddit"
+      height="40px"
+  />
+  </a>
+
+  <a href="https://news.ycombinator.com/submitlink?u=https%3A//github.com/webcrumbs-community/webcrumbs&t=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-hackernews.svg"
+      alt="Share on HackerNews"
+      height="40px"
+  />
+  </a>
+
+  <a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-telegram.svg"
+      alt="Send on Telegram"
+      height="40px"
+  />
+  </a>
+
+  <a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-whatsapp.svg"
+      alt="Send on WhatsApp"
+      height="40px"
+  />
+  </a>
+
+  <a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-pinterest.svg"
+      alt="Pin on Pinterest"
+      height="40px"
+  />
+  </a>
+</p>
+<br/><br/>
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-members.svg"
+      alt="People making WebCrumbs"
+      height="24px"
+  />
+</p>
+<br/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-stargazers.svg"
+    alt="We are now"
+    height="12px"
+/>
+
+<p align="center">
+  <a href="https://github.com/webcrumbs-community/webcrumbs#">
+  <img
+    src="https://img.shields.io/github/stars/webcrumbs-community/webcrumbs?style=social"
+    alt="Stars"
+    height="36px"
+  />
+  </a>
+</p>
+
+<br/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-contributors.svg"
+    alt="With amazing contributors"
+    height="12px"
+/>
+
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/CONTRIBUTORS.svg"
+      alt="Contributors"
+  />
+</p>
+
+<br/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-countries.svg"
+    alt="And people around all over the world"
+    height="12px"
+/>
+
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/COUNTRIES.svg"
+      alt="Countries"
+  />
+</p>
+<br/>
+
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-growth.svg"
+    alt="We are growing fast!"
+    height="12px"
+/>
+
+<p align="center">
+  <a href="https://star-history.com/#webcrumbs-community/webcrumbs&Timeline">
+  <img
+      src="https://api.star-history.com/svg?repos=webcrumbs-community/webcrumbs&type=Timeline"
+      alt="Growth"
+  />
+  </a>
+</p>
+
+<br/><br/>
+
+This project operates under the MIT License and is a community-driven endeavor.
 While it is inspired on the history of Wordpress, this project does not use Wordpress code.
 
 **Credits**  
