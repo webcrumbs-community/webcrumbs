@@ -15,7 +15,7 @@
   /> 
 </p>
 <h3 align="center">
-  The next evolution in React-based web development
+  The next evolution in collaborative web development
 </h3>
 <p align="center">
   <a href="https://github.com/webcrumbs-community/webcrumbs/blob/main/LICENSE">
