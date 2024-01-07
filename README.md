@@ -255,7 +255,7 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 />
 
 <p align="center">
-  <a href="https://github.com/webcrumbs-community/webcrumbs#">
+  <a href="#top">
     <img
       src="https://img.shields.io/github/stars/webcrumbs-community/webcrumbs?style=social"
       alt="Stars"
