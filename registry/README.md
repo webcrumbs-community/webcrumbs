@@ -1,8 +1,7 @@
 ## Context in WebCrumbs
 
-This is the registry page under WebCrumbs.org where developers will be able to submit their plugins.
-
-It is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the **work-in-progress** on the registry page under WebCrumbs.org where developers will be able to submit their plugins.
+Please star the repository to be notified when we release the first version of WebCrumbs.
 
 ## Getting Started
 
