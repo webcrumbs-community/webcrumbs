@@ -61,7 +61,7 @@
     height="12px"
 />
 
-WebCrumbs aspires to be an industry-standard solution for modern web development, positioned as the "WordPress for Node.js". Whether you're a developer or not, you'll find it effortless to create, manage, and scale your modern websites using an intuitive admin panel.
+WebCrumbs aspires to be an industry-standard solution for modern web development, positioned as the "WordPress for Node.js". Whether you're a developer or not, you'll find it easy to create, manage, and extend your modern websites using our intuitive admin panel and a rich ecossystem of themes and plugins developed by the community.
 
 <p align="center">
   <img
