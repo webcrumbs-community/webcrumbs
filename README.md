@@ -74,6 +74,7 @@ WebCrumbs aspires to be an industry-standard solution for modern web development
 **Your Support Matters**  
 If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](#top).
 
+<br/>
 <p align="center">
   <a href="#top">
     <img
