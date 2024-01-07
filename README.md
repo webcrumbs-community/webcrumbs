@@ -61,7 +61,7 @@
     height="12px"
 />
 
-WebCrumbs aspires to be an industry-standard solution for React applications, positioned as the "WordPress for Node.js frontends", including those written in React. Whether you're a developer or not, you'll find it effortless to create, manage, and scale your node.js-based websites using our intuitive admin panel.
+WebCrumbs aspires to be an industry-standard solution for modern web development, positioned as the "WordPress for Node.js". Whether you're a developer or not, you'll find it effortless to create, manage, and scale your modern websites using an intuitive admin panel.
 
 <p align="center">
   <img
