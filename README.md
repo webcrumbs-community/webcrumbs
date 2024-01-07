@@ -23,19 +23,19 @@
 </br>
 <p align="center">
   <a href="https://www.webcrumbs.org/">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-news.svg"
-      alt="Sign our newsletter"
-      height="50px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-news.svg"
+        alt="Sign our newsletter"
+        height="50px"
+    />
   </a>
   &nbsp;
   <a href="https://discord.gg/ZCj5hFv8xV">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-discord.svg"
-      alt="Join our discord"
-      height="50px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-discord.svg"
+        alt="Join our discord"
+        height="50px"
+    />
   </a>
 </p>
 <br/><br/>
@@ -73,6 +73,16 @@ WebCrumbs aspires to be an industry-standard solution for modern web development
 
 **Your Support Matters**  
 If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs).
+
+<p align="center">
+  <a href="https://www.webcrumbs.org/">
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-star.png"
+        alt="Star our repository"
+        height="50px"
+    />
+  </a>
+</p>
 
 <br/>
 <img
@@ -126,19 +136,18 @@ Our progress is organized around five main goals, or as we like to call them, 'r
 You can find [open issues](https://github.com/webcrumbs-community/webcrumbs/issues) to contribute under various labels like [@everyone](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40everyone), [@frontend](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40frontend+), [@microfrontends](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40microfrontends), [@architecture](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40architecture+), as well as tags like [good first issue](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [advanced](https://github.com/webcrumbs-community/webcrumbs/labels/advanced), [help needed](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+needed%22), [design needed](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22design+needed%22), and [many more](https://github.com/webcrumbs-community/webcrumbs/issues).
 
 Already a contributor? Add the WebCrumbs Contributor badge to your profile and [learn how](https://github.com/webcrumbs-community/webcrumbs/issues/70) to show up on Product Hunt.
-
-
-
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.svg"
-    alt="I'm a WebCrumbs Contributor"
-    height="60px"
-/>
+<p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.svg"
+      alt="I'm a WebCrumbs Contributor"
+      height="60px"
+  />
+</p>
 
 ```
 <a href="https://github.com/webcrumbs-community/webcrumbs">
   <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/img/contributor-badge.png"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.png"
     alt="WebCrumbs Contributor"
     width="200px"
   />
@@ -146,7 +155,6 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 ```
 
 <br/>
-
 <img
     src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-spread.svg"
     alt="Help us grow"
@@ -166,75 +174,76 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 <br/>
 <p align="center">
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-facebook.svg"
-      alt="Share on Facebook"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-facebook.svg"
+        alt="Share on Facebook"
+        height="40px"
+    />
   </a>
 
   <a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-x.svg"
-      alt="Share on X"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-x.svg"
+        alt="Share on X"
+        height="40px"
+    />
   </a>
 
   <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-linkedin.svg"
-      alt="Share on Linkedin"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-linkedin.svg"
+        alt="Share on Linkedin"
+        height="40px"
+    />
   </a>
 
   <a href="https://www.reddit.com/submit?url=https%3A//github.com/webcrumbs-community/webcrumbs&title=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.%20%F0%9F%8C%9F%20Star%20to%20support%20our%20work!">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-reddit.svg"
-      alt="Share on Reddit"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-reddit.svg"
+        alt="Share on Reddit"
+        height="40px"
+    />
   </a>
 
   <a href="https://news.ycombinator.com/submitlink?u=https%3A//github.com/webcrumbs-community/webcrumbs&t=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-hackernews.svg"
-      alt="Share on HackerNews"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-hackernews.svg"
+        alt="Share on HackerNews"
+        height="40px"
+    />
   </a>
 
   <a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-telegram.svg"
-      alt="Send on Telegram"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-telegram.svg"
+        alt="Send on Telegram"
+        height="40px"
+    />
   </a>
 
   <a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-whatsapp.svg"
-      alt="Send on WhatsApp"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-whatsapp.svg"
+        alt="Send on WhatsApp"
+        height="40px"
+    />
   </a>
 
   <a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-pinterest.svg"
-      alt="Pin on Pinterest"
-      height="40px"
-  />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-pinterest.svg"
+        alt="Pin on Pinterest"
+        height="40px"
+    />
   </a>
 </p>
+
 <br/><br/>
 <p align="center">
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-members.svg"
       alt="People making WebCrumbs"
-      height="24px"
+      height="30px"
   />
 </p>
 <br/>
@@ -246,11 +255,11 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
 <p align="center">
   <a href="https://github.com/webcrumbs-community/webcrumbs#">
-  <img
-    src="https://img.shields.io/github/stars/webcrumbs-community/webcrumbs?style=social"
-    alt="Stars"
-    height="36px"
-  />
+    <img
+      src="https://img.shields.io/github/stars/webcrumbs-community/webcrumbs?style=social"
+      alt="Stars"
+      height="36px"
+    />
   </a>
 </p>
 
@@ -291,10 +300,10 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
 <p align="center">
   <a href="https://star-history.com/#webcrumbs-community/webcrumbs&Timeline">
-  <img
-      src="https://api.star-history.com/svg?repos=webcrumbs-community/webcrumbs&type=Timeline"
-      alt="Growth"
-  />
+    <img
+        src="https://api.star-history.com/svg?repos=webcrumbs-community/webcrumbs&type=Timeline"
+        alt="Growth"
+    />
   </a>
 </p>
 
