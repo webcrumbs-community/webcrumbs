@@ -1,7 +1,7 @@
 <p align="center">
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cover-2x.png"
-      alt="like wordpress for node.js: we’re building the modern web, one plugin at a time"
+      alt="like wordpress for node.js: we’re building the modern web,one plugin at a time"
       width="448px"
   />
 </p>
@@ -61,7 +61,7 @@
     height="12px"
 />
 
-WebCrumbs aspires to be an industry-standard solution for modern web development, positioned as the "WordPress for Node.js". Whether you're a developer or not, you'll find it easy to create, manage, and extend your modern websites using our intuitive admin panel and a rich ecossystem of themes and plugins developed by the community.
+WebCrumbs aspires to be an industry-standard solution for modern web development, positioned as the "WordPress for Node.js". Whether you're a developer or not, you'll find it easy to create, manage, and extend your modern websites with our intuitive admin panel and a rich ecossystem of themes and plugins developed by the community.
 
 <p align="center">
   <img
@@ -277,7 +277,7 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/COUNTRIES.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/aux/countries/COUNTRIES.svg"
       alt="Countries"
   />
 </p>
