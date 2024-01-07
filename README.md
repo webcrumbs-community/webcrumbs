@@ -72,10 +72,10 @@ WebCrumbs aspires to be an industry-standard solution for modern web development
 </p>
 
 **Your Support Matters**  
-If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](https://github.com/webcrumbs-community/webcrumbs).
+If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. [Star WebCrumbs on GitHub](#top).
 
 <p align="center">
-  <a href="https://www.webcrumbs.org/">
+  <a href="#top">
     <img
         src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-star.png"
         alt="Star our repository"
@@ -161,7 +161,7 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
     height="12px"
 />
 
-- **Star the repository:** If you haven’t yet (yes, you!), please give us a star. It’s “free,99” and means a lot to us. Your support helps increase our visibility and keeps us motivated.
+- **Star the repository:** If you haven’t yet (yes, you!), please [give us a star](#top). It’s “free,99” and means a lot to us. Your support helps increase our visibility and keeps us motivated.
 
 - **Share with friends:** We are not looking for numbers, we want passionate, creative minds to join our mission. So only share with the kind of brilliant developers we know you are.
 
