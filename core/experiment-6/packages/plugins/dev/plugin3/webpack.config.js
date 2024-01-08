@@ -1,6 +1,3 @@
-const CopyWebpackPlugin = require('copy-webpack-plugin')
-const path = require('path')
-
 const sharedModuleRules = {
   rules: [
     {
@@ -26,16 +23,6 @@ module.exports = () => {
       // path: path.resolve(__dirname, '../../dist/plugin3'),
       // chunkFilename: '[name].client.js', // Or your preferred naming convention
     },
-    plugins: [
-      new CopyWebpackPlugin({
-        patterns: [
-          {
-            from: './plugin.json',
-            to: path.resolve(__dirname, '../../dist', 'plugin3')
-          }
-        ]
-      }),
-    ],
     module: sharedModuleRules
   }
 }
