@@ -1,8 +1,6 @@
 ## Context in WebCrumbs
 
-This is a demo of a website using WebCrumbs.
-
-It is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is the **work-in-progress** on a demo of a website using WebCrumbs.
 
 ## Getting Started
 
