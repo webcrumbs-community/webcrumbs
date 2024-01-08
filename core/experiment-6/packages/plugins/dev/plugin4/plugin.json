@@ -1,0 +1,5 @@
+{
+    "name": "plugin4",
+    "dependencies": ["moment"]
+}
+  
