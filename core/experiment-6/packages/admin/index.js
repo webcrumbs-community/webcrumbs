@@ -72,20 +72,20 @@ async function fetchPlugin(pluginName) {
     console.log(packageData)
     
     if (packageData.dependencies) {
-      for (const dependency of packageData.dependencies) {
-        // console.log(dependency)
+      for (const [dependencyName, dependencyRange] of Object.entries(packageData.dependencies)) {
+        console.log(`${dependencyName}@${dependencyRange}`)
         try {
-          require.resolve(dependency); // Check if already installed
-          console.log(require.resolve(dependency))
+          require.resolve(dependencyName); // Check if already installed
         } catch (error) {
+          console.log(error)
           if (shouldInstallDynamically) { // Flag to control dynamic installation
-            await installDependency(dependency); // Install if missing
+            await installDependency(`${dependencyName}@${dependencyRange}`); // Install if missing
           } else {
-            throw new Error(`Dependency ${dependency} is missing and dynamic installation is disabled.`);
+            console.error('Error resolving dependency: ', error)
+            throw new Error(`Dependency ${dependencyName}@${dependencyRange} is missing and dynamic installation is disabled.`);
           }
         }
-        // console.log(sandbox)
-        sandbox[dependency] = require(dependency); // Expose in sandbox
+        sandbox[dependencyName] = require(dependencyName); // Expose in sandbox
       }
     }
   }
