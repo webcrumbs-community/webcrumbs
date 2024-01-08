@@ -19,7 +19,6 @@ module.exports = () => {
     entry: './src/index.jsx',
     output: {
       filename: './client.js',
-      publicPath: 'plugins/plugin3/',
     },
     module: sharedModuleRules
   }

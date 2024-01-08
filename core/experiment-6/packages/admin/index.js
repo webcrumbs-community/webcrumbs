@@ -15,8 +15,18 @@ app.use(limiter);
 
 const cached_plugins = new Map();
 
+const sandbox = {
+  require: require,
+  console: console,
+  process: process,
+  React: React,
+  ReactDOMServer: ReactDOMServer,
+  module: {},
+  exports: { default: {} }
+};
+
 // Remember to update this list when adding new plugins
-installed_plugins = ['plugin1', 'plugin2', 'plugin3', 'template'];
+installed_plugins = ['plugin1', 'plugin2', 'plugin3', 'plugin4', 'template'];
 
 app.get('/favicon.ico', (req, res) => {
   res.send('');
@@ -44,7 +54,7 @@ app.get('/', (req, res) => {
 });
 
 
-async function fetchPlugin(pluginName, sandbox) {
+async function fetchPlugin(pluginName) {
   if (cached_plugins.has(pluginName)) {
     return cached_plugins.get(pluginName);
   }
@@ -66,7 +76,7 @@ async function fetchPlugin(pluginName, sandbox) {
         // console.log(dependency)
         try {
           require.resolve(dependency); // Check if already installed
-          // console.log(require.resolve(dependency))
+          console.log(require.resolve(dependency))
         } catch (error) {
           if (shouldInstallDynamically) { // Flag to control dynamic installation
             await installDependency(dependency); // Install if missing
@@ -101,6 +111,7 @@ async function installDependency(dependency) {
   try {
     const { execSync } = require('child_process');
     execSync(`yarn add ${dependency}`, { stdio: 'inherit' }); // Use Yarn for installation
+    process.exit(0);
   } catch (error) {
     console.error(`Failed to install dependency ${dependency}`);
     throw error;
@@ -111,18 +122,8 @@ app.get('/:pluginName', async (req, res) => {
   const { pluginName } = req.params;
 
   try {
-    const sandbox = {
-      require: require,
-      console: console,
-      process: process,
-      React: React,
-      ReactDOMServer: ReactDOMServer,
-      module: {},
-      exports: { default: {} }
-    };
     
-    const pluginCode = await fetchPlugin(pluginName, sandbox);
-    // console.log(pluginCode)
+    const pluginCode = await fetchPlugin(pluginName);
     
     vm.createContext(sandbox);
     vm.runInNewContext(pluginCode.server, sandbox);

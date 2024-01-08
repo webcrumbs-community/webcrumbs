@@ -1,10 +1,10 @@
 {
-  "name": "plugin3",
+  "name": "plugin4",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/$npm_package_name && mv ./dist/client.js ../../dist/$npm_package_name/ && mv ./dist/*.client.js ../../dist/$npm_package_name/ && cp ./plugin.json ../../dist/$npm_package_name/",
+    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/$npm_package_name && mv ./dist/client.js ../../dist/$npm_package_name/ && cp ./plugin.json ../../dist/$npm_package_name/",
     "build:server": "npx babel src/App.jsx --out-file ../../dist/$npm_package_name/server.js",
     "build": "yarn build:client && yarn build:server"
   },
@@ -15,6 +15,7 @@
     "@loadable/server": "^5.16.2",
     "copy-webpack-plugin": "^11.0.0",
     "jspdf": "^2.5.1",
+    "moment": "^2.30.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
