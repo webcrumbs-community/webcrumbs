@@ -4,10 +4,10 @@
 - With SSR (using VM and Babel)
 - Hydrated on the client (using Webpack)
 - With documentation on how to build plugins
+- Experiment with dependencies so that the host do not need to know about the plugin
 
 # Next steps
 - Experiment with new plugins
-- Experiment with dependencies so that the host do not need to know about the plugin
 - Experiment with communication back and forth between the admin and the plugin
 - Experiment with plugins in other JavaScript frameworks
 - Improve VM security
@@ -34,9 +34,10 @@ To create a new plugin the easy way, follow these steps:
 
 1. Copy the `packages/plugins/dev/template` directory and rename it to the name of your plugin.
 2. Make sure to change the `name` property in the `package.json` file to the name of your plugin.
-3. Make all the changes you need to the `App.jsx` file.
-4. You don't need to build your plugin, because it will be built automatically when you run `yarn build:wc` in the root of the project.
-5. Go to the `packages/admin` directory and add the name of your plugin to the `installed_plugins` array in the `index.js` file.
+3. Make sure to include any dependency your plugin needs to the `webcrumbs.json` file, include the dependency and the version to the `dependencies` object in the `webcrumbs.json` file.
+4. Make all the changes you need to the `App.jsx` file.
+5. You don't need to build your plugin, because it will be built automatically when you run `yarn build:wc` in the root of the project.
+6. Go to the `packages/admin` directory and add the name of your plugin to the `installed_plugins` array in the `index.js` file.
 
 ## The hard way
 
@@ -52,7 +53,7 @@ yarn add --dev @babel/cli @babel/core @babel/plugin-transform-modules-commonjs @
 4. Add the following scripts to your `package.json` file:
 ``` json
     "scripts": {
-    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/$npm_package_name && mv ./dist/client.js ../../dist/$npm_package_name/",
+    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/$npm_package_name && mv ./dist/client.js ../../dist/$npm_package_name/ && mv ./dist/*.client.js ../../dist/$npm_package_name/ && cp ./webcrumbs.json ../../dist/$npm_package_name/",
     "build:server": "npx babel src/App.jsx --out-file ../../dist/$npm_package_name/server.js",
     "build": "yarn build:client && yarn build:server"
     },
@@ -110,6 +111,15 @@ import App from './App.jsx';
 
 hydrateRoot(document.getElementById("root"), <App anyProps="anyContent" />);
 ```
-9. Create an `App.jsx` file in the `src` directory with the desired content.
-10. You don't need to build your plugin, because it will be built automatically when you run `yarn build:wc` in the root of the project.
-11. Go to the `packages/admin` directory and add the name of your plugin to the `installed_plugins` array in the `index.js` file.
+9. Create a `webcrumbs.json` file in the root of your project and include any plugin specific dependency for your plugin in the `dependencies` object, also update the `name` to your plugin's name. It should look like this:
+```json
+{
+    "name": "template",
+    "dependencies": {
+        
+    }
+}
+```
+10. Create an `App.jsx` file in the `src` directory with the desired content.
+11. You don't need to build your plugin, because it will be built automatically when you run `yarn build:wc` in the root of the project.
+12. Go to the `packages/admin` directory and add the name of your plugin to the `installed_plugins` array in the `index.js` file.

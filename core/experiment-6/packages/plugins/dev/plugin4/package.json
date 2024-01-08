@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/$npm_package_name && mv ./dist/client.js ../../dist/$npm_package_name/ && cp ./plugin.json ../../dist/$npm_package_name/",
+    "build:client": "webpack --config webpack.config.js --env client && mkdir -p ../../dist/$npm_package_name && mv ./dist/client.js ../../dist/$npm_package_name/ && cp ./webcrumbs.json ../../dist/$npm_package_name/",
     "build:server": "npx babel src/App.jsx --out-file ../../dist/$npm_package_name/server.js",
     "build": "yarn build:client && yarn build:server"
   },

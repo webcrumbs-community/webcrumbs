@@ -12,7 +12,7 @@ app.get('/plugins/:pluginName/server', (req, res) => {
 });
 app.get('/plugins/:pluginName/manifest', (req, res) => {
   const { pluginName } = req.params;
-  res.sendFile(path.join(__dirname, '/dist/' + pluginName, 'plugin.json'));
+  res.sendFile(path.join(__dirname, '/dist/' + pluginName, 'webcrumbs.json'));
 });
 
 const PORT = process.env.PORT || 3001;
