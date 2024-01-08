@@ -15,6 +15,9 @@ app.use(limiter);
 
 const cached_plugins = new Map();
 
+// // Sandbox was not being updated with new dependencies
+// // Took it off the function and put it on the global scope
+// // Alternatively, we could have passed it as a parameter and returned it
 const sandbox = {
   require: require,
   console: console,
@@ -26,6 +29,7 @@ const sandbox = {
 };
 
 // Remember to update this list when adding new plugins
+// // Added plugin4 to the list
 installed_plugins = ['plugin1', 'plugin2', 'plugin3', 'plugin4', 'template'];
 
 app.get('/favicon.ico', (req, res) => {
@@ -53,7 +57,7 @@ app.get('/', (req, res) => {
   `);
 });
 
-
+// // Moved sandbox to the global scope
 async function fetchPlugin(pluginName) {
   if (cached_plugins.has(pluginName)) {
     return cached_plugins.get(pluginName);
@@ -107,10 +111,14 @@ async function fetchPlugin(pluginName) {
   return pluginCode;
 }
 
+// // Eventually, we can discuss other strategies for installing dependencies
 async function installDependency(dependency) {
   try {
     const { execSync } = require('child_process');
     execSync(`yarn add ${dependency}`, { stdio: 'inherit' }); // Use Yarn for installation
+    // // Added to shut down the server and restart it
+    // // It makes the server restart after installing the dependency
+    // // Downside: it takes the server down for a few seconds
     process.exit(0);
   } catch (error) {
     console.error(`Failed to install dependency ${dependency}`);
@@ -122,7 +130,7 @@ app.get('/:pluginName', async (req, res) => {
   const { pluginName } = req.params;
 
   try {
-    
+    // // Moved sandbox to the global scope
     const pluginCode = await fetchPlugin(pluginName);
     
     vm.createContext(sandbox);
@@ -159,6 +167,7 @@ app.get('/plugins/:pluginName/:env', async (req, res) => {
   res.send(response[env]);
 });
 
+// // Understand the purpose of this line
 app.use('/plugins/:pluginName', express.static('/plugins/:pluginName'))
 
 const PORT = 3000;
