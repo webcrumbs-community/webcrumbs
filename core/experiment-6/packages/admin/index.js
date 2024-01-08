@@ -111,6 +111,7 @@ async function fetchPlugin(pluginName) {
   return pluginCode;
 }
 
+// // Eventually, we can discuss other strategies for installing dependencies
 async function installDependency(dependency) {
   try {
     const { execSync } = require('child_process');
