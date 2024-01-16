@@ -29,7 +29,6 @@
         height="50px"
     />
   </a>
-  &nbsp;
   <a href="https://discord.gg/ZCj5hFv8xV">
     <img
         src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-discord.svg"
