@@ -5,9 +5,9 @@
 - Hydrated on the client (using Webpack)
 - With documentation on how to build plugins
 - Experiment with dependencies so that the host do not need to know about the plugin
+- Experiment with new plugins
 
 # Next steps
-- Experiment with new plugins
 - Experiment with communication back and forth between the admin and the plugin
 - Experiment with plugins in other JavaScript frameworks
 - Improve VM security
@@ -16,10 +16,10 @@
 To install and start this repository locally, you need to follow these steps:
 
 1. Clone the repository to your local machine.
-2. Navigate to this directory of the project in your terminal: `cd webcrumbs/core/experiment-5`
+2. Navigate to this directory of the project in your terminal: `cd webcrumbs/core/experiment-6`
 3. Run `yarn reinstall:wc` to install the dependencies for the project and for all the packages.
 4. Run `yarn build:wc` to build all the plugins.
-5. Run `yarn start` to build and serve all packages in their respective ports.
+5. Run `yarn start` to serve all packages in their respective ports.
 
 After following these steps, you should be able to access the following URLs in your browser:
 
