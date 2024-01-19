@@ -1,0 +1,6 @@
+{
+    "name": "plugin3",
+    "dependencies": {
+        "jspdf": "^2.5.1"
+    }
+}
