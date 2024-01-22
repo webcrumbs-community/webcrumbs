@@ -4,8 +4,7 @@
 - With SSR (using VM and Babel)
 - Hydrated on the client (using Webpack)
 - With documentation on how to build plugins
-- Experiment with dependencies so that the host do not need to know about the plugin
-- Experiment with new plugins
+- Plugin has dependencies that are not in the admin
 
 # Next steps
 - Experiment with communication back and forth between the admin and the plugin
