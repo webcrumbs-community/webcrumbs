@@ -1,13 +1,23 @@
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cover-2x.png"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cover-2x.png#gh-light-mode-only"
+      alt="like wordpress for node.js: we’re building the modern web,one plugin at a time"
+      width="448px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cover-2x.png#gh-dark-mode-only"
       alt="like wordpress for node.js: we’re building the modern web,one plugin at a time"
       width="448px"
   />
 </p>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/logo.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/logo.svg#gh-light-mode-only"
+      alt="WebCrumbs logo"
+      width="255px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/logo.svg#gh-dark-mode-only"
       alt="WebCrumbs logo"
       width="255px"
   />
@@ -15,7 +25,12 @@
 <br/>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/main-intro.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/main-intro.svg#gh-light-mode-only"
+      alt="The next revolution in collaborative web development"
+      width="588px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/main-intro.svg#gh-dark-mode-only"
       alt="The next revolution in collaborative web development"
       width="588px"
   />
@@ -24,14 +39,24 @@
 <p align="center">
   <a href="https://www.webcrumbs.org/">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-news.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-news.svg#gh-light-mode-only"
+        alt="Sign our newsletter"
+        height="50px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-news.svg#gh-dark-mode-only"
         alt="Sign our newsletter"
         height="50px"
     />
   </a>
   <a href="https://discord.gg/ZCj5hFv8xV">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-discord.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-discord.svg#gh-light-mode-only"
+        alt="Join our discord"
+        height="50px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-discord.svg#gh-dark-mode-only"
         alt="Join our discord"
         height="50px"
     />
@@ -40,7 +65,12 @@
 <br/><br/>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/screen-2x.png"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/screen-2x.png#gh-light-mode-only"
+      alt="Screen concept"
+      width="864px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/screen-2x.png#gh-dark-mode-only"
       alt="Screen concept"
       width="864px"
   />
@@ -48,14 +78,24 @@
 <br/><br/>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-intro.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-intro.svg#gh-light-mode-only"
+      alt="An introduction"
+      height="24px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/title-intro.svg#gh-dark-mode-only"
       alt="An introduction"
       height="24px"
   />
 </p>
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-vision.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-vision.svg#gh-light-mode-only"
+    alt="Vision"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-vision.svg#gh-dark-mode-only"
     alt="Vision"
     height="12px"
 />
@@ -64,7 +104,12 @@ WebCrumbs aspires to be an industry-standard solution for modern web development
 
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/graph-position.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/graph-position.svg#gh-light-mode-only"
+      alt="We're open source, easy and modern"
+      width="360px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/graph-position.svg#gh-dark-mode-only"
       alt="We're open source, easy and modern"
       width="360px"
   />
@@ -77,7 +122,12 @@ If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us
 <p align="center">
   <a href="#top">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-star.png"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-star.png#gh-light-mode-only"
+        alt="Star our repository"
+        height="50px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-star.png#gh-dark-mode-only"
         alt="Star our repository"
         height="50px"
     />
@@ -86,7 +136,12 @@ If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us
 
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-features.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-features.svg#gh-light-mode-only"
+    alt="Key features"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-features.svg#gh-dark-mode-only"
     alt="Key features"
     height="12px"
 />
@@ -98,7 +153,12 @@ If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us
 
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-next.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-next.svg#gh-light-mode-only"
+    alt="Next"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-next.svg#gh-dark-mode-only"
     alt="Next"
     height="12px"
 />
@@ -114,21 +174,36 @@ Our progress is organized around five main goals, or as we like to call them, 'r
 <br/><br/>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/icons.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/icons.svg#gh-light-mode-only"
+      alt="Code, love, star"
+      height="24px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/icons.svg#gh-dark-mode-only"
       alt="Code, love, star"
       height="24px"
   />
 </p>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-participate.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-participate.svg#gh-light-mode-only"
+      alt="Get involved"
+      height="24px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/title-participate.svg#gh-dark-mode-only"
       alt="Get involved"
       height="24px"
   />
 </p>
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-engage.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-engage.svg#gh-light-mode-only"
+    alt="Engage"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-engage.svg#gh-dark-mode-only"
     alt="Engage"
     height="12px"
 />
@@ -138,7 +213,12 @@ You can find [open issues](https://github.com/webcrumbs-community/webcrumbs/issu
 Already a contributor? Add the WebCrumbs Contributor badge to your profile and [learn how](https://github.com/webcrumbs-community/webcrumbs/issues/70) to show up on Product Hunt.
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.svg#gh-light-mode-only"
+      alt="I'm a WebCrumbs Contributor"
+      height="60px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/contributor-badge.svg#gh-dark-mode-only"
       alt="I'm a WebCrumbs Contributor"
       height="60px"
   />
@@ -147,7 +227,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 ```
 <a href="https://github.com/webcrumbs-community/webcrumbs">
   <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.png"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.png#gh-light-mode-only"
+    alt="WebCrumbs Contributor"
+    width="200px"
+  />
+  <img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/contributor-badge.png#gh-dark-mode-only"
     alt="WebCrumbs Contributor"
     width="200px"
   />
@@ -156,7 +241,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-spread.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-spread.svg#gh-light-mode-only"
+    alt="Help us grow"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-spread.svg#gh-dark-mode-only"
     alt="Help us grow"
     height="12px"
 />
@@ -175,7 +265,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 <p align="center">
   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/webcrumbs-community/webcrumbs">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-facebook.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-facebook.svg#gh-light-mode-only"
+        alt="Share on Facebook"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-facebook.svg#gh-dark-mode-only"
         alt="Share on Facebook"
         height="40px"
     />
@@ -183,7 +278,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
   <a href="https://twitter.com/intent/tweet?text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-x.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-x.svg#gh-light-mode-only"
+        alt="Share on X"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-x.svg#gh-dark-mode-only"
         alt="Share on X"
         height="40px"
     />
@@ -191,7 +291,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
   <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//github.com/webcrumbs-community/webcrumbs">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-linkedin.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-linkedin.svg#gh-light-mode-only"
+        alt="Share on Linkedin"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-linkedin.svg#gh-dark-mode-only"
         alt="Share on Linkedin"
         height="40px"
     />
@@ -199,7 +304,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
   <a href="https://www.reddit.com/submit?url=https%3A//github.com/webcrumbs-community/webcrumbs&title=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.%20%F0%9F%8C%9F%20Star%20to%20support%20our%20work!">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-reddit.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-reddit.svg#gh-light-mode-only"
+        alt="Share on Reddit"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-reddit.svg#gh-dark-mode-only"
         alt="Share on Reddit"
         height="40px"
     />
@@ -207,7 +317,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
   <a href="https://news.ycombinator.com/submitlink?u=https%3A//github.com/webcrumbs-community/webcrumbs&t=Create%20and%20modify%20React%20websites%20and%20applications%20with%20a%20no-code%20interface%20and%20powerful%20plugins,%20enriched%20by%20the%20community.">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-hackernews.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-hackernews.svg#gh-light-mode-only"
+        alt="Share on HackerNews"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-hackernews.svg#gh-dark-mode-only"
         alt="Share on HackerNews"
         height="40px"
     />
@@ -215,7 +330,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
   <a href="https://t.me/share/url?url=https%3A//github.com/webcrumbs-community/webcrumbs&text=Just%20starred%20this%20Open%20Source%20repo%20that%20is%20the%20WordPress%20for%20React%20developers.%20Check%20it%20out%20https%3A//github.com/webcrumbs-community/webcrumbs">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-telegram.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-telegram.svg#gh-light-mode-only"
+        alt="Send on Telegram"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-telegram.svg#gh-dark-mode-only"
         alt="Send on Telegram"
         height="40px"
     />
@@ -223,15 +343,25 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
   <a href="https://api.whatsapp.com/send?text=Just%20starred%20this%20repo%20and%20it%20sounds%20promising.%20It's%20WordPress%20for%20React.%20Check%20it%20here%3A%20https%3A%2F%2Fgithub.com%2Fwebcrumbs-community%2Fwebcrumbs">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-whatsapp.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-whatsapp.svg#gh-light-mode-only"
+        alt="Send on WhatsApp"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-whatsapp.svg#gh-dark-mode-only"
         alt="Send on WhatsApp"
         height="40px"
     />
   </a>
 
-  <a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png">
+  <a href="https://pinterest.com/pin/create/button/?url=https%3A//github.com/webcrumbs-community/webcrumbs&media=https%3A//github.com/webcrumbs-community/webcrumbs/blob/main/src/img/meme.png#gh-light-mode-only">
     <img
-        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-pinterest.svg"
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cta-pinterest.svg#gh-light-mode-only"
+        alt="Pin on Pinterest"
+        height="40px"
+    />
+    <img
+        src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cta-pinterest.svg#gh-dark-mode-only"
         alt="Pin on Pinterest"
         height="40px"
     />
@@ -241,14 +371,24 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 <br/><br/>
 <p align="center">
   <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-members.svg"
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/title-members.svg#gh-light-mode-only"
+      alt="People making WebCrumbs"
+      height="30px"
+  />
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/title-members.svg#gh-dark-mode-only"
       alt="People making WebCrumbs"
       height="30px"
   />
 </p>
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-stargazers.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-stargazers.svg#gh-light-mode-only"
+    alt="We are now"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-stargazers.svg#gh-dark-mode-only"
     alt="We are now"
     height="12px"
 />
@@ -265,7 +405,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-contributors.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-contributors.svg#gh-light-mode-only"
+    alt="With amazing contributors"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-contributors.svg#gh-dark-mode-only"
     alt="With amazing contributors"
     height="12px"
 />
@@ -279,7 +424,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 
 <br/>
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-countries.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-countries.svg#gh-light-mode-only"
+    alt="And people around all over the world"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-countries.svg#gh-dark-mode-only"
     alt="And people around all over the world"
     height="12px"
 />
@@ -293,7 +443,12 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 <br/>
 
 <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-growth.svg"
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-growth.svg#gh-light-mode-only"
+    alt="We are growing fast!"
+    height="12px"
+/>
+<img
+    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-growth.svg#gh-dark-mode-only"
     alt="We are growing fast!"
     height="12px"
 />
