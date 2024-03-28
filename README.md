@@ -1,4 +1,7 @@
 <p align="center">
+  We are working on a major overhaul of the repository. </br>Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to be notified when we launch.
+</p>
+<p align="center">
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cover-2x.png#gh-light-mode-only"
       alt="like wordpress for node.js: we’re building the modern web,one plugin at a time"
