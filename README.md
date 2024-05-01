@@ -1,24 +1,8 @@
 <p align="center"><b>
-  We are working on a major overhaul of the repository. </br>Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to be notified when we launch!
+  We are working on a major overhaul of the repository, so we are currently NOT accepting contributions, but this will change soon 👀 </br>Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to be notified when we launch!
 </b></p>
+
 <p align="center">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/cover-2x.png#gh-light-mode-only"
-      alt="like wordpress for node.js: we’re building the modern web,one plugin at a time"
-      width="448px"
-  />
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/cover-2x.png#gh-dark-mode-only"
-      alt="like wordpress for node.js: we’re building the modern web,one plugin at a time"
-      width="448px"
-  />
-</p>
-<p align="center">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/logo.svg#gh-light-mode-only"
-      alt="WebCrumbs logo"
-      width="255px"
-  />
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/logo.svg#gh-dark-mode-only"
       alt="WebCrumbs logo"
@@ -56,18 +40,7 @@
   </a>
 </p>
 <br/><br/>
-<p align="center">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/screen-2x.png#gh-light-mode-only"
-      alt="Screen concept"
-      width="864px"
-  />
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/screen-2x.png#gh-dark-mode-only"
-      alt="Screen concept"
-      width="864px"
-  />
-</p> 
+
 <br/><br/>
 <p align="center">
   <img
@@ -93,7 +66,7 @@
     height="12px"
 />
 
-WebCrumbs aspires to be an industry-standard solution for modern web development, positioned as the "WordPress for Node.js", including React and other javascript frameworks. Whether you're a developer or not, you'll find it easy to create, manage, and extend your modern websites with our intuitive admin panel and a rich ecossystem of themes and plugins developed by the community.
+WebCrumbs aspires to be an industry-standard solution for modern web development, creating the first open ecosystem of plugins for the JavaScript community. Whether you're a developer or not, you'll find it easy to create, manage, and extend your modern websites with our intuitive admin panel and a rich ecosystem of and plugins developed by the community.
 
 <p align="center">
   <img
@@ -123,43 +96,7 @@ If you find value in what WebCrumbs aims to achieve, consider starring ⭐️ us
 </p>
 
 <br/>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-features.svg#gh-light-mode-only"
-    alt="Key features"
-    height="12px"
-/>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-features.svg#gh-dark-mode-only"
-    alt="Key features"
-    height="12px"
-/>
 
-- **Plugin Platform**: Integrate and manage React plugins to extend functionality effortlessly.
-- **No-Code Admin Panel**: Control every aspect of your website from a robust admin interface, no coding needed.
-- **Fully Customizable**: Developers can tailor WebCrumbs according to specific needs.
-- **Open Source & Free**: WebCrumbs is committed to being an open-source, community-driven project.
-
-<br/>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-next.svg#gh-light-mode-only"
-    alt="Next"
-    height="12px"
-/>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-next.svg#gh-dark-mode-only"
-    alt="Next"
-    height="12px"
-/>
-
-Our progress is organized around five main goals, or as we like to call them, 'rocks' (borrowing from the analogy of first placing the big rocks in the jar, then filling it with smaller items). These rocks are our roadmap to launch:
-
-- **Rock 1:** Common grounds for plugins
-- **Rock 2:** Admin panel is functional
-- **Rock 3:** Admin panel is installable
-- **Rock 4:** Plugin registry is functional
-- **Rock 5:** We launch
-
-<br/><br/>
 <p align="center">
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/icons.svg#gh-light-mode-only"
@@ -185,47 +122,8 @@ Our progress is organized around five main goals, or as we like to call them, 'r
   />
 </p>
 <br/>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/subtitle-engage.svg#gh-light-mode-only"
-    alt="Engage"
-    height="12px"
-/>
-<img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/subtitle-engage.svg#gh-dark-mode-only"
-    alt="Engage"
-    height="12px"
-/>
 
-You can find [open issues](https://github.com/webcrumbs-community/webcrumbs/issues) to contribute under various labels like [@everyone](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40everyone), [@frontend](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40frontend+), [@microfrontends](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40microfrontends), [@architecture](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%40architecture+), as well as tags like [good first issue](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22), [advanced](https://github.com/webcrumbs-community/webcrumbs/labels/advanced), [help needed](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+needed%22), [design needed](https://github.com/webcrumbs-community/webcrumbs/issues?q=is%3Aissue+is%3Aopen+label%3A%22design+needed%22), and [many more](https://github.com/webcrumbs-community/webcrumbs/issues).
-
-Already a contributor? Add the WebCrumbs Contributor badge to your profile and [learn how](https://github.com/webcrumbs-community/webcrumbs/issues/70) to show up on Product Hunt.
-<p align="center">
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.svg#gh-light-mode-only"
-      alt="I'm a WebCrumbs Contributor"
-      height="60px"
-  />
-  <img
-      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/contributor-badge.svg#gh-dark-mode-only"
-      alt="I'm a WebCrumbs Contributor"
-      height="60px"
-  />
 </p>
-
-```
-<a href="https://github.com/webcrumbs-community/webcrumbs">
-  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/contributor-badge.png#gh-light-mode-only"
-    alt="WebCrumbs Contributor"
-    width="200px"
-  />
-  <img
-    src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/contributor-badge.png#gh-dark-mode-only"
-    alt="WebCrumbs Contributor"
-    width="200px"
-  />
-</a>
-```
 
 <br/>
 <img
@@ -408,7 +306,7 @@ Already a contributor? Add the WebCrumbs Contributor badge to your profile and [
 <br/><br/>
 
 This project operates under the MIT License and is a community-driven endeavor.
-While it is inspired on the history of Wordpress, this project does not use Wordpress code.
+
 
 **Credits**  
 Spearheaded and maintained by [WebCrumbs Community](https://github.com/webcrumbs-community).
