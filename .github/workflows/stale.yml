@@ -1,0 +1,19 @@
+name: "Stale Issues CI"
+on:
+  schedule:
+  - cron: "0 0 * * *"
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/stale@v3
+      with:
+        repo-token: ${{ secrets.GH_PAT }}
+        stale-issue-message: "⚠️ This issue has not seen any activity in the past 2 months so I'm marking it as stale. I'll close it if it doesn't see any activity in the coming week."
+        stale-pr-message: "⚠️ This PR has not seen any activity in the past 2 months so I'm marking it as stale. I'll close it if it doesn't see any activity in the coming week."
+        days-before-stale: 60
+        days-before-close: 7
+        stale-issue-label: "wontfix"
+        exempt-issue-labels: "wip"
+        stale-pr-label: "wontfix"
+        exempt-pr-labels: "wip"
