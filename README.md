@@ -1,8 +1,13 @@
 <p align="center"><b>
   We are working on a major overhaul of the repository, <br/>so we are currently NOT accepting contributions, but this will change soon 👀 </br>Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to be notified when we launch!
 </b></p>
-
+<br/><br/>
 <p align="center">
+  <img
+      src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/logo.svg#gh-light-mode-only"
+      alt="WebCrumbs logo"
+      width="255px"
+  />
   <img
       src="https://github.com/webcrumbs-community/webcrumbs/blob/main/src/assets/dark/logo.svg#gh-dark-mode-only"
       alt="WebCrumbs logo"
