@@ -57,7 +57,7 @@
 </picture>
 <br/><br/>
 <p>If you find value in what WebCrumbs aims to achieve, consider starring us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. Star WebCrumbs on GitHub.</p>
-<a href="#">
+<a href="https://github.com/webcrumbs-community/webcrumbs#">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.webcrumbs.org/assets/images/readme/dark/button_star_repo.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.webcrumbs.org/assets/images/readme/button_star_repo.svg">
