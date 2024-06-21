@@ -1,7 +1,7 @@
 <p align="center">
-  We are working on a major overhaul of the repository, <br/>
-  so we are currently NOT accepting contributions, but this will change soon 👀 <br/>
-  Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to be notified when we launch!
+  We're super excited to announce that we're working on a major overhaul of the repository.<br/> 
+  Right now, we're not accepting contributions, but this will change soon! 👀<br/> 
+  Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to be the first to know when we launch!
   <br/><br/><br/><br/>
   <a href="https://webcrumbs.org/">
   <img 
@@ -41,7 +41,7 @@
   <img alt="Vision" src="https://cdn.webcrumbs.org/assets/images/readme/h2_vision.svg">
 </picture>
 <br/><br/>
-<p>WebCrumbs aspires to be an industry-standard solution for modern web development, creating the first open ecosystem of plugins for the JavaScript community. Whether you're a developer or not, you'll find it easy to create, manage, and extend your own websites with our intuitive admin panel and a rich ecosystem of plugins developed by the community.</p>
+<p>WebCrumbs aspires to be an industry-standard solution for modern web development, creating the first open ecosystem of plugins for the JavaScript community and related frameworks (like React, Nextjs, Vue, Svelte, and others). Whether you're a developer or not, you'll find it easy to create, manage, and extend your own websites with our intuitive admin panel and a rich ecosystem of plugins developed by the community.</p>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.webcrumbs.org/assets/images/readme/dark/diagram.svg">
@@ -56,7 +56,7 @@
   <img alt="Your Support Matters" src="https://cdn.webcrumbs.org/assets/images/readme/h2_support.svg">
 </picture>
 <br/><br/>
-<p>If you find value in what WebCrumbs aims to achieve, consider starring us on GitHub. Your endorsement is crucial in helping us refine our product and grow our community. Star WebCrumbs on GitHub.</p>
+<p>If you love what WebCrumbs is doing, consider starring us on GitHub. Your support is key to refining our product and growing our community. Star WebCrumbs on GitHub.</p>
 <a href="https://github.com/webcrumbs-community/webcrumbs">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.webcrumbs.org/assets/images/readme/dark/button_star_repo.svg">
@@ -72,15 +72,15 @@
 </picture>
 <br/><br/>
 <ul>
-  <li><strong>Star the repository</strong>: If you haven't yet (yes, you!), please give us a star. It's <em>free,99</em> and means a lot to us. Your support helps increase our visibility and keeps us motivated.</li><br/>
-  <li><strong>Write about us</strong>: If you believe in what WebCrumbs is building, share it with your network and help us grow the community. Write about us in your favorite blog, such as DEV.to, Medium, Substack, and others.</li><br/>
-  <li><strong>Join our discord community</strong>: It’s where the sync chats happen. Join our discord community through <a href="https://discord.com/invite/ZCj5hFv8xV">this link</a>.</li><br/>
-  <li><strong>Share your opinion</strong>: We want to hear your feedback and ideas! Every opinion counts and we're excited to hear from you. <a href="mailto:community@webcrumbs.org">Share your opinion</a>.</li><br/>
-  <li><strong>Share with friends</strong>: We are not looking for numbers, we want passionate, creative minds to join our mission. So only share with the kind of brilliant developers we know you are.</li><br/>
+  <li><strong>Star the repository</strong>: If you haven't yet (yes, you!), give us a star. It's free and means a lot to us. Your support helps increase our visibility and keeps us motivated.</li><br/>
+  <li><strong>Write about us</strong>: If you believe in what WebCrumbs is building, share it with your network and help us grow the community. Write about us on your favorite blog, like DEV.to, Medium, Substack, and more.</li><br/>
+  <li><strong>Join our discord community</strong>: It's where the real-time chats happen. Join us through <a href="https://discord.com/invite/ZCj5hFv8xV">this link</a>.</li><br/>
+  <li><strong>Share your opinion</strong>: We want to hear your feedback and ideas! Every opinion counts, and we're excited to hear from you. <a href="mailto:community@webcrumbs.org">Share your opinion</a>.</li><br/>
+  <li><strong>Share with friends</strong>: We're looking for passionate, creative minds to join our mission. So, share with the kind of brilliant developers we know you are.</li><br/>
 </ul>
 
 > "Check out Webcrumbs! <br/>
-> It's an open source where you can build, reuse, and share JavaScript plugins. <br/>
+> It's open source and lets you build, reuse, and share JavaScript plugins. <br/>
 > Perfect for starting your own collection."
 
 <p>
