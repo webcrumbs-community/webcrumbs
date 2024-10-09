@@ -1,7 +1,6 @@
 <p align="center">
-  We're super excited to announce that we're working on a major overhaul of the repository.<br/> 
-  Right now, we're not accepting contributions, but this will change soon! 👀<br/> 
-  Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to be the first to know when we launch!
+  <strong>Looking for Hacktoberfest? Check out the rules here! <a href="https://www.webcrumbs.org/hacktoberfest">webcrumbs.org/hacktoberfest</a></strong><br/>
+  🌟 Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to know about our launches!
   <br/><br/><br/><br/>
   <a href="https://webcrumbs.org/">
   <img 
