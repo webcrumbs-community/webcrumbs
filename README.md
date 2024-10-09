@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>Looking for Hacktoberfest? Check out the rules here! <a href="https://www.webcrumbs.org/hacktoberfest">webcrumbs.org/hacktoberfest</a></strong><br/>
+  <strong>Looking for Hacktoberfest? Check out the rules here! <a href="https://dev.to/buildwebcrumbs/a-new-way-to-contribute-in-hacktoberfest-directly-at-frontend-ai-3e00">Hacktoberfest at Webcrumbs</a></strong><br/>
   🌟 Star the repository and sign up at <a href="https://webcrumbs.org">webcrumbs.org</a> to know about our launches!
   <br/><br/><br/><br/>
   <a href="https://webcrumbs.org/">
