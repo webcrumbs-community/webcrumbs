@@ -1,22 +1,23 @@
 ---
-name: Collaboration request
-about: Request collaboration with other departments
-title: "[COLLAB]"
+name: 🤝 Collaboration Request
+about: Propose a collaboration or partnership opportunity
 labels: collaboration
-assignees: webcrumb
-
 ---
 
-**Department**
-Your department (e.g., Marketing, Design, etc.)
+## 🎯 Collaboration Proposal
+A brief description of your proposal and what you’re looking to achieve together.
 
-**Request**
-Describe what you would like to collaborate on.
+### 💼 Background Information
+Provide some background about yourself, your project, or your organization.
 
-**Why Collaboration is Needed**
-Explain why this task requires input from other departments.
+### 🚀 Goals and Expectations
+List specific goals and what you expect from the collaboration.
 
-**Suggested Departments for Collaboration**
-- Department 1
-- Department 2
-- ...
+### 🔗 Resources or Links
+Include any relevant links (e.g., website, portfolio, related work).
+
+### 📅 Preferred Timeline
+Indicate if there’s a specific timeline or deadline.
+
+---
+**Contact Information**: [Your email or preferred contact method]

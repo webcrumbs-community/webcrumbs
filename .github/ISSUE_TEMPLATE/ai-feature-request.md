@@ -1,17 +1,24 @@
 ---
-name: AI Feature Request
-about: Suggest an AI-powered feature for Webcrumbs
-title: "[AI]"
-labels: enhancement
-assignees: webcrumb
-
+name: 🚀 AI Feature Request
+about: Suggest a new AI-related feature or enhancement
+labels: ai, enhancement
 ---
 
-**Describe the AI Feature**
-A clear and concise description of the AI feature.
+## 🧠 Feature Description
+Provide a brief description of the AI feature you would like to see implemented.
 
-**Use Case**
-Describe how this feature can improve Webcrumbs.
+### 🤖 Use Case
+Describe the context and the problem this feature would solve. Include specific scenarios or user stories.
 
-**Additional Information**
-Any additional information, papers, or technologies that could assist in implementing this feature.
+### 🔧 Suggested Implementation
+How do you envision this feature working? Describe any algorithms, models, or APIs that could be used.
+
+### 📈 Potential Benefits
+What impact would this feature have? Include expected benefits for users and the project.
+
+### 🗂 Additional Context
+Include links, references, or related issues that can help us understand your request.
+
+---
+**Priority**: Low / Medium / High  
+**Impact**: Minor / Moderate / Significant  
