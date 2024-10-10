@@ -1,8 +1,4 @@
 ---
-name: Blank issue
-about: Create a blank issue
-title: ''
-labels: ''
-assignees: ''
-
+name: 📄 Blank Issue
+about: Create a custom issue without a pre-filled template
 ---
