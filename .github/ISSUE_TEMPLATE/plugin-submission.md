@@ -1,28 +1,30 @@
 ---
-name: Plugin submission
-about: Submit a plugin to be added to Webcrumbs
-title: "[PLUGIN]"
-labels: plugin
-assignees: webcrumb
-
+name: 🔌 Plugin Submission
+about: Submit a new plugin for review and inclusion
+labels: plugin, submission
 ---
 
-**Plugin Name**
-Name of the plugin.
+## 📦 Plugin Name
+The name of your plugin.
 
-**Plugin Description**
-A brief description of what the plugin does.
+### 📜 Description
+Provide a brief description of what your plugin does and its main features.
 
-**Features**
-- Feature 1
-- Feature 2
-- ...
+### 🚀 Use Case
+Describe the problem your plugin solves and the ideal use case.
 
-**Installation Steps**
-Describe how to install the plugin.
+### 🔗 Repository Link
+Provide the GitHub or relevant repository link for your plugin.
 
-**Usage Example**
-Provide an example of how to use the plugin.
+### 📄 License
+State the license type (e.g., MIT, GPL-3.0). All submissions must comply with open-source licenses.
 
-**Screenshots**
-Include any screenshots that can help showcase the plugin.
+### 📂 Installation and Usage
+Include instructions for installing and using the plugin.
+
+### 👥 Author Information
+- **Name**: [Your name or team name]
+- **Contact**: [Email, website, or preferred contact method]
+
+### 🗂 Additional Context
+Add any extra information, dependencies, or screenshots relevant to the submission.
