@@ -1,3 +1,9 @@
+---
+name: 🚀 Feature Request
+about: Suggest a new feature or enhancement
+labels: enhancement
+---
+
 ## 🚀 Feature Request: [Feature Name]
 
 ### Description
