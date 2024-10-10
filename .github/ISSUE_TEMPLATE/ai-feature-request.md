@@ -1,22 +1,23 @@
 ---
-name: 🚀 Feature Request
-about: Suggest a new feature or enhancement
-labels: enhancement
+name: 🚀 AI Feature Request
+about: Suggest a new AI-related feature or enhancement
+labels: ai, enhancement
 ---
 
-## 🚀 Feature Request: [Feature Name]
+## 🧠 Feature Description
+Provide a brief description of the AI feature you would like to see implemented.
 
-### Description
-A brief explanation of the feature and the problem it aims to solve.
+### 🤖 Use Case
+Describe the context and the problem this feature would solve. Include specific scenarios or user stories.
 
-### Example Use Case
-Describe a specific scenario or user story where this feature would be beneficial.
+### 🔧 Suggested Implementation
+How do you envision this feature working? Describe any algorithms, models, or APIs that could be used.
 
-### Suggested Implementation
-Outline how you envision the feature working. Include any relevant details or code snippets.
+### 📈 Potential Benefits
+What impact would this feature have? Include expected benefits for users and the project.
 
-### Additional Context
-Any links, references, or related issues that might help us understand the request better.
+### 🗂 Additional Context
+Include links, references, or related issues that can help us understand your request.
 
 ---
 **Priority**: Low / Medium / High  
