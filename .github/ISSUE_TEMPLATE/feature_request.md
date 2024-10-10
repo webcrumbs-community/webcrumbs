@@ -1,20 +1,23 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
-title: "[FEATURE]"
+name: 🚀 Feature Request
+about: Suggest a new feature or enhancement
 labels: enhancement
-assignees: webcrumb
-
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+## 🚀 Feature Request: [Feature Name]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+### Description
+A brief explanation of the feature and the problem it aims to solve.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+### Example Use Case
+Describe a specific scenario or user story where this feature would be beneficial.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+### Suggested Implementation
+Outline how you envision the feature working. Include any relevant details or code snippets.
+
+### Additional Context
+Any links, references, or related issues that might help us understand the request better.
+
+---
+**Priority**: Low / Medium / High  
+**Impact**: Minor / Moderate / Significant  
