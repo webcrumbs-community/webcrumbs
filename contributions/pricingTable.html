@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webcrumbs Plugin</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+
+        @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+
+        @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+
+        @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+
+        /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
+        *,
+        :after,
+        :before {
+            border: 0 solid #e5e7eb;
+            box-sizing: border-box;
+        }
+
+        :after,
+        :before {
+            --tw-content: "";
+        }
+
+        :host,
+        html {
+            line-height: 1.5;
+            -webkit-text-size-adjust: 100%;
+            font-family:
+                Open Sans,
+                ui-sans-serif,
+                system-ui,
+                sans-serif,
+                Apple Color Emoji,
+                Segoe UI Emoji,
+                Segoe UI Symbol,
+                Noto Color Emoji;
+            font-feature-settings: normal;
+            font-variation-settings: normal;
+            -moz-tab-size: 4;
+            tab-size: 4;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            line-height: inherit;
+            margin: 0;
+        }
+
+        hr {
+            border-top-width: 1px;
+            color: inherit;
+            height: 0;
+        }
+
+        abbr:where([title]) {
+            text-decoration: underline dotted;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: inherit;
+            font-weight: inherit;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: inherit;
+        }
+
+        b,
+        strong {
+            font-weight: bolder;
+        }
+
+        code,
+        kbd,
+        pre,
+        samp {
+            font-family:
+                ui-monospace,
+                SFMono-Regular,
+                Menlo,
+                Monaco,
+                Consolas,
+                Liberation Mono,
+                Courier New,
+                monospace;
+            font-feature-settings: normal;
+            font-size: 1em;
+            font-variation-settings: normal;
+        }
+
+        small {
+            font-size: 80%;
+        }
+
+        sub,
+        sup {
+            font-size: 75%;
+            line-height: 0;
+            position: relative;
+            vertical-align: baseline;
+        }
+
+        sub {
+            bottom: -0.25em;
+        }
+
+        sup {
+            top: -0.5em;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-color: inherit;
+            text-indent: 0;
+        }
+
+        button,
+        input,
+        optgroup,
+        select,
+        textarea {
+            color: inherit;
+            font-family: inherit;
+            font-feature-settings: inherit;
+            font-size: 100%;
+            font-variation-settings: inherit;
+            font-weight: inherit;
+            letter-spacing: inherit;
+            line-height: inherit;
+            margin: 0;
+            padding: 0;
+        }
+
+        button,
+        select {
+            text-transform: none;
+        }
+
+        button,
+        input:where([type="button"]),
+        input:where([type="reset"]),
+        input:where([type="submit"]) {
+            -webkit-appearance: button;
+            background-color: transparent;
+            background-image: none;
+        }
+
+        :-moz-focusring {
+            outline: auto;
+        }
+
+        :-moz-ui-invalid {
+            box-shadow: none;
+        }
+
+        progress {
+            vertical-align: baseline;
+        }
+
+        ::-webkit-inner-spin-button,
+        ::-webkit-outer-spin-button {
+            height: auto;
+        }
+
+        [type="search"] {
+            -webkit-appearance: textfield;
+            outline-offset: -2px;
+        }
+
+        ::-webkit-search-decoration {
+            -webkit-appearance: none;
+        }
+
+        ::-webkit-file-upload-button {
+            -webkit-appearance: button;
+            font: inherit;
+        }
+
+        summary {
+            display: list-item;
+        }
+
+        blockquote,
+        dd,
+        dl,
+        figure,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        hr,
+        p,
+        pre {
+            margin: 0;
+        }
+
+        fieldset {
+            margin: 0;
+        }
+
+        fieldset,
+        legend {
+            padding: 0;
+        }
+
+        menu,
+        ol,
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        dialog {
+            padding: 0;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input::placeholder,
+        textarea::placeholder {
+            color: #9ca3af;
+            opacity: 1;
+        }
+
+        [role="button"],
+        button {
+            cursor: pointer;
+        }
+
+        :disabled {
+            cursor: default;
+        }
+
+        audio,
+        canvas,
+        embed,
+        iframe,
+        img,
+        object,
+        svg,
+        video {
+            display: block;
+            vertical-align: middle;
+        }
+
+        img,
+        video {
+            height: auto;
+            max-width: 100%;
+        }
+
+        [hidden] {
+            display: none;
+        }
+
+        *,
+        :after,
+        :before {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-pan-x: ;
+            --tw-pan-y: ;
+            --tw-pinch-zoom: ;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-gradient-from-position: ;
+            --tw-gradient-via-position: ;
+            --tw-gradient-to-position: ;
+            --tw-ordinal: ;
+            --tw-slashed-zero: ;
+            --tw-numeric-figure: ;
+            --tw-numeric-spacing: ;
+            --tw-numeric-fraction: ;
+            --tw-ring-inset: ;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgba(59, 130, 246, 0.5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+            --tw-blur: ;
+            --tw-brightness: ;
+            --tw-contrast: ;
+            --tw-grayscale: ;
+            --tw-hue-rotate: ;
+            --tw-invert: ;
+            --tw-saturate: ;
+            --tw-sepia: ;
+            --tw-drop-shadow: ;
+            --tw-backdrop-blur: ;
+            --tw-backdrop-brightness: ;
+            --tw-backdrop-contrast: ;
+            --tw-backdrop-grayscale: ;
+            --tw-backdrop-hue-rotate: ;
+            --tw-backdrop-invert: ;
+            --tw-backdrop-opacity: ;
+            --tw-backdrop-saturate: ;
+            --tw-backdrop-sepia: ;
+            --tw-contain-size: ;
+            --tw-contain-layout: ;
+            --tw-contain-paint: ;
+            --tw-contain-style: ;
+        }
+
+        ::backdrop {
+            --tw-border-spacing-x: 0;
+            --tw-border-spacing-y: 0;
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-rotate: 0;
+            --tw-skew-x: 0;
+            --tw-skew-y: 0;
+            --tw-scale-x: 1;
+            --tw-scale-y: 1;
+            --tw-pan-x: ;
+            --tw-pan-y: ;
+            --tw-pinch-zoom: ;
+            --tw-scroll-snap-strictness: proximity;
+            --tw-gradient-from-position: ;
+            --tw-gradient-via-position: ;
+            --tw-gradient-to-position: ;
+            --tw-ordinal: ;
+            --tw-slashed-zero: ;
+            --tw-numeric-figure: ;
+            --tw-numeric-spacing: ;
+            --tw-numeric-fraction: ;
+            --tw-ring-inset: ;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-color: rgba(59, 130, 246, 0.5);
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-colored: 0 0 #0000;
+            --tw-blur: ;
+            --tw-brightness: ;
+            --tw-contrast: ;
+            --tw-grayscale: ;
+            --tw-hue-rotate: ;
+            --tw-invert: ;
+            --tw-saturate: ;
+            --tw-sepia: ;
+            --tw-drop-shadow: ;
+            --tw-backdrop-blur: ;
+            --tw-backdrop-brightness: ;
+            --tw-backdrop-contrast: ;
+            --tw-backdrop-grayscale: ;
+            --tw-backdrop-hue-rotate: ;
+            --tw-backdrop-invert: ;
+            --tw-backdrop-opacity: ;
+            --tw-backdrop-saturate: ;
+            --tw-backdrop-sepia: ;
+            --tw-contain-size: ;
+            --tw-contain-layout: ;
+            --tw-contain-paint: ;
+            --tw-contain-style: ;
+        }
+
+        #webcrumbs .absolute {
+            position: absolute;
+        }
+
+        #webcrumbs .relative {
+            position: relative;
+        }
+
+        #webcrumbs .right-0 {
+            right: 0;
+        }
+
+        #webcrumbs .right-\[-20px\] {
+            right: -20px;
+        }
+
+        #webcrumbs .top-0 {
+            top: 0;
+        }
+
+        #webcrumbs .top-\[-20px\] {
+            top: -20px;
+        }
+
+        #webcrumbs .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #webcrumbs .mb-12 {
+            margin-bottom: 48px;
+        }
+
+        #webcrumbs .mb-2 {
+            margin-bottom: 8px;
+        }
+
+        #webcrumbs .mb-6 {
+            margin-bottom: 24px;
+        }
+
+        #webcrumbs .mr-2 {
+            margin-right: 8px;
+        }
+
+        #webcrumbs .flex {
+            display: flex;
+        }
+
+        #webcrumbs .min-h-\[800px\] {
+            min-height: 800px;
+        }
+
+        #webcrumbs .w-\[1200px\] {
+            width: 1200px;
+        }
+
+        #webcrumbs .w-\[360px\] {
+            width: 360px;
+        }
+
+        #webcrumbs .w-full {
+            width: 100%;
+        }
+
+        #webcrumbs .flex-row {
+            flex-direction: row;
+        }
+
+        #webcrumbs .items-center {
+            align-items: center;
+        }
+
+        #webcrumbs .justify-between {
+            justify-content: space-between;
+        }
+
+        #webcrumbs .gap-4 {
+            gap: 16px;
+        }
+
+        #webcrumbs .gap-6 {
+            gap: 24px;
+        }
+
+        #webcrumbs .rounded-full {
+            border-radius: 9999px;
+        }
+
+        #webcrumbs .rounded-lg {
+            border-radius: 24px;
+        }
+
+        #webcrumbs .rounded-md {
+            border-radius: 18px;
+        }
+
+        #webcrumbs .border {
+            border-width: 1px;
+        }
+
+        #webcrumbs .border-blue-300 {
+            --tw-border-opacity: 1;
+            border-color: rgb(147 197 253 / var(--tw-border-opacity));
+        }
+
+        #webcrumbs .border-neutral-300 {
+            --tw-border-opacity: 1;
+            border-color: rgb(232 232 232 / var(--tw-border-opacity));
+        }
+
+        #webcrumbs .bg-blue-200 {
+            --tw-bg-opacity: 1;
+            background-color: rgb(191 219 254 / var(--tw-bg-opacity));
+        }
+
+        #webcrumbs .bg-neutral-50 {
+            --tw-bg-opacity: 1;
+            background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+        }
+
+        #webcrumbs .bg-primary {
+            --tw-bg-opacity: 1;
+            background-color: rgb(250 91 48 / var(--tw-bg-opacity));
+        }
+
+        #webcrumbs .p-10 {
+            padding: 40px;
+        }
+
+        #webcrumbs .p-6 {
+            padding: 24px;
+        }
+
+        #webcrumbs .px-3 {
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        #webcrumbs .px-4 {
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+
+        #webcrumbs .py-1 {
+            padding-bottom: 4px;
+            padding-top: 4px;
+        }
+
+        #webcrumbs .py-3 {
+            padding-bottom: 12px;
+            padding-top: 12px;
+        }
+
+        #webcrumbs .text-center {
+            text-align: center;
+        }
+
+        #webcrumbs .font-title {
+            font-family:
+                Lato,
+                ui-sans-serif,
+                system-ui,
+                sans-serif,
+                Apple Color Emoji,
+                Segoe UI Emoji,
+                Segoe UI Symbol,
+                Noto Color Emoji;
+        }
+
+        #webcrumbs .text-4xl {
+            font-size: 36px;
+            line-height: 40px;
+        }
+
+        #webcrumbs .text-lg {
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        #webcrumbs .text-xl {
+            font-size: 20px;
+            line-height: 28px;
+        }
+
+        #webcrumbs .text-xs {
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        #webcrumbs .font-bold {
+            font-weight: 700;
+        }
+
+        #webcrumbs .font-semibold {
+            font-weight: 600;
+        }
+
+        #webcrumbs .text-blue-700 {
+            --tw-text-opacity: 1;
+            color: rgb(29 78 216 / var(--tw-text-opacity));
+        }
+
+        #webcrumbs .text-yellow-400 {
+            --tw-text-opacity: 1;
+            color: rgb(250 204 21 / var(--tw-text-opacity));
+        }
+
+        #webcrumbs .shadow-md {
+            --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+                0 2px 4px -2px rgba(0, 0, 0, 0.1);
+            --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),
+                0 2px 4px -2px var(--tw-shadow-color);
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+                var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+        }
+
+        #webcrumbs {
+            font-family: Open Sans !important;
+            font-size: 16px !important;
+            line-height: 24px !important;
+        }
+
+        #webcrumbs :is(.bg-neutral-50) {
+            color: rgba(0, 0, 0, 0.9) !important;
+        }
+
+        body {
+            line-height: inherit;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+            background-color: #9ca3af;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="webcrumbs">
+        <div class="w-[1200px] min-h-[800px] mx-auto bg-neutral-50 p-10">
+            <h1 class="text-4xl font-title text-center mb-6">Want to have the best AI package?</h1>
+            <p class="text-center mb-12">Get started with options that fit your needs. Fully transparent pricing. No
+                hidden charges.</p>
+
+            <div class="flex justify-between gap-6">
+
+                <div class="w-[360px] bg-neutral-50 border border-neutral-300 shadow-md rounded-lg p-6 relative">
+                    <div class="absolute top-[-20px] right-[-20px]">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 96 960 960" width="32"
+                            class="text-yellow-400">
+                            <path
+                                d="M480 456q-35 0-58.5-23.5T398 374q0-35 23.5-58.5T480 292q35 0 58.5 23.5T562 374q0 35-23.5 58.5T480 456ZM294 973q-9 3-17.5-2t-10.5-14l-43-232-157-150q-8-8-8.5-18t5.5-18q3-9 12-12.5t18-2.5l230-21 94-215q4-9 12-14t18-5q10 0 18 5t12 14l94 215 230 21q10 1 18.5 4.5T890 558q6 8 5.5 18t-8.5 18L730 744l-43 232q-2 9-10.5 14t-17.5 2q-9-3-14-9.5T641 960L480 860 320 960q-8 6-17 8t-17-1ZM480 791l144 89-39-204 139-131-191-18-76-176-76 176-191 18 139 131-39 204 144-89Zm0-296Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">BASIC</h3>
+                    <p class="mb-6">Suitable for web-3 user integration and enhances privacy settings.</p>
+                    <p class="text-4xl font-bold mb-2">$29<span class="text-lg">/m</span></p>
+                    <ul class="mb-6">
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>AI Assist and funding</li>
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Personal Integration</li>
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Email notifications</li>
+                        <li class="flex items-center"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Single-user access</li>
+                    </ul>
+                    <button class="w-full bg-primary rounded-md py-3 flex items-center justify-between px-4">
+                        Get started
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+
+
+                <div class="w-[360px] bg-neutral-50 border border-blue-300 shadow-md rounded-lg p-6 relative">
+                    <div class="absolute top-0 right-0">
+                        <span class="text-xs font-semibold bg-blue-200 text-blue-700 py-1 px-3 rounded-full">MOST
+                            POPULAR</span>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">SPECIAL</h3>
+                    <p class="mb-6">Launch your project with no contractual minimums.</p>
+                    <p class="text-4xl font-bold mb-2">$79<span class="text-lg">/m</span></p>
+                    <ul class="mb-6">
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Everything in Basic plan</li>
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Advance AI features</li>
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Priority email notification
+                        </li>
+                        <li class="flex items-center"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Multiple-user access</li>
+                    </ul>
+                    <button class="w-full bg-primary rounded-md py-3 flex items-center justify-between px-4">
+                        Get started
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+
+
+                <div class="w-[360px] bg-neutral-50 border border-neutral-300 shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-2">ENTERPRISE</h3>
+                    <p class="mb-6">Get more from your business at a larger scale.</p>
+                    <p class="text-4xl font-bold mb-2">$299<span class="text-lg">/m</span></p>
+                    <ul class="mb-6">
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Everything in special plan
+                        </li>
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Unlimited API Calls</li>
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Dedicated account manager</li>
+                        <li class="flex items-center mb-2"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>Unlimited-user access</li>
+                        <li class="flex items-center"><span
+                                class="material-symbols-outlined mr-2">check_circle</span>SLA with 99.9% uptime</li>
+                    </ul>
+                    <button class="w-full bg-primary rounded-md py-3 flex items-center justify-between px-4">
+                        Get started
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
