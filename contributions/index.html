@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webcrumbs Plugin</title>
+    <style>
+      @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+      
+      @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+      
+      @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+      
+      /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
+      *,
+      :after,
+      :before {
+        border: 0 solid #e5e7eb;
+        box-sizing: border-box;
+      }
+      :after,
+      :before {
+        --tw-content: "";
+      }
+      :host,
+      html {
+        line-height: 1.5;
+        -webkit-text-size-adjust: 100%;
+        font-family:
+          Open Sans,
+          ui-sans-serif,
+          system-ui,
+          sans-serif,
+          Apple Color Emoji,
+          Segoe UI Emoji,
+          Segoe UI Symbol,
+          Noto Color Emoji;
+        font-feature-settings: normal;
+        font-variation-settings: normal;
+        -moz-tab-size: 4;
+        tab-size: 4;
+        -webkit-tap-highlight-color: transparent;
+      }
+      body {
+        line-height: inherit;
+        margin: 0;
+      }
+      hr {
+        border-top-width: 1px;
+        color: inherit;
+        height: 0;
+      }
+      abbr:where([title]) {
+        text-decoration: underline dotted;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-size: inherit;
+        font-weight: inherit;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      b,
+      strong {
+        font-weight: bolder;
+      }
+      code,
+      kbd,
+      pre,
+      samp {
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          Liberation Mono,
+          Courier New,
+          monospace;
+        font-feature-settings: normal;
+        font-size: 1em;
+        font-variation-settings: normal;
+      }
+      small {
+        font-size: 80%;
+      }
+      sub,
+      sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+      }
+      sub {
+        bottom: -0.25em;
+      }
+      sup {
+        top: -0.5em;
+      }
+      table {
+        border-collapse: collapse;
+        border-color: inherit;
+        text-indent: 0;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        color: inherit;
+        font-family: inherit;
+        font-feature-settings: inherit;
+        font-size: 100%;
+        font-variation-settings: inherit;
+        font-weight: inherit;
+        letter-spacing: inherit;
+        line-height: inherit;
+        margin: 0;
+        padding: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      input:where([type="button"]),
+      input:where([type="reset"]),
+      input:where([type="submit"]) {
+        -webkit-appearance: button;
+        background-color: transparent;
+        background-image: none;
+      }
+      :-moz-focusring {
+        outline: auto;
+      }
+      :-moz-ui-invalid {
+        box-shadow: none;
+      }
+      progress {
+        vertical-align: baseline;
+      }
+      ::-webkit-inner-spin-button,
+      ::-webkit-outer-spin-button {
+        height: auto;
+      }
+      [type="search"] {
+        -webkit-appearance: textfield;
+        outline-offset: -2px;
+      }
+      ::-webkit-search-decoration {
+        -webkit-appearance: none;
+      }
+      ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit;
+      }
+      summary {
+        display: list-item;
+      }
+      blockquote,
+      dd,
+      dl,
+      figure,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      hr,
+      p,
+      pre {
+        margin: 0;
+      }
+      fieldset {
+        margin: 0;
+      }
+      fieldset,
+      legend {
+        padding: 0;
+      }
+      menu,
+      ol,
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      dialog {
+        padding: 0;
+      }
+      textarea {
+        resize: vertical;
+      }
+      input::placeholder,
+      textarea::placeholder {
+        color: #9ca3af;
+        opacity: 1;
+      }
+      [role="button"],
+      button {
+        cursor: pointer;
+      }
+      :disabled {
+        cursor: default;
+      }
+      audio,
+      canvas,
+      embed,
+      iframe,
+      img,
+      object,
+      svg,
+      video {
+        display: block;
+        vertical-align: middle;
+      }
+      img,
+      video {
+        height: auto;
+        max-width: 100%;
+      }
+      [hidden] {
+        display: none;
+      }
+      *,
+      :after,
+      :before {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-pan-x: ;
+        --tw-pan-y: ;
+        --tw-pinch-zoom: ;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-gradient-from-position: ;
+        --tw-gradient-via-position: ;
+        --tw-gradient-to-position: ;
+        --tw-ordinal: ;
+        --tw-slashed-zero: ;
+        --tw-numeric-figure: ;
+        --tw-numeric-spacing: ;
+        --tw-numeric-fraction: ;
+        --tw-ring-inset: ;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+        --tw-blur: ;
+        --tw-brightness: ;
+        --tw-contrast: ;
+        --tw-grayscale: ;
+        --tw-hue-rotate: ;
+        --tw-invert: ;
+        --tw-saturate: ;
+        --tw-sepia: ;
+        --tw-drop-shadow: ;
+        --tw-backdrop-blur: ;
+        --tw-backdrop-brightness: ;
+        --tw-backdrop-contrast: ;
+        --tw-backdrop-grayscale: ;
+        --tw-backdrop-hue-rotate: ;
+        --tw-backdrop-invert: ;
+        --tw-backdrop-opacity: ;
+        --tw-backdrop-saturate: ;
+        --tw-backdrop-sepia: ;
+        --tw-contain-size: ;
+        --tw-contain-layout: ;
+        --tw-contain-paint: ;
+        --tw-contain-style: ;
+      }
+      ::backdrop {
+        --tw-border-spacing-x: 0;
+        --tw-border-spacing-y: 0;
+        --tw-translate-x: 0;
+        --tw-translate-y: 0;
+        --tw-rotate: 0;
+        --tw-skew-x: 0;
+        --tw-skew-y: 0;
+        --tw-scale-x: 1;
+        --tw-scale-y: 1;
+        --tw-pan-x: ;
+        --tw-pan-y: ;
+        --tw-pinch-zoom: ;
+        --tw-scroll-snap-strictness: proximity;
+        --tw-gradient-from-position: ;
+        --tw-gradient-via-position: ;
+        --tw-gradient-to-position: ;
+        --tw-ordinal: ;
+        --tw-slashed-zero: ;
+        --tw-numeric-figure: ;
+        --tw-numeric-spacing: ;
+        --tw-numeric-fraction: ;
+        --tw-ring-inset: ;
+        --tw-ring-offset-width: 0px;
+        --tw-ring-offset-color: #fff;
+        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-offset-shadow: 0 0 #0000;
+        --tw-ring-shadow: 0 0 #0000;
+        --tw-shadow: 0 0 #0000;
+        --tw-shadow-colored: 0 0 #0000;
+        --tw-blur: ;
+        --tw-brightness: ;
+        --tw-contrast: ;
+        --tw-grayscale: ;
+        --tw-hue-rotate: ;
+        --tw-invert: ;
+        --tw-saturate: ;
+        --tw-sepia: ;
+        --tw-drop-shadow: ;
+        --tw-backdrop-blur: ;
+        --tw-backdrop-brightness: ;
+        --tw-backdrop-contrast: ;
+        --tw-backdrop-grayscale: ;
+        --tw-backdrop-hue-rotate: ;
+        --tw-backdrop-invert: ;
+        --tw-backdrop-opacity: ;
+        --tw-backdrop-saturate: ;
+        --tw-backdrop-sepia: ;
+        --tw-contain-size: ;
+        --tw-contain-layout: ;
+        --tw-contain-paint: ;
+        --tw-contain-style: ;
+      }
+      #webcrumbs .absolute {
+        position: absolute;
+      }
+      #webcrumbs .relative {
+        position: relative;
+      }
+      #webcrumbs .left-0 {
+        left: 0;
+      }
+      #webcrumbs .z-10 {
+        z-index: 10;
+      }
+      #webcrumbs .mx-auto {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #webcrumbs .mt-1 {
+        margin-top: 4px;
+      }
+      #webcrumbs .mt-2 {
+        margin-top: 8px;
+      }
+      #webcrumbs .mt-4 {
+        margin-top: 16px;
+      }
+      #webcrumbs .mt-6 {
+        margin-top: 24px;
+      }
+      #webcrumbs .flex {
+        display: flex;
+      }
+      #webcrumbs .h-\[50px\] {
+        height: 50px;
+      }
+      #webcrumbs .h-\[60px\] {
+        height: 60px;
+      }
+      #webcrumbs .h-\[75px\] {
+        height: 75px;
+      }
+      #webcrumbs .h-\[80px\] {
+        height: 80px;
+      }
+      #webcrumbs .min-h-\[900px\] {
+        min-height: 900px;
+      }
+      #webcrumbs .w-\[50px\] {
+        width: 50px;
+      }
+      #webcrumbs .w-\[75px\] {
+        width: 75px;
+      }
+      #webcrumbs .w-full {
+        width: 100%;
+      }
+      #webcrumbs .max-w-\[1200px\] {
+        max-width: 1200px;
+      }
+      #webcrumbs .max-w-\[300px\] {
+        max-width: 300px;
+      }
+      #webcrumbs .flex-1 {
+        flex: 1 1 0%;
+      }
+      #webcrumbs .flex-row {
+        flex-direction: row;
+      }
+      #webcrumbs .flex-col {
+        flex-direction: column;
+      }
+      #webcrumbs .items-center {
+        align-items: center;
+      }
+      #webcrumbs .justify-between {
+        justify-content: space-between;
+      }
+      #webcrumbs .gap-1 {
+        gap: 4px;
+      }
+      #webcrumbs .gap-2 {
+        gap: 8px;
+      }
+      #webcrumbs .gap-4 {
+        gap: 16px;
+      }
+      #webcrumbs .gap-6 {
+        gap: 24px;
+      }
+      #webcrumbs .rounded-full {
+        border-radius: 9999px;
+      }
+      #webcrumbs .rounded-lg {
+        border-radius: 24px;
+      }
+      #webcrumbs .rounded-md {
+        border-radius: 18px;
+      }
+      #webcrumbs .border {
+        border-width: 1px;
+      }
+      #webcrumbs .bg-neutral-100 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+      }
+      #webcrumbs .bg-neutral-200 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+      }
+      #webcrumbs .bg-primary {
+        --tw-bg-opacity: 1;
+        background-color: rgb(250 91 48 / var(--tw-bg-opacity));
+      }
+      #webcrumbs .bg-white {
+        --tw-bg-opacity: 1;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      }
+      #webcrumbs .object-cover {
+        object-fit: cover;
+      }
+      #webcrumbs .p-2 {
+        padding: 8px;
+      }
+      #webcrumbs .p-3 {
+        padding: 12px;
+      }
+      #webcrumbs .p-4 {
+        padding: 16px;
+      }
+      #webcrumbs .px-3 {
+        padding-left: 12px;
+        padding-right: 12px;
+      }
+      #webcrumbs .px-4 {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      #webcrumbs .py-1 {
+        padding-bottom: 4px;
+        padding-top: 4px;
+      }
+      #webcrumbs .py-2 {
+        padding-bottom: 8px;
+        padding-top: 8px;
+      }
+      #webcrumbs .py-3 {
+        padding-bottom: 12px;
+        padding-top: 12px;
+      }
+      #webcrumbs .font-title {
+        font-family:
+          Lato,
+          ui-sans-serif,
+          system-ui,
+          sans-serif,
+          Apple Color Emoji,
+          Segoe UI Emoji,
+          Segoe UI Symbol,
+          Noto Color Emoji;
+      }
+      #webcrumbs .text-lg {
+        font-size: 18px;
+        line-height: 28px;
+      }
+      #webcrumbs .text-sm {
+        font-size: 14px;
+        line-height: 20px;
+      }
+      #webcrumbs .text-xl {
+        font-size: 20px;
+        line-height: 28px;
+      }
+      #webcrumbs .text-xs {
+        font-size: 12px;
+        line-height: 16px;
+      }
+      #webcrumbs .font-semibold {
+        font-weight: 600;
+      }
+      #webcrumbs .text-neutral-700 {
+        --tw-text-opacity: 1;
+        color: rgb(77 77 77 / var(--tw-text-opacity));
+      }
+      #webcrumbs .text-neutral-950 {
+        --tw-text-opacity: 1;
+        color: rgb(10 10 10 / var(--tw-text-opacity));
+      }
+      #webcrumbs .text-primary {
+        --tw-text-opacity: 1;
+        color: rgb(250 91 48 / var(--tw-text-opacity));
+      }
+      #webcrumbs .text-white {
+        --tw-text-opacity: 1;
+        color: rgb(255 255 255 / var(--tw-text-opacity));
+      }
+      #webcrumbs .shadow-lg {
+        --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -4px rgba(0, 0, 0, 0.1);
+        --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+          0 4px 6px -4px var(--tw-shadow-color);
+        box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+          var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+      }
+      #webcrumbs {
+        font-family: Open Sans !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+      }
+      #webcrumbs :is(.bg-neutral-100) {
+        color: rgba(0, 0, 0, 0.9) !important;
+      }
+      #webcrumbs :is(.bg-neutral-200) {
+        color: rgba(0, 0, 0, 0.9) !important;
+      }
+      @media (min-width: 640px) {
+        #webcrumbs .sm\:w-auto {
+          width: auto;
+        }
+        #webcrumbs .sm\:flex-row {
+          flex-direction: row;
+        }
+      }
+      @media (min-width: 1024px) {
+        #webcrumbs .lg\:mt-2 {
+          margin-top: 8px;
+        }
+        #webcrumbs .lg\:mt-8 {
+          margin-top: 32px;
+        }
+        #webcrumbs .lg\:h-\[100px\] {
+          height: 100px;
+        }
+        #webcrumbs .lg\:h-\[40px\] {
+          height: 40px;
+        }
+        #webcrumbs .lg\:w-\[100px\] {
+          width: 100px;
+        }
+        #webcrumbs .lg\:w-auto {
+          width: auto;
+        }
+        #webcrumbs .lg\:flex-row {
+          flex-direction: row;
+        }
+        #webcrumbs .lg\:items-start {
+          align-items: flex-start;
+        }
+        #webcrumbs .lg\:gap-6 {
+          gap: 24px;
+        }
+        #webcrumbs .lg\:p-8 {
+          padding: 32px;
+        }
+        #webcrumbs .lg\:px-4 {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        #webcrumbs .lg\:px-6 {
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+        #webcrumbs .lg\:py-2 {
+          padding-bottom: 8px;
+          padding-top: 8px;
+        }
+        #webcrumbs .lg\:py-4 {
+          padding-bottom: 16px;
+          padding-top: 16px;
+        }
+        #webcrumbs .lg\:text-3xl {
+          font-size: 30px;
+          line-height: 36px;
+        }
+        #webcrumbs .lg\:text-base {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        #webcrumbs .lg\:text-xl {
+          font-size: 20px;
+          line-height: 28px;
+        }
+      }
+      
+      body {
+        line-height: inherit;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background-color: #9ca3af;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="webcrumbs"> 
+        	<div class="w-full max-w-[1200px] min-h-[900px] bg-neutral-100 shadow-lg rounded-lg p-4 lg:p-8 mx-auto">
+    	  <header class="flex items-center justify-between gap-4 px-4 py-3 lg:px-6 lg:py-4 bg-primary text-white rounded-md">
+    	    <h1 class="text-xl lg:text-3xl font-title">MetaMingle</h1>
+    	    <button class="bg-white rounded-md text-primary px-3 py-2 lg:px-4 lg:py-2 text-sm lg:text-base">
+    	      Connect Wallet
+    	    </button>
+    	  </header>
+    	  <main class="mt-6 lg:mt-8 flex flex-col gap-6">
+    	    
+    	    <section class="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-6">
+    	      
+    	<div class="flex items-center gap-4 bg-white p-4 rounded-md flex-1 w-full">
+    	        <img src="https://tools-api.webcrumbs.org/image-placeholder/100/100/profile/1" alt="NFT Profile" class="w-[75px] h-[75px] lg:w-[100px] lg:h-[100px] rounded-full object-cover"/>
+    	        <div>
+    	          <h2 class="text-lg lg:text-xl font-semibold text-neutral-950">Username</h2>
+    	          <p class="text-neutral-700 text-sm lg:text-base">@wallet_address</p>
+    	          <p class="text-primary mt-1 lg:mt-2 text-sm lg:text-base">500 Tokens</p>
+    	        </div>
+    	      </div>
+    	<button class="bg-primary text-white rounded-md px-3 py-2 lg:h-[40px] text-xs lg:text-base w-full lg:w-auto">
+    	        Edit Profile
+    	      </button>
+    	      
+    	      
+    	    </section>
+    	    
+    	    <section class="bg-white rounded-md p-4 flex flex-col gap-2">
+    	      <textarea class="w-full h-[80px] lg:h-[100px] border rounded-md p-3 text-sm lg:text-base" placeholder="What&#x27;s happening?">	</textarea>
+    	      <button class="bg-primary text-white rounded-md px-4 py-2 w-full lg:w-auto lg:mt-2 text-sm lg:text-base">
+    	        Post
+    	      </button>
+    	    </section>
+    	    
+    	    <section class="flex flex-col gap-4">
+    	      {Array.from({ length: 3 }, (_, i) =&gt; (
+    	        <article class="bg-white rounded-md p-4 flex gap-4 flex-col sm:flex-row">
+    	          <img src="{`https://tools-api.webcrumbs.org/image-placeholder/50/50/avatar/${i+1}`}" alt="avatar" class="w-[50px] h-[50px] rounded-full object-cover"/>
+    	          <div class="w-full flex-1">
+    	            <h3 class="text-sm lg:text-base font-semibold text-neutral-950">User {i+1}</h3>
+    	            <p class="text-neutral-700 text-sm lg:text-base mt-2">
+    	              This is a post on our decentralized platform! Engage with tokens and more!
+    	            </p>
+    	            <div class="mt-4 flex justify-between gap-4">
+    	              <button class="bg-neutral-200 text-neutral-950 rounded-md px-3 lg:px-4 py-1 text-xs lg:text-base flex items-center gap-1">
+    	                <span class="material-symbols-outlined">favorite</span> 12
+    	              </button>
+    	              
+    	              <details class="relative">
+    	                <summary class="bg-neutral-200 text-neutral-950 rounded-md px-3 lg:px-4 py-1 text-xs lg:text-base flex items-center gap-1">
+    	                  <span class="material-symbols-outlined">comment</span> 4
+    	                </summary>
+    	                <div class="absolute left-0 z-10 bg-white shadow-lg p-4 mt-2 rounded-md w-full sm:w-auto max-w-[300px]">
+    	                  <p class="text-sm lg:text-base">Comments section for Post {i+1}</p>
+    	                  <textarea class="w-full h-[60px] border rounded-xs p-2 mt-2 text-sm lg:text-base" placeholder="Write a comment">	</textarea>
+    	                  <button class="bg-primary text-white rounded-md mt-2 px-4 py-2 w-full lg:w-auto text-sm lg:text-base">
+    	                    Comment
+    	                  </button>
+    	                </div>
+    	              </details>
+    	              
+    	              <button class="bg-neutral-200 text-neutral-950 rounded-md px-3 lg:px-4 py-1 text-xs lg:text-base flex items-center gap-1">
+    	                <span class="material-symbols-outlined">share</span>
+    	              </button>
+    	            </div>
+    	          </div>
+    	        </article>
+    	      ))}
+    	    </section>
+    	  </main>
+    	</div> 
+        </div>
+    
+  </body>
+</html>
