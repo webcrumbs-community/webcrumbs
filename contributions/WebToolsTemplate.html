@@ -262,7 +262,7 @@
         --tw-ring-inset: ;
         --tw-ring-offset-width: 0px;
         --tw-ring-offset-color: #fff;
-        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-color: rgba(213, 77, 41, 0.5);
         --tw-ring-offset-shadow: 0 0 #0000;
         --tw-ring-shadow: 0 0 #0000;
         --tw-shadow: 0 0 #0000;
@@ -315,7 +315,7 @@
         --tw-ring-inset: ;
         --tw-ring-offset-width: 0px;
         --tw-ring-offset-color: #fff;
-        --tw-ring-color: rgba(59, 130, 246, 0.5);
+        --tw-ring-color: rgba(213, 77, 41, 0.5);
         --tw-ring-offset-shadow: 0 0 #0000;
         --tw-ring-shadow: 0 0 #0000;
         --tw-shadow: 0 0 #0000;
@@ -343,36 +343,75 @@
         --tw-contain-paint: ;
         --tw-contain-style: ;
       }
+      #webcrumbs .absolute {
+        position: absolute;
+      }
+      #webcrumbs .relative {
+        position: relative;
+      }
+      #webcrumbs .inset-0 {
+        inset: 0;
+      }
+      #webcrumbs .z-10 {
+        z-index: 10;
+      }
       #webcrumbs .mx-auto {
         margin-left: auto;
         margin-right: auto;
       }
+      #webcrumbs .mb-4 {
+        margin-bottom: 16px;
+      }
       #webcrumbs .mb-8 {
         margin-bottom: 32px;
+      }
+      #webcrumbs .ml-2 {
+        margin-left: 8px;
+      }
+      #webcrumbs .ml-6 {
+        margin-left: 24px;
       }
       #webcrumbs .mt-2 {
         margin-top: 8px;
       }
+      #webcrumbs .mt-4 {
+        margin-top: 16px;
+      }
+      #webcrumbs .inline-block {
+        display: inline-block;
+      }
       #webcrumbs .flex {
         display: flex;
       }
-      #webcrumbs .h-\[80px\] {
-        height: 80px;
+      #webcrumbs .grid {
+        display: grid;
       }
-      #webcrumbs .w-\[1000px\] {
-        width: 1000px;
+      #webcrumbs .h-\[100px\] {
+        height: 100px;
       }
-      #webcrumbs .w-\[200px\] {
-        width: 200px;
+      #webcrumbs .h-\[400px\] {
+        height: 400px;
       }
-      #webcrumbs .w-\[80px\] {
-        width: 80px;
+      #webcrumbs .min-h-\[1000px\] {
+        min-height: 1000px;
+      }
+      #webcrumbs .w-\[100px\] {
+        width: 100px;
+      }
+      #webcrumbs .w-\[1200px\] {
+        width: 1200px;
+      }
+      #webcrumbs .flex-shrink-0 {
+        flex-shrink: 0;
+      }
+      #webcrumbs .flex-grow {
+        flex-grow: 1;
+      }
+      #webcrumbs .grid-cols-3 {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
       }
       #webcrumbs .flex-row {
         flex-direction: row;
-      }
-      #webcrumbs .flex-col {
-        flex-direction: column;
       }
       #webcrumbs .items-center {
         align-items: center;
@@ -386,15 +425,28 @@
       #webcrumbs .gap-4 {
         gap: 16px;
       }
-      #webcrumbs :is(.space-x-5 > :not([hidden]) ~ :not([hidden])) {
+      #webcrumbs .gap-8 {
+        gap: 32px;
+      }
+      #webcrumbs :is(.space-x-4 > :not([hidden]) ~ :not([hidden])) {
         --tw-space-x-reverse: 0;
-        margin-left: calc(20px * (1 - var(--tw-space-x-reverse)));
-        margin-right: calc(20px * var(--tw-space-x-reverse));
+        margin-left: calc(16px * (1 - var(--tw-space-x-reverse)));
+        margin-right: calc(16px * var(--tw-space-x-reverse));
+      }
+      #webcrumbs :is(.space-x-6 > :not([hidden]) ~ :not([hidden])) {
+        --tw-space-x-reverse: 0;
+        margin-left: calc(24px * (1 - var(--tw-space-x-reverse)));
+        margin-right: calc(24px * var(--tw-space-x-reverse));
       }
       #webcrumbs :is(.space-y-2 > :not([hidden]) ~ :not([hidden])) {
         --tw-space-y-reverse: 0;
         margin-bottom: calc(8px * var(--tw-space-y-reverse));
         margin-top: calc(8px * (1 - var(--tw-space-y-reverse)));
+      }
+      #webcrumbs :is(.space-y-8 > :not([hidden]) ~ :not([hidden])) {
+        --tw-space-y-reverse: 0;
+        margin-bottom: calc(32px * var(--tw-space-y-reverse));
+        margin-top: calc(32px * (1 - var(--tw-space-y-reverse)));
       }
       #webcrumbs .rounded-full {
         border-radius: 9999px;
@@ -402,16 +454,66 @@
       #webcrumbs .rounded-lg {
         border-radius: 24px;
       }
-      #webcrumbs .bg-neutral-50 {
-        --tw-bg-opacity: 1;
-        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      #webcrumbs .rounded-md {
+        border-radius: 18px;
       }
-      #webcrumbs .bg-primary {
+      #webcrumbs .bg-neutral-100 {
+        --tw-bg-opacity: 1;
+        background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+      }
+      #webcrumbs .bg-primary-500 {
         --tw-bg-opacity: 1;
         background-color: rgb(250 91 48 / var(--tw-bg-opacity));
       }
-      #webcrumbs .p-10 {
-        padding: 40px;
+      #webcrumbs .bg-white {
+        --tw-bg-opacity: 1;
+        background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+      }
+      #webcrumbs .bg-opacity-80 {
+        --tw-bg-opacity: 0.8;
+      }
+      #webcrumbs .bg-cover {
+        background-size: cover;
+      }
+      #webcrumbs .bg-center {
+        background-position: 50%;
+      }
+      #webcrumbs .object-cover {
+        object-fit: cover;
+      }
+      #webcrumbs .p-2 {
+        padding: 8px;
+      }
+      #webcrumbs .p-6 {
+        padding: 24px;
+      }
+      #webcrumbs .px-4 {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      #webcrumbs .px-6 {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      #webcrumbs .py-12 {
+        padding-bottom: 48px;
+        padding-top: 48px;
+      }
+      #webcrumbs .py-16 {
+        padding-bottom: 64px;
+        padding-top: 64px;
+      }
+      #webcrumbs .py-2 {
+        padding-bottom: 8px;
+        padding-top: 8px;
+      }
+      #webcrumbs .py-3 {
+        padding-bottom: 12px;
+        padding-top: 12px;
+      }
+      #webcrumbs .py-6 {
+        padding-bottom: 24px;
+        padding-top: 24px;
       }
       #webcrumbs .text-center {
         text-align: center;
@@ -439,15 +541,17 @@
         font-size: 36px;
         line-height: 40px;
       }
-      #webcrumbs .font-bold {
-        font-weight: 700;
+      #webcrumbs .text-xl {
+        font-size: 20px;
+        line-height: 28px;
       }
-      #webcrumbs .font-medium {
-        font-weight: 500;
-      }
-      #webcrumbs .text-neutral-500 {
+      #webcrumbs .text-neutral-950 {
         --tw-text-opacity: 1;
-        color: rgb(217 217 217 / var(--tw-text-opacity));
+        color: rgb(10 10 10 / var(--tw-text-opacity));
+      }
+      #webcrumbs .text-primary-500 {
+        --tw-text-opacity: 1;
+        color: rgb(250 91 48 / var(--tw-text-opacity));
       }
       #webcrumbs .text-white {
         --tw-text-opacity: 1;
@@ -458,139 +562,45 @@
           0 4px 6px -4px rgba(0, 0, 0, 0.1);
         --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
           0 4px 6px -4px var(--tw-shadow-color);
+      }
+      #webcrumbs .shadow-lg,
+      #webcrumbs .shadow-sm {
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
           var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+      }
+      #webcrumbs .shadow-sm {
+        --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
       }
       #webcrumbs {
         font-family: Open Sans !important;
         font-size: 16px !important;
         line-height: 24px !important;
       }
-      #webcrumbs :is(.bg-neutral-50) {
+      #webcrumbs :is(.bg-neutral-100) {
         color: rgba(0, 0, 0, 0.9) !important;
+      }
+      #webcrumbs :is(.bg-primary-500) {
+        color: hsla(0, 0%, 100%, 0.9) !important;
+        font-weight: 600;
       }
       
       body {
         line-height: inherit;
-        margin: 0;
+        padding: 24px;
         display: flex;
         flex-direction: column;
-        width: 100vw;
-        height: 100vh;
+        min-width: 100vw;
+        min-height: 100vh;
         align-items: center;
         justify-content: center;
-        background-color: #9ca3af;
+        background: linear-gradient(135deg, #ffffff, #d4d4d4);
       }
     </style>
   </head>
   <body>
-    <div id="webcrumbs"> 
-        	<div class="w-[1200px] bg-white shadow-lg rounded-lg min-h-[1000px]">
-    	  
-    	  <header class="flex justify-between items-center p-6 bg-neutral-100">
-    	    <div class="text-3xl font-title text-primary-950">WebTools Logo</div>
-    	    <nav class="flex space-x-6">
-    	      <a href="#" class="text-neutral-950">Home</a>
-    	      <a href="#" class="text-neutral-950">Tools</a>
-    	      <a href="#" class="text-neutral-950">Blog</a>
-    	      <a href="#" class="text-neutral-950">Contact</a>
-    	    </nav>
-    	    <button class="bg-primary-500 text-white rounded-md px-6 py-3">Get Started</button>
-    	  </header>
-    	
-    	  
-    	  <section class="relative h-[400px] flex items-center justify-center text-center">
-    	    <div class="absolute inset-0 bg-cover bg-center" backgroundimage:="" tools-api.webcrumbs.org="" image-placeholder="" frontend-development=""></div>
-    	    <div class="relative z-10 p-6 bg-white bg-opacity-80 rounded-lg">
-    	      <h1 class="text-4xl font-title text-primary-950">Your Ultimate Suite of Frontend Tools</h1>
-    	      <p class="text-neutral-950 mt-4">Empower your development with interactive tools and solutions for modern frontend development.</p>
-    	    </div>
-    	  </section>
-    	
-    	  
-    	  <section class="py-12">
-    	    <h2 class="text-3xl font-title text-center text-primary-950 mb-8">Our Tools</h2>
-    	    <div class="grid grid-cols-3 gap-8 px-6">
-    	      {[1, 2, 3, 4, 5, 6].map((i) =&gt; (
-    	        <div class="p-6 bg-neutral-100 rounded-md">
-    	          <span class="material-symbols-outlined text-primary-500 text-4xl">build</span>
-    	          <h3 class="text-2xl text-primary-950 mt-4">Tool {i}</h3>
-    	          <p class="text-neutral-950 mt-2">Brief description of tool {i} and its key functionality.</p>
-    	          <button class="mt-4 bg-primary-500 text-white rounded-md px-4 py-2">Try Now</button>
-    	        </div>
-    	      ))}
-    	    </div>
-    	  </section>
-    	
-    	  
-    	  <section class="py-16">
-    	    <h2 class="text-3xl font-title text-center text-primary-950 mb-8">Key Features</h2>
-    	    <div class="space-y-8">
-    	      {[1, 2, 3, 4].map((i) =&gt; (
-    	        <div class="{`flex" items-center="" :="" p-6="">
-    	          <div class="flex-shrink-0 w-[100px] h-[100px] flex items-center justify-center bg-primary-500 rounded-full">
-    	            <span class="material-symbols-outlined text-white">code</span>
-    	          </div>
-    	          <div class="ml-6">
-    	            <h3 class="text-2xl text-primary-950">Feature {i}</h3>
-    	            <p class="text-neutral-950 mt-2">Brief description of feature {i} and how it benefits developers.</p>
-    	          </div>
-    	        </div>
-    	      ))}
-    	    </div>
-    	  </section>
-    	
-    	  
-    	  <section class="py-16 bg-neutral-100">
-    	    <h2 class="text-3xl font-title text-center text-primary-950 mb-8">What Our Users Say</h2>
-    	    <div class="grid grid-cols-3 gap-8 px-6">
-    	      {[1, 2, 3].map((i) =&gt; (
-    	        <div class="p-6 bg-white rounded-md shadow-sm">
-    	          <img src="{`https://tools-api.webcrumbs.org/image-placeholder/100/100/avatar/${i}`}" alt="User Avatar" class="w-[100px] h-[100px] rounded-full object-cover mx-auto mb-4"/>
-    	          <h4 class="text-primary-950 text-xl">John Doe {i}</h4>
-    	          <p class="text-neutral-950 mt-2">&quot;This tool has improved my productivity ten-fold. Essential for any developer!&quot;</p>
-    	        </div>
-    	      ))}
-    	    </div>
-    	  </section>
-    	
-    	  
-    	  <section class="py-16">
-    	    <h2 class="text-3xl font-title text-center text-primary-950 mb-8">Latest Blog Posts</h2>
-    	    <div class="grid grid-cols-3 gap-8 px-6">
-    	      {[1, 2, 3].map((i) =&gt; (
-    	        <div class="p-6 bg-neutral-100 rounded-md">
-    	          <h3 class="text-xl text-primary-950">Blog Post Title {i}</h3>
-    	          <p class="text-neutral-950 mt-2">Brief excerpt of blog post {i}, giving readers a glimpse of the content...</p>
-    	          <a href="#" class="mt-4 inline-block text-primary-500">Read More</a>
-    	        </div>
-    	      ))}
-    	    </div>
-    	  </section>
-    	
-    	  
-    	  <footer class="py-6 bg-neutral-100">
-    	    <div class="flex justify-between items-center px-6">
-    	      <div class="space-y-2">
-    	        <a href="#" class="text-neutral-950">Privacy Policy</a>
-    	        <a href="#" class="text-neutral-950">Terms of Service</a>
-    	      </div>
-    	      <div class="flex space-x-4">
-    	        <i class="fa-brands fa-facebook text-primary-500 text-xl">
-    	</i>
-    	        <i class="fa-brands fa-twitter text-primary-500 text-xl">
-    	</i>
-    	        <i class="fa-brands fa-linkedin text-primary-500 text-xl">
-    	</i>
-    	      </div>
-    	      <form class="bg-white px-4 py-2 rounded-md flex items-center">
-    	        <input type="email" placeholder="Sign up for our newsletter" class="p-2 flex-grow bg-neutral-100 rounded-md"/>
-    	        <button class="ml-2 bg-primary-500 text-white rounded-md px-4 py-2">Subscribe</button>
-    	      </form>
-    	    </div>
-    	  </footer>
-    	</div> 
-        </div>
-    
+  <div id="webcrumbs">
+    <div class="w-[1200px] bg-white shadow-lg rounded-lg min-h-[1000px]"><header class="flex justify-between items-center p-6 bg-neutral-100"><div class="text-3xl font-title text-primary-950">WebTools Logo</div><nav class="flex space-x-6"><a href="#" class="text-neutral-950">Home</a><a href="#" class="text-neutral-950">Tools</a><a href="#" class="text-neutral-950">Blog</a><a href="#" class="text-neutral-950">Contact</a></nav><button class="bg-primary-500 text-white rounded-md px-6 py-3">Get Started</button></header><section class="relative h-[400px] flex items-center justify-center text-center"><div class="absolute inset-0 bg-cover bg-center" style="background-image:url(https://tools-api.webcrumbs.org/image-placeholder/1200/400/frontend-development/1)"></div><div class="relative z-10 p-6 bg-white bg-opacity-80 rounded-lg"><h1 class="text-4xl font-title text-primary-950">Your Ultimate Suite of Frontend Tools</h1><p class="text-neutral-950 mt-4">Empower your development with interactive tools and solutions for modern frontend development.</p></div></section><section class="py-12"><h2 class="text-3xl font-title text-center text-primary-950 mb-8">Our Tools</h2><div class="grid grid-cols-3 gap-8 px-6"><div class="p-6 bg-neutral-100 rounded-md"><span class="material-symbols-outlined text-primary-500 text-4xl">build</span><h3 class="text-2xl text-primary-950 mt-4">Tool 1</h3><p class="text-neutral-950 mt-2">Brief description of tool 1 and its key functionality.</p><button class="mt-4 bg-primary-500 text-white rounded-md px-4 py-2">Try Now</button></div><div class="p-6 bg-neutral-100 rounded-md"><span class="material-symbols-outlined text-primary-500 text-4xl">build</span><h3 class="text-2xl text-primary-950 mt-4">Tool 2</h3><p class="text-neutral-950 mt-2">Brief description of tool 2 and its key functionality.</p><button class="mt-4 bg-primary-500 text-white rounded-md px-4 py-2">Try Now</button></div><div class="p-6 bg-neutral-100 rounded-md"><span class="material-symbols-outlined text-primary-500 text-4xl">build</span><h3 class="text-2xl text-primary-950 mt-4">Tool 3</h3><p class="text-neutral-950 mt-2">Brief description of tool 3 and its key functionality.</p><button class="mt-4 bg-primary-500 text-white rounded-md px-4 py-2">Try Now</button></div><div class="p-6 bg-neutral-100 rounded-md"><span class="material-symbols-outlined text-primary-500 text-4xl">build</span><h3 class="text-2xl text-primary-950 mt-4">Tool 4</h3><p class="text-neutral-950 mt-2">Brief description of tool 4 and its key functionality.</p><button class="mt-4 bg-primary-500 text-white rounded-md px-4 py-2">Try Now</button></div><div class="p-6 bg-neutral-100 rounded-md"><span class="material-symbols-outlined text-primary-500 text-4xl">build</span><h3 class="text-2xl text-primary-950 mt-4">Tool 5</h3><p class="text-neutral-950 mt-2">Brief description of tool 5 and its key functionality.</p><button class="mt-4 bg-primary-500 text-white rounded-md px-4 py-2">Try Now</button></div><div class="p-6 bg-neutral-100 rounded-md"><span class="material-symbols-outlined text-primary-500 text-4xl">build</span><h3 class="text-2xl text-primary-950 mt-4">Tool 6</h3><p class="text-neutral-950 mt-2">Brief description of tool 6 and its key functionality.</p><button class="mt-4 bg-primary-500 text-white rounded-md px-4 py-2">Try Now</button></div></div></section><section class="py-16"><h2 class="text-3xl font-title text-center text-primary-950 mb-8">Key Features</h2><div class="space-y-8"><div class="flex items-center bg-neutral-100 p-6 rounded-lg"><div class="flex-shrink-0 w-[100px] h-[100px] flex items-center justify-center bg-primary-500 rounded-full"><span class="material-symbols-outlined text-white">code</span></div><div class="ml-6"><h3 class="text-2xl text-primary-950">Feature 1</h3><p class="text-neutral-950 mt-2">Brief description of feature 1 and how it benefits developers.</p></div></div><div class="flex items-center bg-primary-50 p-6 rounded-lg"><div class="flex-shrink-0 w-[100px] h-[100px] flex items-center justify-center bg-primary-500 rounded-full"><span class="material-symbols-outlined text-white">code</span></div><div class="ml-6"><h3 class="text-2xl text-primary-950">Feature 2</h3><p class="text-neutral-950 mt-2">Brief description of feature 2 and how it benefits developers.</p></div></div><div class="flex items-center bg-neutral-100 p-6 rounded-lg"><div class="flex-shrink-0 w-[100px] h-[100px] flex items-center justify-center bg-primary-500 rounded-full"><span class="material-symbols-outlined text-white">code</span></div><div class="ml-6"><h3 class="text-2xl text-primary-950">Feature 3</h3><p class="text-neutral-950 mt-2">Brief description of feature 3 and how it benefits developers.</p></div></div><div class="flex items-center bg-primary-50 p-6 rounded-lg"><div class="flex-shrink-0 w-[100px] h-[100px] flex items-center justify-center bg-primary-500 rounded-full"><span class="material-symbols-outlined text-white">code</span></div><div class="ml-6"><h3 class="text-2xl text-primary-950">Feature 4</h3><p class="text-neutral-950 mt-2">Brief description of feature 4 and how it benefits developers.</p></div></div></div></section><section class="py-16 bg-neutral-100"><h2 class="text-3xl font-title text-center text-primary-950 mb-8">What Our Users Say</h2><div class="grid grid-cols-3 gap-8 px-6"><div class="p-6 bg-white rounded-md shadow-sm"><img src="https://tools-api.webcrumbs.org/image-placeholder/100/100/avatar/1" alt="User Avatar" class="w-[100px] h-[100px] rounded-full object-cover mx-auto mb-4"/><h4 class="text-primary-950 text-xl">John Doe 1</h4><p class="text-neutral-950 mt-2">&quot;This tool has improved my productivity ten-fold. Essential for any developer!&quot;</p></div><div class="p-6 bg-white rounded-md shadow-sm"><img src="https://tools-api.webcrumbs.org/image-placeholder/100/100/avatar/2" alt="User Avatar" class="w-[100px] h-[100px] rounded-full object-cover mx-auto mb-4"/><h4 class="text-primary-950 text-xl">John Doe 2</h4><p class="text-neutral-950 mt-2">&quot;This tool has improved my productivity ten-fold. Essential for any developer!&quot;</p></div><div class="p-6 bg-white rounded-md shadow-sm"><img src="https://tools-api.webcrumbs.org/image-placeholder/100/100/avatar/3" alt="User Avatar" class="w-[100px] h-[100px] rounded-full object-cover mx-auto mb-4"/><h4 class="text-primary-950 text-xl">John Doe 3</h4><p class="text-neutral-950 mt-2">&quot;This tool has improved my productivity ten-fold. Essential for any developer!&quot;</p></div></div></section><section class="py-16"><h2 class="text-3xl font-title text-center text-primary-950 mb-8">Latest Blog Posts</h2><div class="grid grid-cols-3 gap-8 px-6"><div class="p-6 bg-neutral-100 rounded-md"><h3 class="text-xl text-primary-950">Blog Post Title 1</h3><p class="text-neutral-950 mt-2">Brief excerpt of blog post 1, giving readers a glimpse of the content...</p><a href="#" class="mt-4 inline-block text-primary-500">Read More</a></div><div class="p-6 bg-neutral-100 rounded-md"><h3 class="text-xl text-primary-950">Blog Post Title 2</h3><p class="text-neutral-950 mt-2">Brief excerpt of blog post 2, giving readers a glimpse of the content...</p><a href="#" class="mt-4 inline-block text-primary-500">Read More</a></div><div class="p-6 bg-neutral-100 rounded-md"><h3 class="text-xl text-primary-950">Blog Post Title 3</h3><p class="text-neutral-950 mt-2">Brief excerpt of blog post 3, giving readers a glimpse of the content...</p><a href="#" class="mt-4 inline-block text-primary-500">Read More</a></div></div></section><footer class="py-6 bg-neutral-100"><div class="flex justify-between items-center px-6"><div class="space-y-2"><a href="#" class="text-neutral-950">Privacy Policy</a><a href="#" class="text-neutral-950">Terms of Service</a></div><div class="flex space-x-4"><i class="fa-brands fa-facebook text-primary-500 text-xl"></i><i class="fa-brands fa-twitter text-primary-500 text-xl"></i><i class="fa-brands fa-linkedin text-primary-500 text-xl"></i></div><form class="bg-white px-4 py-2 rounded-md flex items-center"><input type="email" placeholder="Sign up for our newsletter" class="p-2 flex-grow bg-neutral-100 rounded-md"/><button class="ml-2 bg-primary-500 text-white rounded-md px-4 py-2">Subscribe</button></form></div></footer></div>
+  </div>
   </body>
 </html>
