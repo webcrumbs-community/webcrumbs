@@ -11,6 +11,8 @@
       
       @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
       
+      @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
+      
       /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
       *,
       :after,
@@ -410,15 +412,15 @@
       }
       #webcrumbs .bg-neutral-100 {
         --tw-bg-opacity: 1;
-        background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+        background-color: rgb(238 238 238 / var(--tw-bg-opacity));
       }
       #webcrumbs .bg-neutral-200 {
         --tw-bg-opacity: 1;
-        background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+        background-color: rgb(224 224 224 / var(--tw-bg-opacity));
       }
       #webcrumbs .bg-neutral-900 {
         --tw-bg-opacity: 1;
-        background-color: rgb(25 25 25 / var(--tw-bg-opacity));
+        background-color: rgb(70 70 70 / var(--tw-bg-opacity));
       }
       #webcrumbs .bg-red-500 {
         --tw-bg-opacity: 1;
@@ -451,7 +453,7 @@
       }
       #webcrumbs .text-sm {
         font-size: 14px;
-        line-height: 20px;
+        line-height: 21px;
       }
       #webcrumbs .text-xl {
         font-size: 20px;
@@ -473,7 +475,7 @@
       }
       #webcrumbs .text-neutral-500 {
         --tw-text-opacity: 1;
-        color: rgb(217 217 217 / var(--tw-text-opacity));
+        color: rgb(153 153 153 / var(--tw-text-opacity));
       }
       #webcrumbs .text-purple-500 {
         --tw-text-opacity: 1;
@@ -533,9 +535,17 @@
   </head>
   <body>
   <div id="webcrumbs">
-undefined
-
-
+    <div class="w-[1200px] bg-neutral-100 rounded-lg shadow-lg"> <header class="bg-red-500 p-4 flex items-center justify-between gap-4"> <div class="flex items-center"> <span class="material-symbols-outlined text-white text-xl">radar</span> <h1 class="text-white font-title">Website</h1> </div> <div class="flex gap-4"> <span class="material-symbols-outlined text-white">menu</span> <div class="flex gap-2"> <span class="material-symbols-outlined text-white">notifications</span> <span class="material-symbols-outlined text-white">task</span> <span class="material-symbols-outlined text-white"></span> </div> <span class="material-symbols-outlined text-white"></span> <div> <img src="https://tools-api.webcrumbs.org/image-placeholder/40/40/avatars/1" alt="avatar" class="w-[40px] h-[40px] rounded-full object-contain"/> </div> </div> </header> <section class="flex"> <nav class="w-[60px] bg-neutral-900 flex flex-col items-center py-4 space-y-4"> <span class="material-symbols-outlined text-white">list_alt</span> <span class="material-symbols-outlined text-white">bar_chart</span> <span class="material-symbols-outlined text-white">pie_chart</span> <span class="material-symbols-outlined text-white">insert_chart_outlined</span> <span class="material-symbols-outlined text-white">assessment</span> </nav> <div class="flex-1 p-4 grid grid-cols-2 gap-4"> <div class="bg-white rounded-md shadow-md p-4 relative h-[160px]"> <div data-chart="chart_0"></div> </div> <div class="bg-white rounded-md shadow-md p-4 relative h-[160px]"> <div data-chart="chart_1"></div> </div> <div class="bg-white rounded-md shadow-md p-4 flex flex-col"> <h2 class="font-bold">Activity</h2> <div class="mt-2 space-y-4"> <div class="flex items-center gap-4"> <button class="w-[40px] h-[40px] bg-neutral-200 rounded-full flex justify-center items-center"> <span class="material-symbols-outlined text-red-500">mail</span> </button> <div> <p class="font-semibold">Client meeting</p> <p class="text-sm text-neutral-500">Meeting at 10:00 AM</p> </div> </div> <div class="flex items-center gap-4"> <button class="w-[40px] h-[40px] bg-neutral-200 rounded-full flex justify-center items-center"> <span class="material-symbols-outlined text-blue-500">tag</span> </button> <div> <p class="font-semibold">Created ticket</p> <p class="text-sm text-neutral-500">Ticket assigned to Dev Team</p> </div> </div> <div class="flex items-center gap-4"> <button class="w-[40px] h-[40px] bg-neutral-200 rounded-full flex justify-center items-center"> <span class="material-symbols-outlined text-green-500">check_circle</span> </button> <div> <p class="font-semibold">Activity completed</p> <p class="text-sm text-neutral-500">Completed the dashboard html demo</p> </div> </div> <div class="flex items-center gap-4"> <button class="w-[40px] h-[40px] bg-neutral-200 rounded-full flex justify-center items-center"> <span class="material-symbols-outlined text-purple-500">calendar_today</span> </button> <div> <p class="font-semibold">New invitation</p> <p class="text-sm text-neutral-500">Max has invited you to join inbox</p> </div> </div> </div> </div> <div class="flex flex-col space-y-4"> <div class="bg-white rounded-md shadow-md p-4 flex justify-between items-center"> <h2 class="font-bold">Donut Chart</h2> <span class="material-symbols-outlined">more_vert</span> </div> <div class="bg-white rounded-md shadow-md p-4 relative h-[200px]"> <div data-chart="chart_2"></div> </div> </div> <div class="bg-white rounded-md shadow-md p-4 flex flex-col"> <div class="flex justify-between items-center"> <h2 class="font-bold">Line Chart</h2> <span class="material-symbols-outlined">more_vert</span> </div> <div class="relative h-[200px]"> <div data-chart="chart_3"></div> </div> </div> </div> </section> </div>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+      new ApexCharts(document.querySelector('[data-chart="chart_0"]'), {"colors":["#7341ff","#999999","#cacaca"],"chartArea":{"background":"white"},"series":[{"data":[20000,10000,15000,12000,18000]}],"chart":{"type":"area","width":"100%","height":"160"}}).render();
+  
+      new ApexCharts(document.querySelector('[data-chart="chart_1"]'), {"colors":["#7341ff","#999999","#cacaca"],"chartArea":{"background":"white"},"series":[{"data":[100,150,125,170,95]}],"chart":{"type":"area","width":"100%","height":"160"}}).render();
+  
+      new ApexCharts(document.querySelector('[data-chart="chart_2"]'), {"labels":["Financial"],"colors":["#7341ff","#999999","#cacaca"],"series":[27,37,12],"chart":{"type":"donut","width":"100%","height":"200"}}).render();
+  
+      new ApexCharts(document.querySelector('[data-chart="chart_3"]'), {"colors":["#7341ff","#999999","#cacaca"],"series":[{"name":"value1","data":[10,30,40,50,60]},{"name":"value2","data":[20,25,35,45,65]},{"name":"value3","data":[80,50,30,20,40]}],"chart":{"type":"line","width":"100%","height":"200"}}).render();
+  </script>
   </div>
   </body>
 </html>
