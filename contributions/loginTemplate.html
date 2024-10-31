@@ -341,6 +341,9 @@
       #webcrumbs .mb-4 {
         margin-bottom: 20px;
       }
+      #webcrumbs .mt-0\.5 {
+        margin-top: 2.5px;
+      }
       #webcrumbs .mt-4 {
         margin-top: 20px;
       }
@@ -398,10 +401,10 @@
       #webcrumbs .gap-4 {
         gap: 20px;
       }
-      #webcrumbs :is(.space-y-4 > :not([hidden]) ~ :not([hidden])) {
+      #webcrumbs :is(.space-y-3\.5 > :not([hidden]) ~ :not([hidden])) {
         --tw-space-y-reverse: 0;
-        margin-bottom: calc(20px * var(--tw-space-y-reverse));
-        margin-top: calc(20px * (1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(17.5px * var(--tw-space-y-reverse));
+        margin-top: calc(17.5px * (1 - var(--tw-space-y-reverse)));
       }
       #webcrumbs .rounded-full {
         border-radius: 9999px;
@@ -452,6 +455,9 @@
       #webcrumbs .text-center {
         text-align: center;
       }
+      #webcrumbs .text-right {
+        text-align: right;
+      }
       #webcrumbs .font-title {
         font-family:
           Roboto,
@@ -471,17 +477,21 @@
         font-size: 15.75px;
         line-height: 22.5px;
       }
+      #webcrumbs .text-xs {
+        font-size: 13.5px;
+        line-height: 18px;
+      }
       #webcrumbs .text-black {
         --tw-text-opacity: 1;
         color: rgb(0 0 0 / var(--tw-text-opacity));
       }
+      #webcrumbs .text-primary-300 {
+        --tw-text-opacity: 1;
+        color: rgb(231 121 193 / var(--tw-text-opacity));
+      }
       #webcrumbs .text-primary-50 {
         --tw-text-opacity: 1;
         color: rgb(253 242 249 / var(--tw-text-opacity));
-      }
-      #webcrumbs .text-primary-500 {
-        --tw-text-opacity: 1;
-        color: rgb(185 97 154 / var(--tw-text-opacity));
       }
       #webcrumbs .text-white {
         --tw-text-opacity: 1;
@@ -529,7 +539,7 @@
   </head>
   <body>
   <div id="webcrumbs">
-    <div class="w-[1440px] h-[900px] bg-black text-primary-50 rounded-lg flex justify-center items-center" style="background:linear-gradient(135deg, #2F2C59, #F0209B)"> <div class="w-[400px] h-auto bg-[#1c1b3a] rounded-lg p-6 flex flex-col justify-start">  <h1 class="font-title text-2xl mb-2">Sign Up</h1> <p class="text-sm mb-4">Create a new account</p>  <div class="w-full space-y-4"> <div class="flex flex-col"> <label for="email" class="text-sm pb-1"> Email </label> <input type="email" id="email" class="p-2 bg-[#2f2f45] text-primary-50 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-900" placeholder="Enter your email"/> </div> <div class="flex flex-col"> <label for="password" class="text-sm pb-1"> Password </label> <input type="password" id="password" class="p-2 bg-[#2f2f45] text-primary-50 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-900" placeholder="Enter your password"/> </div> <div class="flex flex-col"> <label for="confirm-password" class="text-sm pb-1"> Confirm Password </label> <input type="password" id="confirm-password" class="p-2 bg-[#2f2f45] text-primary-50 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-900" placeholder="Confirm your password"/> </div>  <button class="w-full mt-4 p-2 rounded-md text-center text-primary-50" style="background:linear-gradient(135deg, #C13530, #8e44ad)"> Sign Up </button> </div>  <div class="flex items-center mt-4"> <div class="flex-grow h-px bg-white opacity-50"></div> <span class="px-2 text-sm text-primary-50">OR</span> <div class="flex-grow h-px bg-white opacity-50"></div> </div>  <div class="mt-4 flex justify-between gap-3"> <button class="w-1/2 bg-white text-black py-2 rounded-full flex justify-center items-center gap-2"> <i class="fa-brands fa-google"></i> Google </button> <button class="w-1/2 bg-[#333] text-white py-2 rounded-full flex justify-center items-center gap-2"> <i class="fa-brands fa-github"></i> GitHub </button> </div>  <div class="mt-4 text-center"> <p class="text-sm"> Already have an account?  <a href="#" class="text-primary-500 hover:underline"> Login </a> </p> </div> </div> </div>
+    <div class="w-[1440px] h-[900px] bg-black text-primary-50 rounded-lg flex justify-center items-center" style="background:linear-gradient(135deg, #2F2C59, #F0209B)"> <div class="w-[400px] h-auto bg-[#1c1b3a] rounded-lg p-6 flex flex-col justify-start">  <h1 class="font-title text-2xl mb-2">Login</h1> <p class="text-sm mb-4">Welcome back!</p>  <div class="w-full space-y-3.5">  <div class="flex flex-col"> <label for="email" class="text-sm pb-1"> Email </label> <input type="email" id="email" class="p-2 bg-[#2f2f45] text-primary-50 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-900" placeholder="Enter your email"/> </div> <div class="flex flex-col"> <label for="password" class="text-sm pb-1"> Password </label> <input type="password" id="password" class="p-2 bg-[#2f2f45] text-primary-50 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-900" placeholder="Enter your password"/> </div>  <div class="text-right mt-0.5"> <a href="#" class="text-xs text-primary-300 hover:underline"> Forgot password? </a> </div>  <button class="w-full mt-4 p-2 rounded-md text-center text-primary-50" style="background:linear-gradient(135deg, #C13530, #8e44ad)"> Login </button> </div>  <div class="flex items-center mt-4"> <div class="flex-grow h-px bg-white opacity-50"></div> <span class="px-2 text-sm text-primary-50">OR</span> <div class="flex-grow h-px bg-white opacity-50"></div> </div>  <div class="mt-4 flex justify-between gap-3"> <button class="w-1/2 bg-white text-black py-2 rounded-full flex justify-center items-center gap-2"> <i class="fa-brands fa-google"></i> Google </button> <button class="w-1/2 bg-[#333] text-white py-2 rounded-full flex justify-center items-center gap-2"> <i class="fa-brands fa-github"></i> GitHub </button> </div>  <div class="mt-4 text-center"> <p class="text-xs text-primary-50"> Don&#x27;t have an account? <a href="#" class="text-primary-300 hover:underline">Signup</a> </p> </div> </div> </div>
 
 
   </div>
