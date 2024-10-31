@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Webcrumbs Plugin</title>
     <style>
       @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
-
-      @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
-
+      
+      @import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+      
+      @import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+      
       @import url(https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200);
-
+      
       /*! tailwindcss v3.4.11 | MIT License | https://tailwindcss.com*/
       *,
       :after,
@@ -26,8 +28,15 @@
       html {
         line-height: 1.5;
         -webkit-text-size-adjust: 100%;
-        font-family: Roboto, ui-sans-serif, system-ui, sans-serif,
-          Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-family:
+          Open Sans,
+          ui-sans-serif,
+          system-ui,
+          sans-serif,
+          Apple Color Emoji,
+          Segoe UI Emoji,
+          Segoe UI Symbol,
+          Noto Color Emoji;
         font-feature-settings: normal;
         font-variation-settings: normal;
         -moz-tab-size: 4;
@@ -67,8 +76,15 @@
       kbd,
       pre,
       samp {
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-          Liberation Mono, Courier New, monospace;
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Monaco,
+          Consolas,
+          Liberation Mono,
+          Courier New,
+          monospace;
         font-feature-settings: normal;
         font-size: 1em;
         font-variation-settings: normal;
@@ -330,7 +346,7 @@
         position: relative;
       }
       #webcrumbs .left-2 {
-        left: 10px;
+        left: 8px;
       }
       #webcrumbs .top-1\/2 {
         top: 50%;
@@ -339,13 +355,13 @@
         z-index: 10;
       }
       #webcrumbs .mb-4 {
-        margin-bottom: 20px;
+        margin-bottom: 16px;
       }
       #webcrumbs .ml-1 {
-        margin-left: 5px;
+        margin-left: 4px;
       }
       #webcrumbs .mr-2 {
-        margin-right: 10px;
+        margin-right: 8px;
       }
       #webcrumbs .flex {
         display: flex;
@@ -389,9 +405,8 @@
       #webcrumbs .-translate-y-1\/2,
       #webcrumbs .transform {
         transform: translate(var(--tw-translate-x), var(--tw-translate-y))
-          rotate(var(--tw-rotate)) skewX(var(--tw-skew-x))
-          skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x))
-          scaleY(var(--tw-scale-y));
+          rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+          scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
       }
       #webcrumbs .cursor-pointer {
         cursor: pointer;
@@ -412,33 +427,33 @@
         justify-content: space-between;
       }
       #webcrumbs .gap-2 {
-        gap: 10px;
+        gap: 8px;
       }
       #webcrumbs .gap-4 {
-        gap: 20px;
+        gap: 16px;
       }
       #webcrumbs .gap-8 {
-        gap: 40px;
+        gap: 32px;
       }
       #webcrumbs .gap-x-6 {
-        column-gap: 30px;
+        column-gap: 24px;
       }
       #webcrumbs .gap-y-2 {
-        row-gap: 10px;
+        row-gap: 8px;
       }
       #webcrumbs :is(.space-y-2 > :not([hidden]) ~ :not([hidden])) {
         --tw-space-y-reverse: 0;
-        margin-bottom: calc(10px * var(--tw-space-y-reverse));
-        margin-top: calc(10px * (1 - var(--tw-space-y-reverse)));
+        margin-bottom: calc(8px * var(--tw-space-y-reverse));
+        margin-top: calc(8px * (1 - var(--tw-space-y-reverse)));
       }
       #webcrumbs .rounded-full {
         border-radius: 9999px;
       }
       #webcrumbs .rounded-lg {
-        border-radius: 16px;
+        border-radius: 24px;
       }
       #webcrumbs .rounded-md {
-        border-radius: 12px;
+        border-radius: 18px;
       }
       #webcrumbs .border-b {
         border-bottom-width: 1px;
@@ -460,64 +475,64 @@
       }
       #webcrumbs .bg-primary-500 {
         --tw-bg-opacity: 1;
-        background-color: rgb(185 97 154 / var(--tw-bg-opacity));
+        background-color: rgb(115 65 255 / var(--tw-bg-opacity));
       }
       #webcrumbs .bg-transparent {
         background-color: transparent;
       }
       #webcrumbs .p-1 {
-        padding: 5px;
+        padding: 4px;
       }
       #webcrumbs .p-2 {
-        padding: 10px;
+        padding: 8px;
       }
       #webcrumbs .p-4 {
-        padding: 20px;
+        padding: 16px;
       }
       #webcrumbs .px-2 {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
       }
       #webcrumbs .px-3 {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 12px;
+        padding-right: 12px;
       }
       #webcrumbs .px-4 {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
       }
       #webcrumbs .px-6 {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
       }
       #webcrumbs .py-1 {
-        padding-bottom: 5px;
-        padding-top: 5px;
+        padding-bottom: 4px;
+        padding-top: 4px;
       }
       #webcrumbs .py-2 {
-        padding-bottom: 10px;
-        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-top: 8px;
       }
       #webcrumbs .py-4 {
-        padding-bottom: 20px;
-        padding-top: 20px;
+        padding-bottom: 16px;
+        padding-top: 16px;
       }
       #webcrumbs .pl-8 {
-        padding-left: 40px;
+        padding-left: 32px;
       }
       #webcrumbs .pr-4 {
-        padding-right: 20px;
+        padding-right: 16px;
       }
       #webcrumbs .text-\[14px\] {
         font-size: 14px;
       }
       #webcrumbs .text-lg {
-        font-size: 20.25px;
-        line-height: 31.5px;
+        font-size: 18px;
+        line-height: 27px;
       }
       #webcrumbs .text-sm {
-        font-size: 15.75px;
-        line-height: 22.5px;
+        font-size: 14px;
+        line-height: 21px;
       }
       #webcrumbs .font-bold {
         font-weight: 700;
@@ -544,22 +559,21 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
       #webcrumbs {
-        font-family: Roboto !important;
-        font-size: 18px !important;
+        font-family: Open Sans !important;
+        font-size: 16px !important;
       }
       #webcrumbs :is(.bg-primary-500) {
         color: hsla(0, 0%, 100%, 0.9) !important;
-        font-weight: 600;
       }
       #webcrumbs .hover\:rounded-md:hover {
-        border-radius: 12px;
+        border-radius: 18px;
       }
       #webcrumbs .hover\:bg-\[\#091E4224\]:hover {
         background-color: #091e4224;
       }
       #webcrumbs .hover\:bg-primary-600:hover {
         --tw-bg-opacity: 1;
-        background-color: rgb(173 91 145 / var(--tw-bg-opacity));
+        background-color: rgb(99 27 255 / var(--tw-bg-opacity));
       }
       #webcrumbs .hover\:text-gray-100:hover {
         --tw-text-opacity: 1;
@@ -572,7 +586,7 @@
       #webcrumbs :is(.group[open] .group-open\:block) {
         display: block;
       }
-
+      
       body {
         line-height: inherit;
         padding: 24px;
@@ -587,6 +601,10 @@
     </style>
   </head>
   <body>
-    <div id="webcrumbs">undefined</div>
+  <div id="webcrumbs">
+    <div class="w-[1440px] h-[900px] rounded-lg" style="background:linear-gradient(180deg, rgba(54,54,54,1) 0%, rgba(34,34,34,1) 100%)">  <div class="flex justify-between items-center px-6 py-4 bg-transparent border-b border-gray-600"> <div class="flex items-center gap-8">  <div class="text-[14px] font-bold text-gray-400 flex items-center opacity-100 transition-colors hover:bg-[#091E4224] hover:rounded-md py-1 px-2 cursor-pointer"> <span class="material-symbols-outlined text-[14px] text-gray-400 mr-2"> inventory_2 </span> Decoded </div>  <div class="flex gap-4">  <details class="relative group"> <summary class="text-gray-400 cursor-pointer hover:text-gray-100 flex items-center hover:bg-[#091E4224] hover:rounded-md py-1 px-2"> Workspace <span class="material-symbols-outlined ml-1">arrow_drop_down</span> </summary> <div class="absolute z-10 hidden group-open:block bg-gray-800 text-gray-400 rounded-md w-[300px]"> <ul class="p-2 space-y-2"> <li class="cursor-pointer hover:text-gray-100 flex justify-between items-center py-1 px-2 text-sm hover:bg-[#091E4224] rounded-md">Boards</li> <li class="cursor-pointer hover:text-gray-100 flex justify-between items-center py-1 px-2 text-sm hover:bg-[#091E4224] rounded-md">Highlights</li> <li class="cursor-pointer hover:text-gray-100 flex justify-between items-center py-1 px-2 text-sm hover:bg-[#091E4224] rounded-md">Views</li> <li class="cursor-pointer hover:text-gray-100 flex justify-between items-center py-1 px-2 text-sm hover:bg-[#091E4224] rounded-md">Members</li> <li class="cursor-pointer hover:text-gray-100 flex justify-between items-center py-1 px-2 text-sm hover:bg-[#091E4224] rounded-md">Settings</li> </ul> </div> </details>  <details class="relative group"> <summary class="text-gray-400 cursor-pointer hover:text-gray-100 flex items-center hover:bg-[#091E4224] hover:rounded-md py-1 px-2"> Recents <span class="material-symbols-outlined ml-1">arrow_drop_down</span> </summary> </details>  <details class="relative group"> <summary class="text-gray-400 cursor-pointer hover:text-gray-100 flex items-center hover:bg-[#091E4224] hover:rounded-md py-1 px-2"> Starred <span class="material-symbols-outlined ml-1">arrow_drop_down</span> </summary> </details>  <details class="relative group"> <summary class="text-gray-400 cursor-pointer hover:text-gray-100 flex items-center hover:bg-[#091E4224] hover:rounded-md py-1 px-2"> Templates <span class="material-symbols-outlined ml-1">arrow_drop_down</span> </summary> </details>  <button class="text-gray-400 flex items-center gap-2 px-3 py-1 text-sm bg-primary-500 hover:bg-primary-600 rounded-full"> Create </button> </div> </div>  <div class="flex items-center gap-4">  <div class="relative"> <span class="material-symbols-outlined absolute left-2 top-1/2 transform -translate-y-1/2 text-gray-400">search</span> <input type="text" class="pl-8 pr-4 py-1 rounded-md bg-[#1C1C1C] text-gray-400 placeholder-gray-400 focus:outline-none" placeholder="Search..."/> </div>  <img src="https://tools-api.webcrumbs.org/image-placeholder/30/30/avatars/1" alt="Profile Avatar" class="w-[30px] h-[30px] rounded-full"/>  <div class="cursor-pointer hover:bg-[#091E4224] hover:rounded-md p-1"> <span class="material-symbols-outlined text-gray-400">settings</span> </div> </div> </div>  <div class="flex"> <div class="w-[240px] py-4 bg-transparent h-[820px] border-r border-gray-600"> <ul class="flex flex-col gap-y-2"> <li class="text-gray-400 cursor-pointer hover:text-gray-100 flex items-center py-2 px-4 text-sm hover:bg-[#091E4224] rounded-md"> Boards </li> <li class="text-gray-400 cursor-pointer hover:text-gray-100 flex items-center py-2 px-4 text-sm hover:bg-[#091E4224] rounded-md"> Templates </li> </ul> </div>  <div class="flex-1 p-4 flex gap-x-6 flex-wrap">  <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(60, 141, 188, 1) 0%, rgba(45, 93, 126, 1) 100%)"> <h3 class="text-lg font-bold">Project Management</h3> <p class="text-sm">Manage your projects efficiently.</p> </div>  <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(94, 83, 203, 1) 0%, rgba(68, 57, 164, 1) 100%)"> <h3 class="text-lg font-bold">Marketing Strategy</h3> <p class="text-sm">Plan and execute marketing campaigns.</p> </div>  <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(233, 85, 101, 1) 0%, rgba(188, 55, 69, 1) 100%)"> <h3 class="text-lg font-bold">Design Tasks</h3> <p class="text-sm">Organize your design workflow.</p> </div>  <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(95, 207, 92, 1) 0%, rgba(62, 149, 60, 1) 100%)"> <h3 class="text-lg font-bold">Development</h3> <p class="text-sm">Track and manage development tasks.</p> </div>   <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(254, 211, 48, 1) 0%, rgba(254, 176, 25, 1) 100%)"> <h3 class="text-lg font-bold">Sales</h3> <p class="text-sm">Manage your sales pipelines.</p> </div>  <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(240, 64, 56, 1) 0%, rgba(157, 33, 36, 1) 100%)"> <h3 class="text-lg font-bold">HR Tasks</h3> <p class="text-sm">Track and organize HR operations.</p> </div>  <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(148, 81, 215, 1) 0%, rgba(94, 54, 159, 1) 100%)"> <h3 class="text-lg font-bold">Finance</h3> <p class="text-sm">Organize finance-related workflows.</p> </div>  <div class="rounded-lg p-4 h-[150px] text-white w-[250px] mb-4" style="background:linear-gradient(135deg, rgba(66, 194, 245, 1) 0%, rgba(17, 112, 164, 1) 100%)"> <h3 class="text-lg font-bold">Customer Support</h3> <p class="text-sm">Manage customer inquiries effectively.</p> </div> </div> </div> </div>
+
+
+  </div>
   </body>
 </html>
