@@ -16,6 +16,7 @@
    ```html
    <webcrumbs-plugin uri="https://plugins.webcrumbs.dev/demo-component/"></webcrumbs-plugin>
    ```
+   > _Replace `demo-component` with your plugin name published through [app.webcrumbs.ai](https://app.webcrumbs.ai) or with your own uri if self-hosted._
 9. Position the plugin where you want it to appear
 10. Click **Preview**
 11. When you're ready, click **Publish**

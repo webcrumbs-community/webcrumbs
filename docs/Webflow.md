@@ -1,14 +1,15 @@
-# HTML Tutorial
+# Webflow Tutorial
 
-## Add Webcrumbs Plugin to Any HTML Page
+## Add Webcrumbs Plugin to Webflow
 
-1. Open your HTML file in a code editor or IDE
-2. Locate the `<body>` tag in your HTML file
-3. Paste the following code where you want the plugin to appear:
+1. Open your website in the Webflow Design Editor
+2. Click **Add Elements** on the left menu
+3. Choose **Code Embed**
+4. Paste this:
    ```html
    <webcrumbs-plugin uri="https://plugins.webcrumbs.dev/demo-component/"></webcrumbs-plugin>
    <script src="https://cdn.webcrumbs.dev/@latest"></script>
    ```
    > _Replace `demo-component` with your plugin name published through [app.webcrumbs.ai](https://app.webcrumbs.ai) or with your own uri if self-hosted._
-4. Save the file
-5. Open it in your browser to see the plugin live
+5. Position the plugin where you want it to appear
+6. When you're ready, click **Publish**

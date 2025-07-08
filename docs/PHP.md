@@ -9,7 +9,8 @@
    <webcrumbs-plugin uri="https://plugins.webcrumbs.dev/demo-component/"></webcrumbs-plugin>
    <script src="https://cdn.webcrumbs.dev/@latest"></script>
    ```
+   > _Replace `demo-component` with your plugin name published through [app.webcrumbs.ai](https://app.webcrumbs.ai) or with your own uri if self-hosted._
 4. Save the file
 5. Load the PHP page in your browser to see the plugin working
 
-> Works just like in HTML — just make sure you’re editing a `.php` file with standard HTML structure.
+Note: Works just like in HTML — just make sure you’re editing a `.php` file with standard HTML structure.
