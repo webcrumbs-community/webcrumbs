@@ -1,6 +1,6 @@
-# v0.dev Tutorial
+# Codepen Tutorial
 
-## Add Webcrumbs Plugin to v0.dev
+## Add Webcrumbs Plugin to Codepen
 
 1. Open [Codepen.io](https://codepen.io/pen/)
 2. Paste this in the HTML
