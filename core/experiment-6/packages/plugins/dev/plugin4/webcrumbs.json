@@ -1,7 +1,0 @@
-{
-    "name": "plugin4",
-    "dependencies": {
-        "moment": "^2.30.1"
-    }
-}
-  
