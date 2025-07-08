@@ -36,6 +36,20 @@
 </picture>
 <br/><br/>
 <p>We're on a mission to make web development feel like assembling Lego blocks everywhere. Webcrumbs is building the first open plugin ecosystem <b>compatible with any framework, site builder, or next-gen code tool</b> — from React, Angular, Next.js, and Svelte to WordPress, Shopify, Framer, Lovable, V0.dev, Bolt.new, and more. Developers and non-developers alike can build and reuse components easily via our visual <a href="https://app.webcrumbs.ai">Frontend AI</a> generator, embed them with our open source, and grow with a community-driven ecosystem.</p>
+<p>See how easy it is to embed Webcrumbs Plugins — tutorials for each platform:</p>
+<ul>
+  <li><a href="docs/Codepen.md">CodePen</a></li>
+  <li><a href="docs/Framer.md">Framer</a></li>
+  <li><a href="docs/Lovable.md">Lovable</a></li>
+  <li><a href="docs/PHP.md">PHP</a></li>
+  <li><a href="docs/Shopify.md">Shopify</a></li>
+  <li><a href="docs/Squarespace.md">Squarespace</a></li>
+  <li><a href="docs/v0.dev.md">v0.dev</a></li>
+  <li><a href="docs/Webflow.md">Webflow</a></li>
+  <li><a href="docs/Wix.md">Wix</a></li>
+  <li><a href="docs/Wordpress.md">WordPress</a></li>
+  <li><a href="docs/HTML.md">Other (HTML embed)</a></li>
+</ul>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.webcrumbs.org/assets/images/readme/dark/diagram.svg">
