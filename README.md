@@ -152,6 +152,7 @@
 <p><em>* Just swap <code>demo-component</code> with your plugin's name.</em></p>
 <p>Want it to load even faster? Add this to your <code>&lt;head&gt;</code>:</p>
 <pre><code>&lt;link rel="preload" as="style" href="https://plugins.webcrumbs.dev/demo-component/style.css"&gt;
+&lt;link rel="preload" as="script" href="https://plugins.webcrumbs.dev/demo-component/bundle.js"&gt;
 </code></pre>
 <p><em>* Same thing here — replace <code>demo-component</code> with your actual plugin name.</em></p>
 <p><strong>Prefer to self-host?</strong> Totally fine! Just make sure your <code>bundle.js</code> and <code>style.css</code> are publicly available at your chosen <code>uri</code>.</p>
