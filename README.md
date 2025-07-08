@@ -233,7 +233,7 @@
 -----
 
 <p>
-  This project operates under the AGPL Open Source License and is a community-driven endeavor.
+  This project operates under the AGPL-3.0 Open Source License and is a community-driven endeavor.
 </p>
 <p>
   <b>Made with ❤️ by the Webcrumbs Team.</b>
