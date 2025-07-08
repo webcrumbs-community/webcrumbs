@@ -9,3 +9,9 @@ First release of webcrumbs-plugin
 Added license
 
 ---
+
+## v0.1.2
+
+Improved load performance and prevented unstyled content by waiting for styles before rendering.
+
+---
