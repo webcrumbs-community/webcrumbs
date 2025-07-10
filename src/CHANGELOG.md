@@ -15,3 +15,9 @@ Added license
 Improved load performance and prevented unstyled content by waiting for styles before rendering.
 
 ---
+
+## v0.1.3
+
+Improved console outputs. Supported Material Symbols with Multiple Plugins.
+
+---
