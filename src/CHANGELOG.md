@@ -27,3 +27,9 @@ Improved console outputs. Supported Material Symbols with Multiple Plugins.
 Supports multi-plugins
 
 ---
+
+## v0.1.4
+
+Logs improvements
+
+---
