@@ -21,3 +21,9 @@ Improved load performance and prevented unstyled content by waiting for styles b
 Improved console outputs. Supported Material Symbols with Multiple Plugins.
 
 ---
+
+## v0.1.4
+
+Supports multi-plugins
+
+---
