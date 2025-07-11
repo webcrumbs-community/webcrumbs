@@ -166,7 +166,7 @@
 <p><em>* Just swap <code>demo-component</code> with your plugin's name.</em></p>
 <p>Want it to load even faster? Add this to your <code>&lt;head&gt;</code>:</p>
 <pre><code>&lt;link rel="preload" as="style" href="https://plugins.webcrumbs.dev/demo-component/style.css"&gt;
-&lt;link rel="preload" as="script" href="https://plugins.webcrumbs.dev/demo-component/bundle.js"&gt;
+&lt;link rel="preload" as="script" crossorigin="anonymous" href="https://plugins.webcrumbs.dev/demo-component/bundle.js"&gt;
 &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&amp;display=swap"/&gt;
 &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap"/&gt;
 &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/&gt;
