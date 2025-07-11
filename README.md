@@ -172,6 +172,7 @@
 &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/&gt;
 </code></pre>
 <p><em>* Same thing here — replace <code>demo-component</code> with your actual plugin name and check the plugin’s <code>style.css</code> to get the actual fonts being used.</em></p>
+<p>See an <a href="https://plugins.webcrumbs.dev/demo-component">example here</a></p>
 <p><strong>Prefer to self-host?</strong> Totally fine! Just make sure your <code>bundle.js</code> and <code>style.css</code> are publicly available at your chosen <code>uri</code>.</p>
 <p align="center">
   <picture>
