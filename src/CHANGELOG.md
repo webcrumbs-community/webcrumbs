@@ -33,3 +33,9 @@ Supports multi-plugins
 Logs improvements
 
 ---
+
+## v0.1.5
+
+Fixed load legacy script
+
+---
