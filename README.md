@@ -1,6 +1,6 @@
 <p align="center">
-  <strong>Looking for Frontend AI? <a href="https://tools.webcrumbs.org/frontend-ai">It's right here!</a></strong><br/>
-  🌟 We're live — star the repo and jump to the <a href="#how-it-works">How it works</a> section below to start using it!  <br/><br/><br/><br/>
+  <strong><a href="https://www.webcrumbs.ai/">Frontend AI</a> is winding down ;(</strong><br/>
+  The platform will remain available until October 22 so you can export your favorites.<br/><br/><br/><br/>
   <a href="https://webcrumbs.ai/">
     <img src="https://cdn.webcrumbs.org/assets/images/brand/logo_red.svg" alt="Webcrumbs Logo" height="48px">
   </a>
